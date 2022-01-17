@@ -1,0 +1,67 @@
+# jemdoc: menu{MENU}{index.html}, showsource
+= Keyun Cheng
+
+~~~
+{}{img_left}{files/images/id.jpg}{Keyun Cheng}{171px}{198px}{}
+Ph.D. Student
+
+[https://www.cse.cuhk.edu.hk/ Department of Computer Science and Engineering] \n
+[https://www.cuhk.edu.hk/ The Chinese University of Hong Kong] \n
+Sha Tin, New Territories \n
+Hong Kong, China \n
+
+Office: Room 118, Ho Sin-Hang Engineering Building \n
+Email: kycheng \[at\] cse.cuhk.edu.hk \n
+[https://github.com/keyuncheng/ \[Github\]]
+[https://www.linkedin.com/in/keyuncheng/ \[LinkedIn\]]
+[files/misc/cv_keyun_cheng.pdf \[CV\]]
+~~~
+
+
+== About
+
+Keyun Cheng is a Ph.D. student supervised by [https://www.cse.cuhk.edu.hk/~pclee Patrick P. C. Lee].
+He is a member of [http://adslab.cse.cuhk.edu.hk/ Applied Distributed System Lab] (ADSLab).
+He received the B.Eng degree in [https://cse.sysu.edu.cn/ Software Engineering]
+from [http://www.sysu.edu.cn/ Sun Yat-Sen University] in 2018,
+the M.Sc. degree in [http://msc.cse.cuhk.edu.hk Computer Science]
+from [https://www.cuhk.edu.hk/ The Chinese University of Hong Kong] in 2019.
+
+His research interests include distributed storage systems and erasure coding.
+
+
+== Education
+
+- 2020.08 - Present: Ph.D. in Computer Science and Engineering, The Chinese University of Hong Kong
+- 2018.08 - 2019.07: M.Sc. in Computer Science, The Chinese University of Hong Kong
+- 2014.08 - 2018.07: B.Eng in Software Engineering, Sun Yat-Sen University
+
+
+== Publications
+
+# . Xiaolu Li, *Keyun Cheng*, Zhirong Shen, and Patrick P. C. Lee. \n
+# Fast Predictive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation. \n
+# IEEE Transactions on Parallel and Distributed Systems (TPDS) (under review)
+. Yueming Jin, *Keyun Cheng*, Qi Dou, Pheng Ann Heng. \n
+"Incorporating Temporal Prior from Motion Flow for Instrument Segmentation in Minimally Invasive Surgery Video".\n
+Medical Image Computing and Computer Assisted Intervention (MICCAI), 2019. (*Oral*) \n
+[https://arxiv.org/pdf/1907.07899.pdf \[pdf\]]
+[https://github.com/keyuncheng/MF-TAPNet \[code\]]
+
+
+== Teaching
+
+Teaching Assistant, CUHK
+
+CSCI4180 Introduction to Cloud Computing and Storage
+- Fall 2021
+
+AIST3020 Introduction to Computer Systems
+- [https://www.cse.cuhk.edu.hk/~pclee/aist3020/ Spring 2022]
+
+
+== Awards
+
+- CUHK Postgraduate Studentship (2020 - 2023)
+- Dean's List Scholarship, M.Sc. in CS, CUHK, 2019.
+- First Prize Winner (top 3) of Distinguished Academic Performance Scholarship, M.Sc. in CS, CUHK, 2019.
