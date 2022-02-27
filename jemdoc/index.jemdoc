@@ -39,11 +39,18 @@ His research interests include distributed storage systems and erasure coding.
 
 == Publications
 
-# . Xiaolu Li, *Keyun Cheng*, Zhirong Shen, and Patrick P. C. Lee. \n
-# Fast Predictive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation. \n
-# IEEE Transactions on Parallel and Distributed Systems (TPDS) (under review)
+# ------------------
+. Xiaolu Li, *Keyun Cheng*, Zhirong Shen, and Patrick P. C. Lee. \n
+*"Fast Proactive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation."* \n
+Accepted for publication in IEEE Transactions on Parallel and Distributed Systems (TPDS). \n
+(An earlier version appeared in DSN 2019) \n
+[https://www.cse.cuhk.edu.hk/~pclee/www/pubs/tpds22fastpr.pdf \[main pdf\]]
+[https://www.cse.cuhk.edu.hk/~pclee/www/pubs/tpds22fastpr_supp.pdf \[main pdf\]]
+[http://adslab.cse.cuhk.edu.hk/software/fastpr \[code\]]
+[https://doi.org/10.1109/TPDS.2022.3152817 \[doi\]]
+# ------------------
 . Yueming Jin, *Keyun Cheng*, Qi Dou, Pheng Ann Heng. \n
-"Incorporating Temporal Prior from Motion Flow for Instrument Segmentation in Minimally Invasive Surgery Video".\n
+*"Incorporating Temporal Prior from Motion Flow for Instrument Segmentation in Minimally Invasive Surgery Video."* \n
 Medical Image Computing and Computer Assisted Intervention (MICCAI), 2019. (*Oral*) \n
 [https://arxiv.org/pdf/1907.07899.pdf \[pdf\]]
 [https://github.com/keyuncheng/MF-TAPNet \[code\]]
