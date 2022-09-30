@@ -30,6 +30,12 @@ import StringIO
 from subprocess import *
 import tempfile
 
+# Keyun: add support for markdown
+import markdown
+reload(sys)
+sys.setdefaultencoding('utf8')
+
+
 def info():
   print __doc__
   print 'Platform: ' + sys.platform + '.'
@@ -118,6 +124,12 @@ def showhelp():
   You can view version and installation details with
 
     jemdoc --version
+
+  (Modifications from Keyun Cheng):
+  Add customized markdown contents before body ends
+  
+  jemdoc -addmd sample.html
+
 
   See http://jemdoc.jaboc.net/ for many more details."""
   b = ''
@@ -1472,6 +1484,16 @@ def procfile(f):
         else:
           hb(f.outf, '<p>|</p>\n', s)
 
+  # Keyun: add customized markdown contents before body ends
+  if f.addmd_filename:
+    # read markdown (.md) file
+    mkin = open(f.addmd_filename, "rUb")
+    md = markdown.Markdown(extensions = ['toc', 'codehilite','meta', 'tables'], output_format="html5")
+    gen_html = md.convert(mkin.read())
+
+    content = "\n<p>\n" + gen_html + "\n</p>\n"
+    out(f.outf, content)
+
   if showfooter and (showlastupdated or showsourcelink):
     out(f.outf, f.conf['footerstart'])
     if showlastupdated:
@@ -1512,6 +1534,10 @@ def main():
   confoverride = False
   outname = None
   confnames = []
+
+  # Keyun: add customized markdown contents before body ends
+  addmd_filename = None
+
   for i in range(1, len(sys.argv), 2):
     if sys.argv[i] == '-o':
       if outoverride:
@@ -1523,6 +1549,11 @@ def main():
         raise RuntimeError("only one config file, please")
       confnames.append(sys.argv[i+1])
       confoverride = True
+    
+    # Keyun: add customized markdown contents before body ends
+    elif sys.argv[i] == '-addmd':
+      addmd_filename = sys.argv[i+1]
+
     elif sys.argv[i].startswith('-'):
       raise RuntimeError('unrecognised argument %s, try --help' % sys.argv[i])
     else:
@@ -1556,6 +1587,10 @@ def main():
     outfile = open(thisout, 'w')
 
     f = controlstruct(infile, outfile, conf, inname)
+
+    # Keyun: add customized markdown contents before body ends
+    f.addmd_filename = addmd_filename
+    
     procfile(f)
 
 #
