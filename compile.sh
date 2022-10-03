@@ -7,5 +7,5 @@ cd -
 
 # compile readings
 cd ./jemdoc
-python ../markdown.py
+python ../jemdoc.py -c jemdoc.conf -addmd ../posts/reading-list.md -o ../readings.html readings.jemdoc
 cd -

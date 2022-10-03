@@ -73,7 +73,7 @@ ICDCS'21 | StripeMerge: Efficient Wide-Stripe Generation for Large-Scale Erasure
 OSDI'20 | Pacemaker: avoiding HeART attacks in storage clusters with disk-adaptive redundancy | [Summary](/posts/readings/paper/osdi/osdi20-pacemaker) | PaceMaker (Rashmi)
 SRDS'20 | Enabling I/O-Efficient Redundancy Transitioning in Erasure-Coded KV Stores via Elastic Reed-Solomon Codes. | [Summary](/posts/readings/paper/srds/srds20-elastic-rs) | Elastic RS (Wu)
 INFOCOM'20 | On the Optimal Repair-Scaling Trade-off in Locally Repairable Codes. | [Summary](/posts/readings/paper/infocom/infocom20-lrc-tradeoff) | LRC Repair-Scaling Tradeoff (Wu)
-IEEE Access'20 | Efficient Storage Scaling for MBR and MSR Codes | :---: | MSR scaling (Zhang)
+IEEE Access'20 | Efficient Storage Scaling for MBR and MSR Codes | [Summary](/posts/readings/paper/ieeeaccess/ieeeaccess20-rc-scaling) | MSR scaling (Zhang)
 ITCS'20 | Convertible Codes: New Class of Codes for Efficient Conversion of Coded Data in Distributed Storage | [Summary](/posts/readings/paper/itcs/itcs20-convertible-codes) | Convertible Codes (Rashmi)
 ISIT'20 | Access-optimal Linear MDS Convertible Codes for All Parameters | [Summary](/posts/readings/paper/isit/isit20-access-optimal-convertible-codes) | Access-optimal Convertible Codes (Rashmi)
 FAST'19 | Cluster storage systems gotta have HeART: improving storage efficiency by exploiting disk-reliability heterogeneity | [Summary](/posts/readings/paper/fast/fast19-heart) | HeART (Rashmi)
