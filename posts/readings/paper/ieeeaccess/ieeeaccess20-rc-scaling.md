@@ -33,7 +33,7 @@ method respectively.
 * E-MBR
     * d = n - 1
     * Most important characteristics: All the blocks of each node have
-      duplicates across the other nodes (apparently, **non-systematic**)
+      duplicates across the other nodes
     * The scaling improvement comes from reducing the migration with the
       duplicated sub-blocks
     * The paper analyzes the cases for n - k = 1 and 2, respectively
@@ -50,9 +50,8 @@ method respectively.
 
 * Probably one of the earliest works on scaling for regenerating codes
 
-* One significant contribution is to prove the lower bounds for Butterfly code
-  (one specific construction of MSR); comparatively, the E-MBR is
-  non-systematic
+* One significant contribution is to prove the lower bounds for both E-MBR and
+  Butterfly code (one specific construction of MBR and MSR);
 
 ## Weakness
 

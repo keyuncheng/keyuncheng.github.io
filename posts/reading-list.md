@@ -78,8 +78,8 @@ ITCS'20 | Convertible Codes: New Class of Codes for Efficient Conversion of Code
 ISIT'20 | Access-optimal Linear MDS Convertible Codes for All Parameters | [Summary](/posts/readings/paper/isit/isit20-access-optimal-convertible-codes) | Access-optimal Convertible Codes (Rashmi)
 FAST'19 | Cluster storage systems gotta have HeART: improving storage efficiency by exploiting disk-reliability heterogeneity | [Summary](/posts/readings/paper/fast/fast19-heart) | HeART (Rashmi)
 SoCC'19 | Coupling Decentralized Key-Value Stores with Erasure Coding | :---: | ECHash (Hu) (Optimizing scaling throughput for KVStore)
+ISIT'18 | Generalized Optimal Storage Scaling via Network Coding | [Summary](/posts/readings/paper/isit/isit18-nc-scaling) | Scaling via Network Coding (Hu)
 INFOCOM'18 | Toward Optimal Storage Scaling via Network Coding: From Theory to Practice | [Summary](/posts/readings/paper/infocom/infocom18-ncscale) | NCScale (Hu) (storage scaling)
-ISIT'18 | Generalized Optimal Storage Scaling via Network Coding | :---: | Scaling (Hu)
 TPDS'16 | I/O-Efficient Scaling Schemes for Distributed Storage Systems with CRS Codes | :---: | CRS Scaling (Wu)
 DSN'15, TPDS'17 | Enabling Efficient and Reliable Transition from Replication to Erasure Coding for Clustered File Systems. | :---: | Rep to EC Transition (Li Runhui)
 FAST'15 | A Tale of Two Erasure Codes in HDFS | :---: | A tale of two erasure codes
