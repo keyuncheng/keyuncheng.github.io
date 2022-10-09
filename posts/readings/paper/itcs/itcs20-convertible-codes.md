@@ -1,5 +1,13 @@
 # Reading Notes: ITCS'20 Convertible Codes
 
+Title: Convertible Codes: New Class of Codes for Efficient Conversion of Coded
+Data in Distributed Storage
+
+Conference (ITCS'20):
+[link](https://drops.dagstuhl.de/opus/volltexte/2020/11751/pdf/LIPIcs-ITCS-2020-66.pdf)
+
+Journal (): [link]()
+
 ## Summary
 This paper proposes convertible codes to mitigate the redundancy transition
 overhead. It first formalizes the notion of code conversion, then introduces

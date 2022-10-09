@@ -1,7 +1,12 @@
 # Reading Notes: OSDI'20 Pacemaker
 
-PACEMAKER: Avoiding HeART attacks in storage clusters with disk-adaptive
-redundancy
+Title: PACEMAKER: Avoiding HeART attacks in storage clusters with
+disk-adaptive redundancy
+
+Conference (OSDI'20):
+[link](https://www.usenix.org/system/files/osdi20-kadekodi_0.pdf)
+
+Journal (): [link]()
 
 ## Summary
 

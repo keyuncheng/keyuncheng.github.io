@@ -1,5 +1,12 @@
 # Reading Notes: INFOCOM'18 NCScale
 
+Title: Toward Optimal Storage Scaling via Network Coding: From Theory to
+Practice
+
+Conference (INFOCOM'18): [link](https://ieeexplore.ieee.org/document/8485961)
+
+Journal (TON'21): [link](https://dl.acm.org/doi/abs/10.1109/TNET.2021.3106394)
+
 ## Summary
 
 This paper shows the optimal tradeoff of storage scaling with network coding,

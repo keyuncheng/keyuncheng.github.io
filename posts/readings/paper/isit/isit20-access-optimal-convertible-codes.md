@@ -1,5 +1,12 @@
 # Reading Notes: ISIT'20 Access-optimal Convertible Codes
 
+Title: Access-optimal Linear MDS Convertible Codes for All Parameters
+
+Conference (ISIT'20):
+[link](https://dl.acm.org/doi/abs/10.1109/ISIT44484.2020.9173947)
+
+Journal (): [link]()
+
 ## Summary
 This paper is a follow-up work on Convertible codes (TIT'19, Maturana). It
 presents the lower bound for access costs for all achievable parameters, and

@@ -1,5 +1,12 @@
 # Reading Notes: OSDI'22 Tiger
 
+Title: Tiger: disk-adaptive redundancy without placement restrictions
+
+Conference (OSDI'22):
+[link](https://www.usenix.org/conference/osdi22/presentation/kadekodi)
+
+Journal (): [link]()
+
 ## Summary
 
 This paper follows up the prior designs (i.e. HeART and Pacemaker), and

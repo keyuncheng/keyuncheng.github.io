@@ -1,5 +1,12 @@
 # Reading Notes: SRDS'20 Elastic RS
 
+Title: Enabling I/O-Efficient Redundancy Transitioning in Erasure-Coded KV
+Stores via Elastic Reed-Solomon Codes
+
+Conference (SRDS'20): [link](https://ieeexplore.ieee.org/document/9252042)
+
+Journal (): [link]()
+
 ## Summary
 
 * Main idea
