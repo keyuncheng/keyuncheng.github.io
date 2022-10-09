@@ -66,8 +66,7 @@ Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 OSDI'22 | Tiger: disk-adaptive redundancy without placement restrictions | [Summary](/posts/readings/paper/osdi/osdi22-tiger) | Tiger (Rashmi)
 ISIT'22 | Bandwidth Cost of Code Conversions in the Split Regime | :---: | Convertible codes under split regime (Rashmi)
-INFOCOM'22 | Optimal Data Placement for Stripe Merging in Locally Repairable Codes. | :---: | LRC stripe merging (Wu) (LRC transition bandwidth)
-ICPP'22 | Repair-Optimal Data Placement for Locally Repairable Codes with Optimal Minimum Hamming Distance | [link](/files/papers/icpp22-lrc.pdf) | LRC (Wu)
+INFOCOM'22 | Optimal Data Placement for Stripe Merging in Locally Repairable Codes. | [Summary](/posts/readings/paper/infocom/infocom22-lrc) | LRC stripe merging (Wu) (LRC transition bandwidth)
 ISIT'21 | Bandwidth Cost of Code Conversions in Distributed Storage: Fundamental Limits and Optimal Constructions | :---: | Convertible codes: bandwidth (Rashmi)
 ICDCS'21 | StripeMerge: Efficient Wide-Stripe Generation for Large-Scale Erasure-Coded Storage. | [Summary](/posts/readings/paper/icdcs/icdcs21-stripemerge) | StripeMerge (Yao)
 OSDI'20 | Pacemaker: avoiding HeART attacks in storage clusters with disk-adaptive redundancy | [Summary](/posts/readings/paper/osdi/osdi20-pacemaker) | PaceMaker (Rashmi)
@@ -88,6 +87,12 @@ TPDS'14 | An Efficient Scaling Scheme for RS-Coded Storage Clusters | :---: | Sc
 ICPP'12 | GSR: A Global Stripe-Based Redistribution Approach to Accelerate RAID-5 Scaling | :---: | GSR RAID-5 Scaling (C. Wu)
 FAST'11 | Accelerate RAID Scaling by Minimizing Data Migration | :---: | FastScale (Zheng)
 
+
+#### Placement
+
+Venue | Title | Link / Summary | Brief
+:---: | :---: | :---: | :---:
+ICPP'22 | Repair-Optimal Data Placement for Locally Repairable Codes with Optimal Minimum Hamming Distance | [Summary](/posts/readings/paper/icpp/icpp22-optimallrc) | LRC (Wu)
 
 #### Reliability Analysis
 
