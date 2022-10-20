@@ -81,9 +81,9 @@ ISIT'18 | Generalized Optimal Storage Scaling via Network Coding | [Summary](/po
 INFOCOM'18 | Toward Optimal Storage Scaling via Network Coding: From Theory to Practice | [Summary](/posts/readings/paper/infocom/infocom18-ncscale) | NCScale (Hu) (storage scaling)
 TPDS'16 | I/O-Efficient Scaling Schemes for Distributed Storage Systems with CRS Codes | :---: | CRS Scaling (Wu)
 DSN'15, TPDS'17 | Enabling Efficient and Reliable Transition from Replication to Erasure Coding for Clustered File Systems. | :---: | Rep to EC Transition (Li Runhui)
-FAST'15 | A Tale of Two Erasure Codes in HDFS | :---: | A tale of two erasure codes
+FAST'15 | A Tale of Two Erasure Codes in HDFS | [Summary](/posts/2020/09/paper-reading-twoec-fast15/) | A tale of two erasure codes
 TC'15 | Accelerate RDP RAID-6 Scaling by Reducing Disk I/Os and XOR Operations | :---: | RDP RAID-6 Scaling (Zhang)
-TPDS'14 | An Efficient Scaling Scheme for RS-Coded Storage Clusters | :---: | Scale-RS (Huang) (RS scaling)
+TPDS'14 | An Efficient Scaling Scheme for RS-Coded Storage Clusters | [Summary](/posts/readings/journal/tpds/tpds14-scalers) | Scale-RS (Huang) (RS scaling)
 ICPP'12 | GSR: A Global Stripe-Based Redistribution Approach to Accelerate RAID-5 Scaling | :---: | GSR RAID-5 Scaling (C. Wu)
 FAST'11 | Accelerate RAID Scaling by Minimizing Data Migration | :---: | FastScale (Zheng)
 
