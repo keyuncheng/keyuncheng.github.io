@@ -76,7 +76,7 @@ IEEE Access'20 | Efficient Storage Scaling for MBR and MSR Codes | [Summary](/po
 ITCS'20 | Convertible Codes: New Class of Codes for Efficient Conversion of Coded Data in Distributed Storage | [Summary](/posts/readings/paper/itcs/itcs20-convertible-codes) | Convertible Codes (Rashmi)
 ISIT'20 | Access-optimal Linear MDS Convertible Codes for All Parameters | [Summary](/posts/readings/paper/isit/isit20-access-optimal-convertible-codes) | Access-optimal Convertible Codes (Rashmi)
 FAST'19 | Cluster storage systems gotta have HeART: improving storage efficiency by exploiting disk-reliability heterogeneity | [Summary](/posts/readings/paper/fast/fast19-heart) | HeART (Rashmi)
-SoCC'19 | Coupling Decentralized Key-Value Stores with Erasure Coding | :---: | ECHash (Hu) (Optimizing scaling throughput for KVStore)
+SoCC'19 | Coupling Decentralized Key-Value Stores with Erasure Coding | [Summary](/posts/readings/paper/socc/socc19-echash) | ECHash (Hu) (Optimizing scaling throughput for KVStore)
 ISIT'18 | Generalized Optimal Storage Scaling via Network Coding | [Summary](/posts/readings/paper/isit/isit18-nc-scaling) | Scaling via Network Coding (Hu)
 INFOCOM'18 | Toward Optimal Storage Scaling via Network Coding: From Theory to Practice | [Summary](/posts/readings/paper/infocom/infocom18-ncscale) | NCScale (Hu) (storage scaling)
 TPDS'16 | I/O-Efficient Scaling Schemes for Distributed Storage Systems with CRS Codes | :---: | CRS Scaling (Wu)
