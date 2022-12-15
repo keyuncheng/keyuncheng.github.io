@@ -40,6 +40,16 @@ His research interests include distributed storage systems and erasure coding.
 == Publications
 
 # ------------------
+. Xiaolu Li, *Keyun Cheng*, Kaicheng Tang, Patrick P. C. Lee, Yuchong Hu, Dan Feng, Jie Li, and Ting-Yi Wu. \n
+*"ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage."* \n
+Proceedings of the 21st USENIX Conference on File and Storage Technologies (FAST 2023), Santa Clara, CA, US, February 2023. \n
+(AR: 28/122 = 23.0%) \n
+# ------------------
+. Kaicheng Tang, *Keyun Cheng*, Helen H. W. Chan, Xiaolu Li, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. \n
+*"Balancing Repair Bandwidth and Sub-packetization in Erasure-Coded Storage via Elastic Transformation."* \n
+Proceedings of IEEE International Conference on Computer Communications (INFOCOM 2023), New York, US, May 2023. \n
+(AR: 252/1312 = 19.2%) \n
+# ------------------
 . Xiaolu Li, *Keyun Cheng*, Zhirong Shen, and Patrick P. C. Lee. \n
 *"Fast Proactive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation."* \n
 Accepted for publication in IEEE Transactions on Parallel and Distributed Systems (TPDS). \n
