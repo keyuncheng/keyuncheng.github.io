@@ -1,4 +1,4 @@
-# Reading Notes: paper
+# Reading Notes: Scheduling Unrelated Parallel Machines
 
 Title: Exact and Approximate Algorithms for Scheduling Nonidentical Processors
 
