@@ -185,7 +185,8 @@ SIGMOD'19 | Nanosecond Indexing of Graph Data With Hash Maps and VLists. | [Summ
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-SOSP'1973 | Polynomial Complete Scheduling Problems | [Summary](/posts/readings/paper/jacm/jacm1976-scheduling) | Scheduling
+MP'1990 | Approximation Algorithms for Scheduling Unrelated Parallel Machines | [Summary]() | Scheduling
+SOSP'1973 | Polynomial Complete Scheduling Problems | [Summary](/posts/readings/paper/sosp/sosp1973-scheduling) | Scheduling
 JACM'1976 | Exact and Approximate Algorithms for Scheduling Nonidentical Processors | [Summary](/posts/readings/journal/jacm/jacm1976-scheduling) | Scheduling
 
 
