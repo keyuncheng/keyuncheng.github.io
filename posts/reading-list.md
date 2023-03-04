@@ -83,7 +83,7 @@ TPDS'16 | I/O-Efficient Scaling Schemes for Distributed Storage Systems with CRS
 DSN'15, TPDS'17 | Enabling Efficient and Reliable Transition from Replication to Erasure Coding for Clustered File Systems. | :---: | Rep to EC Transition (Li Runhui)
 FAST'15 | A Tale of Two Erasure Codes in HDFS | [Summary](/posts/2020/09/paper-reading-twoec-fast15/) | A tale of two erasure codes
 TC'15 | Accelerate RDP RAID-6 Scaling by Reducing Disk I/Os and XOR Operations | :---: | RDP RAID-6 Scaling (Zhang)
-TPDS'14 | An Efficient Scaling Scheme for RS-Coded Storage Clusters | [Summary](/posts/readings/journal/tpds/tpds14-scalers) | Scale-RS (Huang) (RS scaling)
+TPDS'14 | An Efficient Scaling Scheme for RS-Coded Storage Clusters | [Summary](/posts/readings/paper/tpds/tpds14-scalers) | Scale-RS (Huang) (RS scaling)
 ICPP'12 | GSR: A Global Stripe-Based Redistribution Approach to Accelerate RAID-5 Scaling | :---: | GSR RAID-5 Scaling (C. Wu)
 FAST'11 | Accelerate RAID Scaling by Minimizing Data Migration | :---: | FastScale (Zheng)
 
@@ -185,10 +185,21 @@ SIGMOD'19 | Nanosecond Indexing of Graph Data With Hash Maps and VLists. | [Summ
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-MP'1990 | Approximation Algorithms for Scheduling Unrelated Parallel Machines | [Summary](/posts/readings/paper/mp/mp1990-scheduling) | Scheduling
-SOSP'1973 | Polynomial Complete Scheduling Problems | [Summary](/posts/readings/paper/sosp/sosp1973-scheduling) | Scheduling
-COMMACM'1974 | Scheduling independent tasks to reduce mean finishing time | [Summary](/posts/readings/paper/commacm/commacm1974-scheduling) | Scheduling
-JACM'1976 | Exact and Approximate Algorithms for Scheduling Nonidentical Processors | [Summary](/posts/readings/journal/jacm/jacm1976-scheduling) | Scheduling
+SOSP'1973 | Polynomial Complete Scheduling Problems | [Summary](/posts/readings/paper/sosp/sosp1973-scheduling) | Scheduling proof
+COMMACM'1974 | Scheduling independent tasks to reduce mean finishing time | [Summary](/posts/readings/paper/commacm/commacm1974-scheduling) | Scheduling algorithms
+JACM'1976 | Exact and Approximate Algorithms for Scheduling Nonidentical Processors | [Summary](/posts/readings/paper/jacm/jacm1976-scheduling) | Scheduling algorithms
+MP'1990 | Approximation Algorithms for Scheduling Unrelated Parallel Machines | [Summary](/posts/readings/paper/mp/mp1990-scheduling) | Scheduling algorithms and proofs
+
+
+# Bipartite Graph
+
+Venue | Title | Link / Summary | Brief
+:---: | :---: | :---: | :---:
+JALG'06 | Semi-matchings for bipartite graphs and load balancing | [Summary](/posts/readings/paper/jalg/jalg06-matching) | Semi-matching on unweighted bipartite
+IPL'06 | An approximation algorithm for the load-balanced semi-matching problem in weighted bipartite graphs | [Summary](/posts/readings/paper/ipl/ipl06-matching) | Semi-matching for jobs with identical processing times
+IPL'09 | A note on "An approximation algorithm for the load-balanced semi-matching problem in weighted bipartite graphs" | [Summary](/posts/readings/paper/ipl/ipl09-matching-note) | Corrections for bounds for IPSJ'06
+IPSJ'07 | Optimal Balanced Semi-Matchings for Weighted Bipartite Graphs | [Summary](/posts/readings/paper/ipsj/ipsj07-matching) | Optimal Semi-matching proof
+
 
 
 ## TOS (Transaction on Storage) Paper List
