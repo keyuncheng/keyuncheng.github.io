@@ -15,6 +15,7 @@ research purpose. Items are characterized by their main topics / keywords.
 
 [Redundancy Transition](#redundancy-transition)
 
+## Categories
 
 ### Erasure Coding
 
@@ -191,7 +192,7 @@ JACM'1976 | Exact and Approximate Algorithms for Scheduling Nonidentical Process
 MP'1990 | Approximation Algorithms for Scheduling Unrelated Parallel Machines | [Summary](/posts/readings/paper/mp/mp1990-scheduling) | Scheduling algorithms and proofs
 
 
-# Bipartite Graph
+### Bipartite Graph
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
@@ -202,7 +203,7 @@ IPSJ'07 | Optimal Balanced Semi-Matchings for Weighted Bipartite Graphs | [Summa
 
 
 
-## TOS (Transaction on Storage) Paper List
+### TOS (Transaction on Storage) Paper List
 
 #### Erasure Coding
 
