@@ -189,6 +189,7 @@ Venue | Title | Link / Summary | Brief
 SOSP'1973 | Polynomial Complete Scheduling Problems | [Summary](/posts/readings/paper/sosp/sosp1973-scheduling) | Scheduling proof
 COMMACM'1974 | Scheduling independent tasks to reduce mean finishing time | [Summary](/posts/readings/paper/commacm/commacm1974-scheduling) | Scheduling algorithms
 JACM'1976 | Exact and Approximate Algorithms for Scheduling Nonidentical Processors | [Summary](/posts/readings/paper/jacm/jacm1976-scheduling) | Scheduling algorithms
+JACM'1977 | Heuristic Algorithms for Scheduling Independent Tasks on Nonidentical Processors | [Summary](/posts/readings/paper/jacm/jacm1977-scheduling) | Performance analysis on scheduling heuristics
 MP'1990 | Approximation Algorithms for Scheduling Unrelated Parallel Machines | [Summary](/posts/readings/paper/mp/mp1990-scheduling) | Scheduling algorithms and proofs
 
 
@@ -196,9 +197,9 @@ MP'1990 | Approximation Algorithms for Scheduling Unrelated Parallel Machines | 
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-JALG'06 | Semi-matchings for bipartite graphs and load balancing | [Summary](/posts/readings/paper/jalg/jalg06-matching) | Semi-matching on unweighted bipartite
-IPL'06 | An approximation algorithm for the load-balanced semi-matching problem in weighted bipartite graphs | [Summary](/posts/readings/paper/ipl/ipl06-matching) | Semi-matching for jobs with identical processing times
-IPL'09 | A note on "An approximation algorithm for the load-balanced semi-matching problem in weighted bipartite graphs" | [Summary](/posts/readings/paper/ipl/ipl09-matching-note) | Corrections for bounds for IPSJ'06
+JALG'06 | Semi-matchings for bipartite graphs and load balancing | [Summary](/posts/readings/paper/jalg/jalg05-semi-matching) | Semi-matching on unweighted bipartite
+IPL'06 | An approximation algorithm for the load-balanced semi-matching problem in weighted bipartite graphs | [Summary](/posts/readings/paper/ipl/ipl06-semi-matching) | Semi-matching for jobs with identical processing times
+IPL'09 | A note on "An approximation algorithm for the load-balanced semi-matching problem in weighted bipartite graphs" | [Summary](/posts/readings/paper/ipl/ipl09-semi-matching-correction) | Corrections of bounds for IPL'06
 IPSJ'07 | Optimal Balanced Semi-Matchings for Weighted Bipartite Graphs | [Summary](/posts/readings/paper/ipsj/ipsj07-matching) | Optimal Semi-matching proof
 
 
@@ -314,7 +315,7 @@ TOS'14 | A Study of Linux File System Evolution. | [Link](https://doi.org/10.114
 TOS'20 | Everyone Loves File: Oracle File Storage Service. | [Link](https://doi.org/10.1145/3377877) | ---
 
 
-## SEC (Symposium on Edge Computing) Paper List
+### SEC (Symposium on Edge Computing) Paper List
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
