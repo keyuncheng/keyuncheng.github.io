@@ -117,6 +117,8 @@ ATC'17 | Repair Pipelining for Erasure-Coded Storage. | [Summary](/posts/2020/08
 DSN'19 | Fast Predictive Repair in Erasure-Coded Storage. | [Summary](/posts/2020/08/paper-reading-fpr-dsn19/) | FastPR
 FAST'19 | Fast Erasure Coding for Data Storage: A Comprehensive Study of the Acceleration Techniques. | [Summary](/posts/2020/08/paper-reading-ec-acceleration-fast19/) | EC Acceleraion
 Eurosys'20 | RAIDP: replication with intra-disk parity. | [Summary](/posts/2020/08/paper-reading-raidp-eurosys20/) | RAID-P
+IWQoS'21 | EC-Scheduler: A Load-Balanced Scheduler to Accelerate the Straggler Recovery for Erasure Coded Storage Systems | [Summary](/posts/readings/paper/iwqos/iwqos21-ecscheduler) | EC repair, load balancing, heterogeneous
+
 
 
 #### Systems
