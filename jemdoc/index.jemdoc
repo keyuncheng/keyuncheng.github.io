@@ -20,8 +20,8 @@ Email: kycheng \[at\] cse.cuhk.edu.hk \n
 
 == About
 
-Keyun Cheng is a Ph.D. student supervised by Prof. [https://www.cse.cuhk.edu.hk/~pclee Patrick P. C. Lee].
-He is a member of [http://adslab.cse.cuhk.edu.hk/ Applied Distributed System Lab] (ADSLab).
+Keyun Cheng is a Ph.D. candidate at [https://www.cse.cuhk.edu.hk/ Department of Computer Science and Engineering], [https://www.cuhk.edu.hk/ The Chinese University of Hong Kong].
+He is a member of [http://adslab.cse.cuhk.edu.hk/ Applied Distributed System Lab] (ADSLab), supervised by Prof. [https://www.cse.cuhk.edu.hk/~pclee Patrick P. C. Lee].
 He received the B.Eng degree in [https://cse.sysu.edu.cn/ Software Engineering]
 from [http://www.sysu.edu.cn/ Sun Yat-Sen University] in 2018,
 the M.Sc. degree in [http://msc.cse.cuhk.edu.hk Computer Science]
@@ -39,46 +39,61 @@ His research interests include distributed storage systems and erasure coding.
 
 == Publications
 
+=== Conferences
+
 # ------------------
 . Xiaolu Li, *Keyun Cheng*, Kaicheng Tang, Patrick P. C. Lee, Yuchong Hu, Dan Feng, Jie Li, and Ting-Yi Wu. \n
 *"ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage."* \n
 Proceedings of the 21st USENIX Conference on File and Storage Technologies (FAST 2023), Santa Clara, CA, US, February 2023. \n
 (AR: 28/122 = 23.0%) \n
+[files/publications/fast23pararc.pdf \[pdf\]]
+[http://adslab.cse.cuhk.edu.hk/software/pararc/ \[code\]]
 # ------------------
 . Kaicheng Tang, *Keyun Cheng*, Helen H. W. Chan, Xiaolu Li, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. \n
 *"Balancing Repair Bandwidth and Sub-packetization in Erasure-Coded Storage via Elastic Transformation."* \n
 Proceedings of IEEE International Conference on Computer Communications (INFOCOM 2023), New York, US, May 2023. \n
 (AR: 252/1312 = 19.2%) \n
+[files/publications/infocom23et.pdf \[pdf\]]
+[http://adslab.cse.cuhk.edu.hk/software/openec-et/ \[code\]]
+# ------------------
+. Yueming Jin, *Keyun Cheng*, Qi Dou, Pheng Ann Heng. \n
+*"Incorporating Temporal Prior from Motion Flow for Instrument Segmentation in Minimally Invasive Surgery Video."* \n
+Medical Image Computing and Computer Assisted Intervention (MICCAI), 2019. (*Oral*) \n
+[files/publications/miccai19mftapnet.pdf \[pdf\]]
+[https://github.com/keyuncheng/MF-TAPNet \[code\]]
+
+=== Journals
+
 # ------------------
 . Xiaolu Li, *Keyun Cheng*, Zhirong Shen, and Patrick P. C. Lee. \n
 *"Fast Proactive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation."* \n
 IEEE Transactions on Parallel and Distributed Systems (TPDS), 33(12), pp. 3400-3414, December 2022. \n
 (An earlier version appeared in DSN 2019) \n
-[https://www.cse.cuhk.edu.hk/~pclee/www/pubs/tpds22fastpr.pdf \[main pdf\]]
-[https://www.cse.cuhk.edu.hk/~pclee/www/pubs/tpds22fastpr_supp.pdf \[supp pdf\]]
+[files/publications/tpds22fastpr.pdf \[main pdf\]]
+[files/publications/tpds22fastpr_supp.pdf \[supp pdf\]]
 [http://adslab.cse.cuhk.edu.hk/software/fastpr \[code\]]
-[https://doi.org/10.1109/TPDS.2022.3152817 \[doi\]]
-# ------------------
-. Yueming Jin, *Keyun Cheng*, Qi Dou, Pheng Ann Heng. \n
-*"Incorporating Temporal Prior from Motion Flow for Instrument Segmentation in Minimally Invasive Surgery Video."* \n
-Medical Image Computing and Computer Assisted Intervention (MICCAI), 2019. (*Oral*) \n
-[https://arxiv.org/pdf/1907.07899.pdf \[pdf\]]
-[https://github.com/keyuncheng/MF-TAPNet \[code\]]
 
 
 == Teaching
 
-Teaching Assistant, CUHK
+Teaching Assistant, The Chinese University of Hong Kong
 
-AIST3020 Introduction to Computer Systems
-- [http://www.cse.cuhk.edu.hk/~pclee/aist3020/ Spring 2023], Spring 2022
+- AIST3020 Introduction to Computer Systems
+    -- Spring 2023, Spring 2022
 
-CSCI1120B Introduction to Computing Using C\+\+
-- Fall 2022
+- CSCI1120B Introduction to Computing Using C\+\+
+    -- Fall 2022
 
-CSCI4180 Introduction to Cloud Computing and Storage
-- Fall 2021
+- CSCI4180 Introduction to Cloud Computing and Storage
+    -- Fall 2021
 
+Teaching Assistant, Sun Yat-Sen University
+
+- Probablity Theory and Statistics
+    -- Fall 2017
+
+- Complexity Analysis for Engineering
+    -- Spring 2018
 
 == Awards
 
