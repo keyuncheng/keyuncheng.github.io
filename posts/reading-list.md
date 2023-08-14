@@ -1,7 +1,7 @@
 ## About
 
-My reading list includes papers, articles, tutorials, videos, etc. for
-research purpose. Items are characterized by their main topics / keywords.
+My reading list includes papers, articles, books, tutorials, videos, etc. for
+research purposes. Items are characterized by their topics/keywords.
 
 ---
 
@@ -13,9 +13,17 @@ research purpose. Items are characterized by their main topics / keywords.
 
 ## Recent
 
-[Redundancy Transition](#redundancy-transition)
+[SDN](#software-defined-network-sdn)
 
 ## Categories
+
+### Networking
+
+#### Software Defined Network (SDN)
+
+Venue | Title | Link / Summary | Keywords
+:---: | :---: | :---: | :---:
+Book | Software-Defined-Networks: A Systems Approach | Reading notes: [Ch. 1](/posts/readings/book/sdn-system/sdn-system-ch1) | SDN Book
 
 ### Erasure Coding
 
@@ -32,7 +40,7 @@ USENIX Login'13 | Erasure Codes for Storage Systems: A Brief Primer. | [Summary]
 FAST Tutorial'13 | Tutorial: Erasure Coding for Storage Systems. | [Summary](/posts/2020/08/docs-reading-plank-tutorial-fast13/) | Plank EC tutorial
 
 
-#### Codes
+#### Erasure Codes
 
 Venue | Title | Link / Summary | Keywords
 :---: | :---: | :---: | :---:
@@ -61,7 +69,7 @@ IEEE Survey'11 | A Survey on Network Codes. | [Summary](/posts/2021/06/paper-rea
 TIT'10 | Network Coding for Distributed Storage Systems. | [Summary](/posts/2020/08/paper-reading-ncstorage-tit10/) | network coding for storage, [video](https://www.youtube.com/watch?v=RMRyP6JRKGk), [report](https://www.cs.cmu.edu/~venkatg/teaching/codingtheory-au14/projects/codes-DSS-report.pdf)
 PPT | Intro to regenrating codes | [link](https://ewh.ieee.org/r6/scv/mag/MtgSum/Meeting2017_05_2_presentation.pdf) | ---
 
-#### Redundancy Transition
+#### Redundancy Transitioning
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
@@ -89,7 +97,7 @@ ICPP'12 | GSR: A Global Stripe-Based Redistribution Approach to Accelerate RAID-
 FAST'11 | Accelerate RAID Scaling by Minimizing Data Migration | :---: | FastScale (Zheng)
 
 
-#### Placement
+#### Data Placement
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
