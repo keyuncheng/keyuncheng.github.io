@@ -23,7 +23,12 @@ research purposes. Items are characterized by their topics/keywords.
 
 Venue | Title | Link / Summary | Keywords
 :---: | :---: | :---: | :---:
-Book | Software-Defined-Networks: A Systems Approach | Reading notes: [Ch. 1](/posts/readings/book/sdn-system/sdn-system-ch1) | SDN Book
+Book | Software-Defined-Networks: A Systems Approach | Reading notes: [Ch.1](/posts/readings/book/sdn-system/sdn-system-ch1), [Ch.2](/posts/readings/book/sdn-system/sdn-system-ch2) | SDN Book
+SIGCOMM'18 | B4: Experience with a Globally-Deployed Software Defined WAN. | [Summary](/posts/readings/paper/sigcomm/sigcomm18b4/) (Not done) | B4
+NSDI'14 | Network Virtualization in Multi-tenant Datacenters. | [Summary](/posts/readings/paper/nsdi/nsdi14virtualization/) (Not done) | Network Virtualization
+SIGCOMM'13 | Achieving High Utilization with Software-Driven WAN. | [Summary](/posts/readings/paper/sigcomm/sigcomm13wan/) (Not done) | Software-Driven WAN
+SIGCOMM'08 | OpenFlow: Enabling Innovation in Campus Networks. | [Summary](/posts/readings/paper/sigcomm/sigcomm08openflow/) (Not done) | OpenFlow
+
 
 ### Erasure Coding
 
