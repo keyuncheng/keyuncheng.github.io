@@ -21,7 +21,7 @@ research purposes. Items are characterized by their topics/keywords.
 
 #### Software Defined Network (SDN)
 
-Venue | Title | Link / Summary | Keywords
+Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 Book | Software-Defined-Networks: A Systems Approach | Reading notes: [Ch.1](/posts/readings/book/sdn-system/sdn-system-ch1), [Ch.2](/posts/readings/book/sdn-system/sdn-system-ch2) | SDN Book
 SIGCOMM'18 | B4: Experience with a Globally-Deployed Software Defined WAN. | [Summary](/posts/readings/paper/sigcomm/sigcomm18b4/) (Not done) | B4
@@ -34,7 +34,7 @@ SIGCOMM'08 | OpenFlow: Enabling Innovation in Campus Networks. | [Summary](/post
 
 #### Basics
 
-Venue | Title | Link / Summary | Keywords
+Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 SIAM'1960 | Polynomial Codes Over Certain Finite Fields. | [Summary](/posts/2021/06/paper-reading-rs-siam1960/) | RS code original. MUST-READ
 Manuscript | An Introduction to Galois Fields and Reed-Solomon Coding | [link](https://people.cs.clemson.edu/~westall/851/rs-code.pdf) | Into to Finite Field and RS code (communication) in Clemenson
@@ -47,7 +47,7 @@ FAST Tutorial'13 | Tutorial: Erasure Coding for Storage Systems. | [Summary](/po
 
 #### Erasure Codes
 
-Venue | Title | Link / Summary | Keywords
+Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 TOS'09 | GRID codes: Strip-based erasure codes with high fault tolerance for storage systems. | [Summary](/posts/2020/10/paper-reading-grid-codes-tos09/) | GRID codes
 FAST'12 | Rethinking Erasure Codes for Cloud File Systems: Minimizing I/O for Recovery and Degraded Reads. | [Summary](/posts/2020/09/paper-reading-khan-fast12/) | Khan
@@ -120,7 +120,7 @@ Summary | Reliability Analysis: MTTDL | [Summary](/posts/2021/07/blogs-mttdl/) |
 
 #### Techniques
 
-Venue | Title | Link / Summary | Keywords
+Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 MSST’12 | On the speedup of single-disk failure recovery in XOR-coded storage systems: Theory and practice. | [Summary](/posts/2020/09/paper-reading-zhu-replace-recovery-msst12/) | Zhu
 FAST'15 | A Tale of Two Erasure Codes in HDFS. | [Summary](/posts/2020/09/paper-reading-twoec-fast15/) | ---
