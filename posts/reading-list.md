@@ -24,10 +24,12 @@ research purposes. Items are characterized by their topics/keywords.
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 Book | Software-Defined-Networks: A Systems Approach | Reading notes: [Ch.1](/posts/readings/book/sdn-system/sdn-system-ch1), [Ch.2](/posts/readings/book/sdn-system/sdn-system-ch2), [Ch.3](/posts/readings/book/sdn-system/sdn-system-ch3), [Ch.4](/posts/readings/book/sdn-system/sdn-system-ch4), [Ch.5](/posts/readings/book/sdn-system/sdn-system-ch5), [Ch.6](/posts/readings/book/sdn-system/sdn-system-ch6), [Ch.7](/posts/readings/book/sdn-system/sdn-system-ch7), [Ch.8](/posts/readings/book/sdn-system/sdn-system-ch8) | SDN Book
-SIGCOMM'18 | B4: Experience with a Globally-Deployed Software Defined WAN. | [Summary](/posts/readings/paper/sigcomm/sigcomm18b4/) (Not done) | B4
-NSDI'14 | Network Virtualization in Multi-tenant Datacenters. | [Summary](/posts/readings/paper/nsdi/nsdi14virtualization/) (Not done) | Network Virtualization
-SIGCOMM'13 | Achieving High Utilization with Software-Driven WAN. | [Summary](/posts/readings/paper/sigcomm/sigcomm13wan/) (Not done) | Software-Driven WAN
-SIGCOMM'08 | OpenFlow: Enabling Innovation in Campus Networks. | [Summary](/posts/readings/paper/sigcomm/sigcomm08openflow/) (Not done) | OpenFlow
+IEEE Communications Surveys & Tutorials'14 | A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks | [Summary](/posts/readings/paper/ieeecomsurvey/ieeecomsurvey14sdn) (Not done) | SDN Survey
+ICCCN'21 | Software-Defined Wide Area Network (SD-WAN): Architecture, Advances and Opportunities | [Summary](/posts/readings/paper/icccn/icccn21sdwan) (Not done) | SD-WAN Survey
+SIGCOMM'18 | B4: Experience with a Globally-Deployed Software Defined WAN. | [Summary](/posts/readings/paper/sigcomm/sigcomm18b4) (Not done) | B4
+NSDI'14 | Network Virtualization in Multi-tenant Datacenters. | [Summary](/posts/readings/paper/nsdi/nsdi14virtualization) (Not done) | Network Virtualization
+SIGCOMM'13 | Achieving High Utilization with Software-Driven WAN. | [Summary](/posts/readings/paper/sigcomm/sigcomm13wan) (Not done) | Software-Driven WAN
+SIGCOMM'08 | OpenFlow: Enabling Innovation in Campus Networks. | [Summary](/posts/readings/paper/sigcomm/sigcomm08openflow) (Not done) | OpenFlow
 
 
 ### Erasure Coding
