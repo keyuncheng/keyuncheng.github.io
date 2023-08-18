@@ -3,9 +3,9 @@
 Title: Approximation Algorithms for Scheduling Unrelated Parallel Machines
 
 Conference (Mathematical Programming'1990):
-[link](https://doi.org/10.1007/BF01585745)
+[Link](https://doi.org/10.1007/BF01585745)
 
-Journal (): [link]()
+Journal (): [Link]()
 
 ## Summary
 

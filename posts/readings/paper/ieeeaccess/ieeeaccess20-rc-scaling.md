@@ -2,9 +2,9 @@
 
 Title: Efficient Storage Scaling for MBR and MSR Codes
 
-Conference (IEEE Access): [link](https://ieeexplore.ieee.org/document/9076623)
+Conference (IEEE Access): [Link](https://ieeexplore.ieee.org/document/9076623)
 
-Journal (): [link]()
+Journal (): [Link]()
 
 ## Summary
 

@@ -2,9 +2,9 @@
 
 Title: Generalized Optimal Storage Scaling via Network Coding	
 
-Conference (ISIT'18): [link](https://ieeexplore.ieee.org/document/8437684)
+Conference (ISIT'18): [Link](https://ieeexplore.ieee.org/document/8437684)
 
-Journal (): [link]()
+Journal (): [Link]()
 
 ## Summary
 

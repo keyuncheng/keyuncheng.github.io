@@ -2,7 +2,7 @@
 
 Title: Software-Defined-Networks: A Systems Approach (Chapter 7)
 
-Book (SDN): [link](https://sdn.systemsapproach.org/trellis.html)
+Book (SDN): [Link](https://sdn.systemsapproach.org/trellis.html)
 
 ## Summary
 

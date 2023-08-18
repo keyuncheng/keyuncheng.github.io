@@ -12,4 +12,4 @@ tags:
 
 Reliability Analysis: MTTDL
 
-[link](/files/mttdl/mttdl.pdf)
+[Link](/files/mttdl/mttdl.pdf)

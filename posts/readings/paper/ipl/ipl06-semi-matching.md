@@ -3,10 +3,10 @@
 Title: An approximation algorithm for the load-balanced semi-matching problem
 in weighted bipartite graphs
 
-Conference (): [link]()
+Conference (): [Link]()
 
 Journal (Information Processing Letters 2006):
-[link](https://doi.org/10.1016/j.ipl.2006.06.004)
+[Link](https://doi.org/10.1016/j.ipl.2006.06.004)
 
 ## Summary
 

@@ -3,9 +3,9 @@
 Title: StripeMerge: Efficient Wide-Stripe Generation for Large-Scale
 Erasure-Coded Storage.
 
-Conference (ICDCS'21): [link](https://ieeexplore.ieee.org/document/9546417)
+Conference (ICDCS'21): [Link](https://ieeexplore.ieee.org/document/9546417)
 
-Journal (): [link]()
+Journal (): [Link]()
 
 ## Summary
 

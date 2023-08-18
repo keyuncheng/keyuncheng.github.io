@@ -2,7 +2,7 @@
 
 Title: Software-Defined-Networks: A Systems Approach (Chapter 6)
 
-Book (SDN): [link](https://sdn.systemsapproach.org/onos.html)
+Book (SDN): [Link](https://sdn.systemsapproach.org/onos.html)
 
 ## Summary
 

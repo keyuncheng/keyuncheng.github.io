@@ -225,11 +225,11 @@ Details
 
 ### Industry
 
-1. Azure IoT Edge. [link](https://azure.microsoft.com/en-us/services/iot-edge/)
+1. Azure IoT Edge. [Link](https://azure.microsoft.com/en-us/services/iot-edge/)
 
-2. AWS IoT for the Edge. [link](https://aws.amazon.com/iot/solutions/iot-edge/)
+2. AWS IoT for the Edge. [Link](https://aws.amazon.com/iot/solutions/iot-edge/)
 
-3. Google Cloud IoT. [link](https://cloud.google.com/solutions/iot)
+3. Google Cloud IoT. [Link](https://cloud.google.com/solutions/iot)
 
 
 

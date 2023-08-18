@@ -3,9 +3,9 @@
 Title: EC-Scheduler: A Load-Balanced Scheduler to Accelerate the Straggler
 Recovery for Erasure Coded Storage Systems.
 
-Conference (IWQoS 2021): [link](https://ieeexplore.ieee.org/document/9521280)
+Conference (IWQoS 2021): [Link](https://ieeexplore.ieee.org/document/9521280)
 
-Journal (): [link]()
+Journal (): [Link]()
 
 ## Summary
 

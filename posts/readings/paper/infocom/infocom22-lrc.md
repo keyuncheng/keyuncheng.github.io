@@ -2,9 +2,9 @@
 
 Title: Optimal Data Placement for Stripe Merging in Locally Repairable Codes.
 
-Conference (INFOCOM'22): [link](https://ieeexplore.ieee.org/document/9796704/)
+Conference (INFOCOM'22): [Link](https://ieeexplore.ieee.org/document/9796704/)
 
-Journal (): [link]()
+Journal (): [Link]()
 
 ## Summary
 

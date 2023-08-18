@@ -2,7 +2,7 @@
 
 Title: Software-Defined-Networks: A Systems Approach (Chapter 5)
 
-Book (SDN): [link](https://sdn.systemsapproach.org/stratum.html)
+Book (SDN): [Link](https://sdn.systemsapproach.org/stratum.html)
 
 ## Summary
 

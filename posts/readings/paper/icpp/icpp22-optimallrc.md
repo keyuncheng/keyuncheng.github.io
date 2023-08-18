@@ -3,9 +3,9 @@
 Title: Repair-Optimal Data Placement for Locally Repairable Codes with Optimal
 Minimum Hamming Distance
 
-Conference (ICPP'22): [link](/files/papers/icpp22-lrc.pdf)
+Conference (ICPP'22): [Link](/files/papers/icpp22-lrc.pdf)
 
-Journal (): [link]()
+Journal (): [Link]()
 
 ## Summary
 

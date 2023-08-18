@@ -3,9 +3,9 @@
 Title: Access-optimal Linear MDS Convertible Codes for All Parameters
 
 Conference (ISIT'20):
-[link](https://dl.acm.org/doi/abs/10.1109/ISIT44484.2020.9173947)
+[Link](https://dl.acm.org/doi/abs/10.1109/ISIT44484.2020.9173947)
 
-Journal (): [link]()
+Journal (): [Link]()
 
 ## Summary
 This paper is a follow-up work on Convertible codes (TIT'19, Maturana). It

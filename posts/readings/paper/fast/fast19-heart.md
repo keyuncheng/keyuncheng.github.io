@@ -4,9 +4,9 @@ Title: Cluster storage systems gotta have HeART: improving storage efficiency
 by exploiting disk-reliability heterogeneity
 
 Conference (FAST'19):
-[link](https://www.usenix.org/conference/fast19/presentation/kadekodi)
+[Link](https://www.usenix.org/conference/fast19/presentation/kadekodi)
 
-Journal (): [link]()
+Journal (): [Link]()
 
 ## Summary
 

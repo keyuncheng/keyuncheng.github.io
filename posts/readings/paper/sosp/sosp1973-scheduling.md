@@ -2,9 +2,9 @@
 
 Title: Polynomial complete scheduling problems
 
-Conference (SOSP'1973): [link](https://dl.acm.org/doi/10.1145/800009.808055)
+Conference (SOSP'1973): [Link](https://dl.acm.org/doi/10.1145/800009.808055)
 
-Journal (): [link]()
+Journal (): [Link]()
 
 ## Summary
 

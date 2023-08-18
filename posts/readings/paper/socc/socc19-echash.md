@@ -2,9 +2,9 @@
 
 Title: Coupling Decentralized Key-Value Stores with Erasure Coding
 
-Conference (SoCC'19): [link](https://dl.acm.org/doi/10.1145/3357223.3362713)
+Conference (SoCC'19): [Link](https://dl.acm.org/doi/10.1145/3357223.3362713)
 
-Journal (): [link]()
+Journal (): [Link]()
 
 ## Summary
 

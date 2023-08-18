@@ -2,9 +2,9 @@
 
 Title: Scale-RS: An Efficient Scaling Scheme for RS-Coded Storage Clusters
 
-Conference (): [link]()
+Conference (): [Link]()
 
-Journal (TPDS'14): [link](https://ieeexplore.ieee.org/document/6819450)
+Journal (TPDS'14): [Link](https://ieeexplore.ieee.org/document/6819450)
 
 ## Summary
 

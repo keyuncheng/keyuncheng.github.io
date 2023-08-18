@@ -2,10 +2,10 @@
 
 Title: Semi-matchings for bipartite graphs and load balancing
 
-Conference (): [link]()
+Conference (): [Link]()
 
 Journal (Journal of Algorithms 2005):
-[link](https://doi.org/10.1016/j.jalgor.2005.01.003)
+[Link](https://doi.org/10.1016/j.jalgor.2005.01.003)
 
 ## Summary
 

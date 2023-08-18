@@ -3,9 +3,9 @@
 Title: A note on “An approximation algorithm for the load-balanced
 semi-matching problem in weighted bipartite graphs”
 
-Conference (): [link]()
+Conference (): [Link]()
 
-Journal (IPL'09): [link](https://doi.org/10.1016/j.ipl.2009.02.010)
+Journal (IPL'09): [Link](https://doi.org/10.1016/j.ipl.2009.02.010)
 
 ## Summary
 

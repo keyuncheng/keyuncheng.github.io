@@ -46,33 +46,36 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <li><a href="#table-of-contents">Table of Contents</a></li>
 <li><a href="#recent">Recent</a></li>
 <li><a href="#categories">Categories</a><ul>
-<li><a href="#networking">Networking</a><ul>
-<li><a href="#software-defined-network-sdn">Software Defined Network (SDN)</a></li>
-</ul>
-</li>
 <li><a href="#erasure-coding">Erasure Coding</a><ul>
-<li><a href="#basics">Basics</a></li>
+<li><a href="#quick-start-basics">Quick Start (Basics)</a></li>
+<li><a href="#network-coding-basics">Network Coding (basics)</a></li>
 <li><a href="#erasure-codes">Erasure Codes</a></li>
-<li><a href="#network-coding-and-regenerating-codes">Network Coding and Regenerating Codes</a></li>
 <li><a href="#redundancy-transitioning">Redundancy Transitioning</a></li>
-<li><a href="#data-placement">Data Placement</a></li>
 <li><a href="#reliability-analysis">Reliability Analysis</a></li>
 <li><a href="#techniques">Techniques</a></li>
 <li><a href="#systems">Systems</a></li>
+<li><a href="#miscellaneous">Miscellaneous</a></li>
 </ul>
 </li>
-<li><a href="#edge">Edge</a></li>
+<li><a href="#edge">Edge</a><ul>
+<li><a href="#sec-symposium-on-edge-computing-paper-list">SEC (Symposium on Edge Computing) Paper List</a></li>
+</ul>
+</li>
 <li><a href="#deduplication">Deduplication</a></li>
 <li><a href="#consensus">Consensus</a></li>
 <li><a href="#stream-processing">Stream Processing</a></li>
-<li><a href="#network-measurement">Network Measurement</a></li>
 <li><a href="#graph-processing">Graph Processing</a></li>
 <li><a href="#scheduling">Scheduling</a></li>
-<li><a href="#bipartite-graph">Bipartite Graph</a></li>
+<li><a href="#graph-theory">Graph Theory</a></li>
+<li><a href="#networking">Networking</a><ul>
+<li><a href="#software-defined-network-sdn">Software Defined Network (SDN)</a></li>
+<li><a href="#network-measurement">Network Measurement</a></li>
+</ul>
+</li>
 <li><a href="#tos-transaction-on-storage-paper-list">TOS (Transaction on Storage) Paper List</a><ul>
 <li><a href="#erasure-coding_1">Erasure Coding</a></li>
 <li><a href="#raid">RAID</a></li>
-<li><a href="#data-placement_1">Data Placement</a></li>
+<li><a href="#data-placement">Data Placement</a></li>
 <li><a href="#flash-memory">Flash-memory</a></li>
 <li><a href="#backup">Backup</a></li>
 <li><a href="#storage-system">Storage System</a></li>
@@ -82,7 +85,6 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <li><a href="#file-system">File System</a></li>
 </ul>
 </li>
-<li><a href="#sec-symposium-on-edge-computing-paper-list">SEC (Symposium on Edge Computing) Paper List</a></li>
 </ul>
 </li>
 </ul>
@@ -90,70 +92,8 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <h2 id="recent">Recent</h2>
 <p><a href="#software-defined-network-sdn">SDN</a></p>
 <h2 id="categories">Categories</h2>
-<h3 id="networking">Networking</h3>
-<h4 id="software-defined-network-sdn">Software Defined Network (SDN)</h4>
-<table>
-<thead>
-<tr>
-<th align="center">Venue</th>
-<th align="center">Title</th>
-<th align="center">Link / Summary</th>
-<th align="center">Brief</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">Book</td>
-<td align="center">Software-Defined-Networks: A Systems Approach</td>
-<td align="center">Reading notes: <a href="/posts/readings/book/sdn-system/sdn-system-ch1">Ch.1</a>, <a href="/posts/readings/book/sdn-system/sdn-system-ch2">Ch.2</a>, <a href="/posts/readings/book/sdn-system/sdn-system-ch3">Ch.3</a>, <a href="/posts/readings/book/sdn-system/sdn-system-ch4">Ch.4</a>, <a href="/posts/readings/book/sdn-system/sdn-system-ch5">Ch.5</a>, <a href="/posts/readings/book/sdn-system/sdn-system-ch6">Ch.6</a>, <a href="/posts/readings/book/sdn-system/sdn-system-ch7">Ch.7</a>, <a href="/posts/readings/book/sdn-system/sdn-system-ch8">Ch.8</a></td>
-<td align="center">SDN Book</td>
-</tr>
-<tr>
-<td align="center">White paper</td>
-<td align="center">Cisco SD-WAN white paper</td>
-<td align="center"><a href="https://www.cisco.com/c/en/us/solutions/enterprise-networks/sd-wan/white-paper-listing.html">link</a></td>
-<td align="center">Cisco SD-WAN</td>
-</tr>
-<tr>
-<td align="center">IEEE Communications Surveys &amp; Tutorials'14</td>
-<td align="center">A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks</td>
-<td align="center"><a href="/posts/readings/paper/ieeecomsurvey/ieeecomsurvey14sdn">Summary</a> (Not done)</td>
-<td align="center">SDN Survey</td>
-</tr>
-<tr>
-<td align="center">ICCCN'21</td>
-<td align="center">Software-Defined Wide Area Network (SD-WAN): Architecture, Advances and Opportunities</td>
-<td align="center"><a href="/posts/readings/paper/icccn/icccn21sdwan">Summary</a> (Not done)</td>
-<td align="center">SD-WAN Survey</td>
-</tr>
-<tr>
-<td align="center">SIGCOMM'18</td>
-<td align="center">B4: Experience with a Globally-Deployed Software Defined WAN.</td>
-<td align="center"><a href="/posts/readings/paper/sigcomm/sigcomm18b4">Summary</a> (Not done)</td>
-<td align="center">B4</td>
-</tr>
-<tr>
-<td align="center">NSDI'14</td>
-<td align="center">Network Virtualization in Multi-tenant Datacenters.</td>
-<td align="center"><a href="/posts/readings/paper/nsdi/nsdi14virtualization">Summary</a> (Not done)</td>
-<td align="center">Network Virtualization</td>
-</tr>
-<tr>
-<td align="center">SIGCOMM'13</td>
-<td align="center">Achieving High Utilization with Software-Driven WAN.</td>
-<td align="center"><a href="/posts/readings/paper/sigcomm/sigcomm13wan">Summary</a> (Not done)</td>
-<td align="center">Software-Driven WAN</td>
-</tr>
-<tr>
-<td align="center">SIGCOMM'08</td>
-<td align="center">OpenFlow: Enabling Innovation in Campus Networks.</td>
-<td align="center"><a href="/posts/readings/paper/sigcomm/sigcomm08openflow">Summary</a> (Not done)</td>
-<td align="center">OpenFlow</td>
-</tr>
-</tbody>
-</table>
 <h3 id="erasure-coding">Erasure Coding</h3>
-<h4 id="basics">Basics</h4>
+<h4 id="quick-start-basics">Quick Start (Basics)</h4>
 <table>
 <thead>
 <tr>
@@ -164,24 +104,6 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td align="center">SIAM'1960</td>
-<td align="center">Polynomial Codes Over Certain Finite Fields.</td>
-<td align="center"><a href="/posts/2021/06/paper-reading-rs-siam1960/">Summary</a></td>
-<td align="center">RS code original. MUST-READ</td>
-</tr>
-<tr>
-<td align="center">Manuscript</td>
-<td align="center">An Introduction to Galois Fields and Reed-Solomon Coding</td>
-<td align="center"><a href="https://people.cs.clemson.edu/~westall/851/rs-code.pdf">link</a></td>
-<td align="center">Into to Finite Field and RS code (communication) in Clemenson</td>
-</tr>
-<tr>
-<td align="center">Manuscript</td>
-<td align="center">Reed-Solomon Codes</td>
-<td align="center"><a href="https://courses.cs.duke.edu//spring10/cps296.3/rs_scribe.pdf">link</a></td>
-<td align="center">Intro to RS code from Duke Univ.</td>
-</tr>
 <tr>
 <td align="center">Summary</td>
 <td align="center">Concepts that must know</td>
@@ -189,10 +111,16 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">EC basic Concepts and keywords</td>
 </tr>
 <tr>
-<td align="center">FAST'09</td>
-<td align="center">A Performance Evaluation and Examination of Open-Source Erasure Coding Libraries For Storage.</td>
-<td align="center"><a href="/posts/2020/08/paper-reading-plank-fast09/">Summary</a></td>
-<td align="center">Plank EC eval</td>
+<td align="center">Manuscript</td>
+<td align="center">An Introduction to Galois Fields and Reed-Solomon Coding</td>
+<td align="center"><a href="https://people.cs.clemson.edu/~westall/851/rs-code.pdf">Link</a></td>
+<td align="center">Into to Finite Field and RS code (communication) in Clemenson</td>
+</tr>
+<tr>
+<td align="center">Manuscript</td>
+<td align="center">Reed-Solomon Codes</td>
+<td align="center"><a href="https://courses.cs.duke.edu//spring10/cps296.3/rs_scribe.pdf">Link</a></td>
+<td align="center">Intro to RS code from Duke Univ.</td>
 </tr>
 <tr>
 <td align="center">USENIX Login'13</td>
@@ -205,6 +133,49 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">Tutorial: Erasure Coding for Storage Systems.</td>
 <td align="center"><a href="/posts/2020/08/docs-reading-plank-tutorial-fast13/">Summary</a></td>
 <td align="center">Plank EC tutorial</td>
+</tr>
+<tr>
+<td align="center">FAST'09</td>
+<td align="center">A Performance Evaluation and Examination of Open-Source Erasure Coding Libraries For Storage.</td>
+<td align="center"><a href="/posts/2020/08/paper-reading-plank-fast09/">Summary</a></td>
+<td align="center">Plank EC eval</td>
+</tr>
+</tbody>
+</table>
+<h4 id="network-coding-basics">Network Coding (basics)</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Venue</th>
+<th align="center">Title</th>
+<th align="center">Link / Summary</th>
+<th align="center">Brief</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">FAST'11 Poster</td>
+<td align="center">Repairing Erasure Codes.</td>
+<td align="center"><a href="https://www.usenix.org/legacy/event/fast11/posters_files/Papailiopoulos.pdf">Link</a></td>
+<td align="center">Network coding for storage (poster)</td>
+</tr>
+<tr>
+<td align="center">IEEE Survey'11</td>
+<td align="center">A Survey on Network Codes.</td>
+<td align="center"><a href="/posts/2021/06/paper-reading-ncstoragesurvey-ieeesurvery/">Summary</a></td>
+<td align="center">Network coding for storage (survey)</td>
+</tr>
+<tr>
+<td align="center">TIT'10</td>
+<td align="center">Network Coding for Distributed Storage Systems.</td>
+<td align="center"><a href="/posts/2020/08/paper-reading-ncstorage-tit10/">Summary</a></td>
+<td align="center">Network coding for storage <a href="https://www.youtube.com/watch?v=RMRyP6JRKGk">video</a>, <a href="https://www.cs.cmu.edu/~venkatg/teaching/codingtheory-au14/projects/codes-DSS-report.pdf">report</a></td>
+</tr>
+<tr>
+<td align="center">PPT</td>
+<td align="center">Regenerating codes for distributed storage</td>
+<td align="center"><a href="https://ewh.ieee.org/r6/scv/mag/MtgSum/Meeting2017_05_2_presentation.pdf">Link</a></td>
+<td align="center">---</td>
 </tr>
 </tbody>
 </table>
@@ -220,46 +191,40 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </thead>
 <tbody>
 <tr>
-<td align="center">TOS'09</td>
-<td align="center">GRID codes: Strip-based erasure codes with high fault tolerance for storage systems.</td>
-<td align="center"><a href="/posts/2020/10/paper-reading-grid-codes-tos09/">Summary</a></td>
-<td align="center">GRID codes</td>
+<td align="center">FAST'23</td>
+<td align="center">Practical Design Considerations for Wide Locally Recoverable Codes (LRCs)</td>
+<td align="center"><a href="https://www.usenix.org/conference/fast23/presentation/kadekodi">Link</a></td>
+<td align="center">Uniform Cauchy LRCs</td>
 </tr>
 <tr>
-<td align="center">FAST'12</td>
-<td align="center">Rethinking Erasure Codes for Cloud File Systems: Minimizing I/O for Recovery and Degraded Reads.</td>
-<td align="center"><a href="/posts/2020/09/paper-reading-khan-fast12/">Summary</a></td>
-<td align="center">Khan</td>
+<td align="center">ATC'18</td>
+<td align="center">On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes.</td>
+<td align="center"><a href="/posts/2020/09/paper-reading-lrc-comparison-atc18/">Summary</a></td>
+<td align="center">LRC constructions comparison</td>
 </tr>
 <tr>
-<td align="center">TOS'12</td>
-<td align="center">Generalized X-code: An efficient RAID-6 code for arbitrary size of disk array.</td>
-<td align="center"><a href="/posts/2020/10/paper-reading-generalized-x-code-tos12/">Summary</a></td>
-<td align="center">Generalized X-code</td>
+<td align="center">FAST’18</td>
+<td align="center">Clay Codes: Moulding MDS Codes to Yield an MSR Code.</td>
+<td align="center"><a href="/posts/2020/08/paper-reading-clay-codes-fast18/">Summary</a></td>
+<td align="center">Clay codes</td>
 </tr>
 <tr>
-<td align="center">ATC'12</td>
-<td align="center">Erasure Coding in Windows Azure Storage.</td>
-<td align="center"><a href="/posts/2020/08/paper-reading-huang-lrc-atc12/">Summary</a></td>
-<td align="center">Azure LRC</td>
+<td align="center">FAST’16</td>
+<td align="center">Opening the Chrysalis: On the Real Repair Performance of MSR Codes.</td>
+<td align="center"><a href="/posts/2020/08/paper-reading-butterfly-codes-fast16/">Summary</a></td>
+<td align="center">Butterfly codes</td>
 </tr>
 <tr>
-<td align="center">PVLDB'13</td>
-<td align="center">XORing Elephants: Novel Erasure Codes for Big Data.</td>
-<td align="center"><a href="/posts/2020/08/paper-reading-sathiamoorthy-lrc-pvldb13/">Summary</a></td>
-<td align="center">Sathiamoorthy, LRC</td>
-</tr>
-<tr>
-<td align="center">TOS'13</td>
-<td align="center">Pyramid Codes: Flexible Schemes to Trade Space for Access Efficiency in Reliable Data Storage Systems.</td>
-<td align="center"><a href="/posts/2020/09/paper-reading-pyramid-codes-tos13/">Summary</a></td>
-<td align="center">Pyramid Codes</td>
+<td align="center">FAST'15</td>
+<td align="center">Having Your Cake and Eating It Too: Jointly Optimal Erasure Codes for I/O, Storage, and Network-bandwidth.</td>
+<td align="center"><a href="/posts/2020/08/paper-reading-rashmi-pm-rbt-fast15/">Summary</a></td>
+<td align="center">PM-RBT codes</td>
 </tr>
 <tr>
 <td align="center">TIT'14</td>
 <td align="center">A family of optimal locally recoverable codes.</td>
 <td align="center"><a href="/posts/2020/09/paper-reading-optimal-lrc-tit14/">Summary</a></td>
-<td align="center">Optimal LRC</td>
+<td align="center">Optimal LRCs</td>
 </tr>
 <tr>
 <td align="center">SIGCOMM’14</td>
@@ -274,71 +239,88 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">STAIR Codes</td>
 </tr>
 <tr>
-<td align="center">FAST'15</td>
-<td align="center">Having Your Cake and Eating It Too: Jointly Optimal Erasure Codes for I/O, Storage, and Network-bandwidth.</td>
-<td align="center"><a href="/posts/2020/08/paper-reading-rashmi-pm-rbt-fast15/">Summary</a></td>
-<td align="center">Rashmi, PM-RBT</td>
+<td align="center">PVLDB'13</td>
+<td align="center">XORing Elephants: Novel Erasure Codes for Big Data.</td>
+<td align="center"><a href="/posts/2020/08/paper-reading-sathiamoorthy-lrc-pvldb13/">Summary</a></td>
+<td align="center">Azure-LRC+</td>
 </tr>
 <tr>
-<td align="center">FAST’16</td>
-<td align="center">Opening the Chrysalis: On the Real Repair Performance of MSR Codes.</td>
-<td align="center"><a href="/posts/2020/08/paper-reading-butterfly-codes-fast16/">Summary</a></td>
-<td align="center">Butterfly codes</td>
+<td align="center">TOS'13</td>
+<td align="center">Pyramid Codes: Flexible Schemes to Trade Space for Access Efficiency in Reliable Data Storage Systems.</td>
+<td align="center"><a href="/posts/2020/09/paper-reading-pyramid-codes-tos13/">Summary</a></td>
+<td align="center">Pyramid codes</td>
 </tr>
 <tr>
-<td align="center">FAST’18</td>
-<td align="center">Clay Codes: Moulding MDS Codes to Yield an MSR Code.</td>
-<td align="center"><a href="/posts/2020/08/paper-reading-clay-codes-fast18/">Summary</a></td>
-<td align="center">Clay codes</td>
+<td align="center">ISIT'13, TIT'17</td>
+<td align="center">A Piggybacking Design Framework for Read-and Download-efficient Distributed Storage Codes</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/document/7949040">Link</a></td>
+<td align="center">Piggybacking codes</td>
 </tr>
 <tr>
-<td align="center">ATC'18</td>
-<td align="center">On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes.</td>
-<td align="center"><a href="/posts/2020/09/paper-reading-lrc-comparison-atc18/">Summary</a></td>
-<td align="center">compare LRC</td>
+<td align="center">TOS'12</td>
+<td align="center">Generalized X-code: An efficient RAID-6 code for arbitrary size of disk array.</td>
+<td align="center"><a href="/posts/2020/10/paper-reading-generalized-x-code-tos12/">Summary</a></td>
+<td align="center">Generalized X-codes</td>
 </tr>
 <tr>
-<td align="center">HotStorage'20</td>
-<td align="center">SelectiveEC: Selective Reconstruction in Erasure-coded Storage Systems.</td>
-<td align="center"><a href="/posts/2020/08/paper-reading-selectiveec-hotstorage20/">Summary</a></td>
-<td align="center">SelectiveEC</td>
-</tr>
-</tbody>
-</table>
-<h4 id="network-coding-and-regenerating-codes">Network Coding and Regenerating Codes</h4>
-<table>
-<thead>
-<tr>
-<th align="center">Venue</th>
-<th align="center">Title</th>
-<th align="center">Link / Summary</th>
-<th align="center">Brief</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">FAST'11 Poster</td>
-<td align="center">Repairing Erasure Codes.</td>
-<td align="center"><a href="https://www.usenix.org/legacy/event/fast11/posters_files/Papailiopoulos.pdf">Link</a></td>
-<td align="center">NC for storage poster</td>
+<td align="center">ATC'12</td>
+<td align="center">Erasure Coding in Windows Azure Storage.</td>
+<td align="center"><a href="/posts/2020/08/paper-reading-huang-lrc-atc12/">Summary</a></td>
+<td align="center">Azure-LRC</td>
 </tr>
 <tr>
-<td align="center">IEEE Survey'11</td>
-<td align="center">A Survey on Network Codes.</td>
-<td align="center"><a href="/posts/2021/06/paper-reading-ncstoragesurvey-ieeesurvery/">Summary</a></td>
-<td align="center">NC for storage survey</td>
+<td align="center">ISIT'10, TIT'10</td>
+<td align="center">Optimal Exact-Regenerating Codes for Distributed Storage at the MSR and MBR Points via a Product-Matrix Construction</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/document/5961826">Link</a></td>
+<td align="center">Product-Matrix Code</td>
 </tr>
 <tr>
-<td align="center">TIT'10</td>
-<td align="center">Network Coding for Distributed Storage Systems.</td>
-<td align="center"><a href="/posts/2020/08/paper-reading-ncstorage-tit10/">Summary</a></td>
-<td align="center">network coding for storage, <a href="https://www.youtube.com/watch?v=RMRyP6JRKGk">video</a>, <a href="https://www.cs.cmu.edu/~venkatg/teaching/codingtheory-au14/projects/codes-DSS-report.pdf">report</a></td>
+<td align="center">TOS'09</td>
+<td align="center">GRID codes: Strip-based erasure codes with high fault tolerance for storage systems.</td>
+<td align="center"><a href="/posts/2020/10/paper-reading-grid-codes-tos09/">Summary</a></td>
+<td align="center">GRID codes</td>
 </tr>
 <tr>
-<td align="center">PPT</td>
-<td align="center">Intro to regenrating codes</td>
-<td align="center"><a href="https://ewh.ieee.org/r6/scv/mag/MtgSum/Meeting2017_05_2_presentation.pdf">link</a></td>
-<td align="center">---</td>
+<td align="center">FAST'04</td>
+<td align="center">Improving Storage System Availability with D-GRAID</td>
+<td align="center"><a href="https://www.usenix.org/conference/fast-04/improving-storage-system-availability-d-graid">Link</a></td>
+<td align="center">D-GRAID codes</td>
+</tr>
+<tr>
+<td align="center">FAST'04</td>
+<td align="center">Row-Diagonal Parity for Double Disk Failure Correction</td>
+<td align="center"><a href="https://www.usenix.org/conference/fast-04/row-diagonal-parity-double-disk-failure-correction#:~:text=Row%2DDiagonal%20Parity%20(RDP),both%20during%20construction%20and%20reconstruction.">Link</a></td>
+<td align="center">RDP codes</td>
+</tr>
+<tr>
+<td align="center">ATC'1996</td>
+<td align="center">AFRAID - A Frequently Redundant Array of Independent Disks</td>
+<td align="center"><a href="https://www.usenix.org/legacy/publications/library/proceedings/sd96/full_papers/wilkes.pdf">Link</a></td>
+<td align="center">AFRAID</td>
+</tr>
+<tr>
+<td align="center">ISCA'1994, TC'1995</td>
+<td align="center">EVENODD: an optimal scheme for tolerating double disk failures in RAID architectures</td>
+<td align="center"><a href="https://dl.acm.org/doi/10.1145/191995.192033">Link</a></td>
+<td align="center">EVENODD codes</td>
+</tr>
+<tr>
+<td align="center">SIGMOD'1988</td>
+<td align="center">A Case for Redundant Arrays of Inexpensive Disks (RAID)</td>
+<td align="center"><a href="https://dl.acm.org/doi/10.1145/50202.50214">Link</a></td>
+<td align="center">RAID</td>
+</tr>
+<tr>
+<td align="center">SIGMETRICS Perf. Eval. Review'1995</td>
+<td align="center">Striping in a RAID level 5 disk array</td>
+<td align="center"><a href="https://dl.acm.org/doi/10.1145/223586.223603">Link</a></td>
+<td align="center">RAID striping</td>
+</tr>
+<tr>
+<td align="center">SIAM'1960</td>
+<td align="center">Polynomial Codes Over Certain Finite Fields.</td>
+<td align="center"><a href="/posts/2021/06/paper-reading-rs-siam1960/">Summary</a></td>
+<td align="center">RS codes (original version)</td>
 </tr>
 </tbody>
 </table>
@@ -357,152 +339,133 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">OSDI'22</td>
 <td align="center">Tiger: disk-adaptive redundancy without placement restrictions</td>
 <td align="center"><a href="/posts/readings/paper/osdi/osdi22-tiger">Summary</a></td>
-<td align="center">Tiger (Rashmi)</td>
+<td align="center">Tiger</td>
 </tr>
 <tr>
 <td align="center">ISIT'22</td>
 <td align="center">Bandwidth Cost of Code Conversions in the Split Regime</td>
-<td align="center">:---:</td>
-<td align="center">Convertible codes under split regime (Rashmi)</td>
+<td align="center"><a href="https://arxiv.org/abs/2205.06793">Link</a></td>
+<td align="center">Convertible codes: bandwidth</td>
+</tr>
+<tr>
+<td align="center">ISIT'21, TIT'23</td>
+<td align="center">Bandwidth Cost of Code Conversions in Distributed Storage: Fundamental Limits and Optimal Constructions</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/document/10097511">Link</a></td>
+<td align="center">Convertible codes: bandwidth</td>
 </tr>
 <tr>
 <td align="center">INFOCOM'22</td>
 <td align="center">Optimal Data Placement for Stripe Merging in Locally Repairable Codes.</td>
 <td align="center"><a href="/posts/readings/paper/infocom/infocom22-lrc">Summary</a></td>
-<td align="center">LRC stripe merging (Wu) (LRC transition bandwidth)</td>
-</tr>
-<tr>
-<td align="center">ISIT'21</td>
-<td align="center">Bandwidth Cost of Code Conversions in Distributed Storage: Fundamental Limits and Optimal Constructions</td>
-<td align="center">:---:</td>
-<td align="center">Convertible codes: bandwidth (Rashmi)</td>
+<td align="center">LRC stripe merging</td>
 </tr>
 <tr>
 <td align="center">ICDCS'21</td>
 <td align="center">StripeMerge: Efficient Wide-Stripe Generation for Large-Scale Erasure-Coded Storage.</td>
 <td align="center"><a href="/posts/readings/paper/icdcs/icdcs21-stripemerge">Summary</a></td>
-<td align="center">StripeMerge (Yao)</td>
+<td align="center">StripeMerge</td>
 </tr>
 <tr>
 <td align="center">OSDI'20</td>
 <td align="center">Pacemaker: avoiding HeART attacks in storage clusters with disk-adaptive redundancy</td>
 <td align="center"><a href="/posts/readings/paper/osdi/osdi20-pacemaker">Summary</a></td>
-<td align="center">PaceMaker (Rashmi)</td>
+<td align="center">PACEMAKER</td>
 </tr>
 <tr>
 <td align="center">SRDS'20</td>
 <td align="center">Enabling I/O-Efficient Redundancy Transitioning in Erasure-Coded KV Stores via Elastic Reed-Solomon Codes.</td>
 <td align="center"><a href="/posts/readings/paper/srds/srds20-elastic-rs">Summary</a></td>
-<td align="center">Elastic RS (Wu)</td>
+<td align="center">Elastic Reed-Solomon (ERS) codes</td>
 </tr>
 <tr>
 <td align="center">INFOCOM'20</td>
 <td align="center">On the Optimal Repair-Scaling Trade-off in Locally Repairable Codes.</td>
 <td align="center"><a href="/posts/readings/paper/infocom/infocom20-lrc-tradeoff">Summary</a></td>
-<td align="center">LRC Repair-Scaling Tradeoff (Wu)</td>
+<td align="center">LRC Repair-Scaling Tradeoff</td>
 </tr>
 <tr>
 <td align="center">IEEE Access'20</td>
 <td align="center">Efficient Storage Scaling for MBR and MSR Codes</td>
 <td align="center"><a href="/posts/readings/paper/ieeeaccess/ieeeaccess20-rc-scaling">Summary</a></td>
-<td align="center">MSR scaling (Zhang)</td>
+<td align="center">MSR codes, scaling</td>
 </tr>
 <tr>
-<td align="center">ITCS'20</td>
+<td align="center">ITCS'20, TIT'22</td>
 <td align="center">Convertible Codes: New Class of Codes for Efficient Conversion of Coded Data in Distributed Storage</td>
 <td align="center"><a href="/posts/readings/paper/itcs/itcs20-convertible-codes">Summary</a></td>
-<td align="center">Convertible Codes (Rashmi)</td>
+<td align="center">Convertible Codes: I/O</td>
 </tr>
 <tr>
 <td align="center">ISIT'20</td>
 <td align="center">Access-optimal Linear MDS Convertible Codes for All Parameters</td>
 <td align="center"><a href="/posts/readings/paper/isit/isit20-access-optimal-convertible-codes">Summary</a></td>
-<td align="center">Access-optimal Convertible Codes (Rashmi)</td>
+<td align="center">Access-optimal Convertible Codes</td>
 </tr>
 <tr>
 <td align="center">FAST'19</td>
 <td align="center">Cluster storage systems gotta have HeART: improving storage efficiency by exploiting disk-reliability heterogeneity</td>
 <td align="center"><a href="/posts/readings/paper/fast/fast19-heart">Summary</a></td>
-<td align="center">HeART (Rashmi)</td>
-</tr>
-<tr>
-<td align="center">SoCC'19</td>
-<td align="center">Coupling Decentralized Key-Value Stores with Erasure Coding</td>
-<td align="center"><a href="/posts/readings/paper/socc/socc19-echash">Summary</a></td>
-<td align="center">ECHash (Hu) (Optimizing scaling throughput for KVStore)</td>
+<td align="center">HeART</td>
 </tr>
 <tr>
 <td align="center">ISIT'18</td>
 <td align="center">Generalized Optimal Storage Scaling via Network Coding</td>
 <td align="center"><a href="/posts/readings/paper/isit/isit18-nc-scaling">Summary</a></td>
-<td align="center">Scaling via Network Coding (Hu)</td>
+<td align="center">Network coding, scaling</td>
 </tr>
 <tr>
-<td align="center">INFOCOM'18</td>
+<td align="center">INFOCOM'18, TPDS'22</td>
 <td align="center">Toward Optimal Storage Scaling via Network Coding: From Theory to Practice</td>
 <td align="center"><a href="/posts/readings/paper/infocom/infocom18-ncscale">Summary</a></td>
-<td align="center">NCScale (Hu) (storage scaling)</td>
+<td align="center">NCScale, scaling</td>
 </tr>
 <tr>
 <td align="center">TPDS'16</td>
 <td align="center">I/O-Efficient Scaling Schemes for Distributed Storage Systems with CRS Codes</td>
-<td align="center">:---:</td>
-<td align="center">CRS Scaling (Wu)</td>
+<td align="center"><a href="http://ieeexplore.ieee.org/abstract/document/7347422/">Link</a></td>
+<td align="center">CRS, scaling</td>
 </tr>
 <tr>
 <td align="center">DSN'15, TPDS'17</td>
 <td align="center">Enabling Efficient and Reliable Transition from Replication to Erasure Coding for Clustered File Systems.</td>
-<td align="center">:---:</td>
-<td align="center">Rep to EC Transition (Li Runhui)</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/document/7872497">Link</a></td>
+<td align="center">Replication to EC transitioning</td>
 </tr>
 <tr>
 <td align="center">FAST'15</td>
 <td align="center">A Tale of Two Erasure Codes in HDFS</td>
 <td align="center"><a href="/posts/2020/09/paper-reading-twoec-fast15/">Summary</a></td>
-<td align="center">A tale of two erasure codes</td>
+<td align="center">HACFS</td>
 </tr>
 <tr>
 <td align="center">TC'15</td>
 <td align="center">Accelerate RDP RAID-6 Scaling by Reducing Disk I/Os and XOR Operations</td>
-<td align="center">:---:</td>
-<td align="center">RDP RAID-6 Scaling (Zhang)</td>
+<td align="center"><a href="http://ieeexplore.ieee.org/abstract/document/6642028/">Link</a></td>
+<td align="center">RAID, scaling</td>
 </tr>
 <tr>
 <td align="center">TPDS'14</td>
 <td align="center">An Efficient Scaling Scheme for RS-Coded Storage Clusters</td>
 <td align="center"><a href="/posts/readings/paper/tpds/tpds14-scalers">Summary</a></td>
-<td align="center">Scale-RS (Huang) (RS scaling)</td>
+<td align="center">Scale-RS, scaling</td>
 </tr>
 <tr>
 <td align="center">ICPP'12</td>
 <td align="center">GSR: A Global Stripe-Based Redistribution Approach to Accelerate RAID-5 Scaling</td>
-<td align="center">:---:</td>
-<td align="center">GSR RAID-5 Scaling (C. Wu)</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/abstract/document/6337607/">Link</a></td>
+<td align="center">GSR, RAID, scaling (C. Wu)</td>
 </tr>
 <tr>
 <td align="center">FAST'11</td>
 <td align="center">Accelerate RAID Scaling by Minimizing Data Migration</td>
-<td align="center">:---:</td>
-<td align="center">FastScale (Zheng)</td>
+<td align="center"><a href="https://www.usenix.org/conference/fast11/fastscale-accelerate-raid-scaling-minimizing-data-migration">Link</a></td>
+<td align="center">FastScale, RAID, scaling</td>
 </tr>
-</tbody>
-</table>
-<h4 id="data-placement">Data Placement</h4>
-<table>
-<thead>
 <tr>
-<th align="center">Venue</th>
-<th align="center">Title</th>
-<th align="center">Link / Summary</th>
-<th align="center">Brief</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">ICPP'22</td>
-<td align="center">Repair-Optimal Data Placement for Locally Repairable Codes with Optimal Minimum Hamming Distance</td>
-<td align="center"><a href="/posts/readings/paper/icpp/icpp22-optimallrc">Summary</a></td>
-<td align="center">LRC (Wu)</td>
+<td align="center">TOCS'1996</td>
+<td align="center">The HP AutoRAID Hierarchical Storage System</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/document/5264167">Link</a></td>
+<td align="center">AutoRAID, replication to RAID</td>
 </tr>
 </tbody>
 </table>
@@ -518,16 +481,16 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </thead>
 <tbody>
 <tr>
-<td align="center">SNAPI'07</td>
-<td align="center">Outshining Mirrors: MTTDL of Fixed-Order SSPiRAL Layouts</td>
-<td align="center"><a href="http://www2.cs.uh.edu/~paris/MYPAPERS/Snapi07.pdf">Link</a></td>
-<td align="center">---</td>
+<td align="center">Summary</td>
+<td align="center">Reliability Analysis: MTTDL</td>
+<td align="center"><a href="/posts/2021/07/blogs-mttdl/">Summary</a></td>
+<td align="center">Calculation of MTTDL</td>
 </tr>
 <tr>
-<td align="center">I2TS'08</td>
-<td align="center">When MTTDLs Are Not Good Enough: Providing Better Estimates of Disk Array Reliability</td>
-<td align="center"><a href="https://www.cse.scu.edu/~tschwarz/Papers/i2ts08.pdf">Link</a></td>
-<td align="center">---</td>
+<td align="center">SRDS'17, TPDS'19</td>
+<td align="center">SimEDC: A Simulator for the Reliability Analysis of Erasure-Coded Data Centers</td>
+<td align="center"><a href="https://www.cse.cuhk.edu.hk/~pclee/www/pubs/tpds19simedc.pdf">Link</a></td>
+<td align="center">SimEDC</td>
 </tr>
 <tr>
 <td align="center">HotStorage'10</td>
@@ -536,10 +499,16 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">MTTDL Meaningless</td>
 </tr>
 <tr>
-<td align="center">Summary</td>
-<td align="center">Reliability Analysis: MTTDL</td>
-<td align="center"><a href="/posts/2021/07/blogs-mttdl/">Summary</a></td>
-<td align="center">Calculation of MTTDL</td>
+<td align="center">I2TS'08</td>
+<td align="center">When MTTDLs Are Not Good Enough: Providing Better Estimates of Disk Array Reliability</td>
+<td align="center"><a href="https://www.cse.scu.edu/~tschwarz/Papers/i2ts08.pdf">Link</a></td>
+<td align="center">---</td>
+</tr>
+<tr>
+<td align="center">SNAPI'07</td>
+<td align="center">Outshining Mirrors: MTTDL of Fixed-Order SSPiRAL Layouts</td>
+<td align="center"><a href="http://www2.cs.uh.edu/~paris/MYPAPERS/Snapi07.pdf">Link</a></td>
+<td align="center">---</td>
 </tr>
 </tbody>
 </table>
@@ -555,46 +524,28 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </thead>
 <tbody>
 <tr>
-<td align="center">MSST’12</td>
-<td align="center">On the speedup of single-disk failure recovery in XOR-coded storage systems: Theory and practice.</td>
-<td align="center"><a href="/posts/2020/09/paper-reading-zhu-replace-recovery-msst12/">Summary</a></td>
-<td align="center">Zhu</td>
+<td align="center">ICPP'22</td>
+<td align="center">Repair-Optimal Data Placement for Locally Repairable Codes with Optimal Minimum Hamming Distance</td>
+<td align="center"><a href="/posts/readings/paper/icpp/icpp22-optimallrc">Summary</a></td>
+<td align="center">LRC, repair, data placement</td>
 </tr>
 <tr>
-<td align="center">FAST'15</td>
-<td align="center">A Tale of Two Erasure Codes in HDFS.</td>
-<td align="center"><a href="/posts/2020/09/paper-reading-twoec-fast15/">Summary</a></td>
-<td align="center">---</td>
+<td align="center">FAST'21</td>
+<td align="center">Exploiting Combined Locality for Wide-Stripe Erasure Coding in Distributed Storage</td>
+<td align="center"><a href="https://www.usenix.org/conference/fast21/presentation/hu">Link</a></td>
+<td align="center">ECWide, LRC, wide stripe</td>
 </tr>
 <tr>
-<td align="center">OSDI'16</td>
-<td align="center">EC-Cache: Load-Balanced, Low-Latency Cluster Caching with Online Erasure Coding.</td>
-<td align="center"><a href="/posts/2021/02/paper-reading-eccache-osdi16/">Summary</a></td>
-<td align="center">Rashmi, EC-Cache</td>
+<td align="center">IWQoS'21</td>
+<td align="center">EC-Scheduler: A Load-Balanced Scheduler to Accelerate the Straggler Recovery for Erasure Coded Storage Systems</td>
+<td align="center"><a href="/posts/readings/paper/iwqos/iwqos21-ecscheduler">Summary</a></td>
+<td align="center">repair, load balancing</td>
 </tr>
 <tr>
-<td align="center">Eurosys'16</td>
-<td align="center">Partial-Parallel-Repair (PPR): A Distributed Technique for Repairing Erasure Coded Storage.</td>
-<td align="center"><a href="/posts/2020/08/paper-reading-ppr-eurosys16/">Summary</a></td>
-<td align="center">PPR</td>
-</tr>
-<tr>
-<td align="center">ATC'17</td>
-<td align="center">Repair Pipelining for Erasure-Coded Storage.</td>
-<td align="center"><a href="/posts/2020/08/paper-reading-repair-pipelining-atc17/">Summary</a></td>
-<td align="center">ECPipe</td>
-</tr>
-<tr>
-<td align="center">DSN'19</td>
-<td align="center">Fast Predictive Repair in Erasure-Coded Storage.</td>
-<td align="center"><a href="/posts/2020/08/paper-reading-fpr-dsn19/">Summary</a></td>
-<td align="center">FastPR</td>
-</tr>
-<tr>
-<td align="center">FAST'19</td>
-<td align="center">Fast Erasure Coding for Data Storage: A Comprehensive Study of the Acceleration Techniques.</td>
-<td align="center"><a href="/posts/2020/08/paper-reading-ec-acceleration-fast19/">Summary</a></td>
-<td align="center">EC Acceleraion</td>
+<td align="center">HotStorage'20</td>
+<td align="center">SelectiveEC: Selective Reconstruction in Erasure-coded Storage Systems.</td>
+<td align="center"><a href="/posts/2020/08/paper-reading-selectiveec-hotstorage20/">Summary</a></td>
+<td align="center">SelectiveEC, load balancing</td>
 </tr>
 <tr>
 <td align="center">Eurosys'20</td>
@@ -603,10 +554,40 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">RAID-P</td>
 </tr>
 <tr>
-<td align="center">IWQoS'21</td>
-<td align="center">EC-Scheduler: A Load-Balanced Scheduler to Accelerate the Straggler Recovery for Erasure Coded Storage Systems</td>
-<td align="center"><a href="/posts/readings/paper/iwqos/iwqos21-ecscheduler">Summary</a></td>
-<td align="center">EC repair, load balancing, heterogeneous</td>
+<td align="center">FAST'19</td>
+<td align="center">Fast Erasure Coding for Data Storage: A Comprehensive Study of the Acceleration Techniques.</td>
+<td align="center"><a href="/posts/2020/08/paper-reading-ec-acceleration-fast19/">Summary</a></td>
+<td align="center">repair acceleration</td>
+</tr>
+<tr>
+<td align="center">DSN'19</td>
+<td align="center">Fast Predictive Repair in Erasure-Coded Storage.</td>
+<td align="center"><a href="/posts/2020/08/paper-reading-fpr-dsn19/">Summary</a></td>
+<td align="center">FastPR, repair, parallelization</td>
+</tr>
+<tr>
+<td align="center">ATC'17</td>
+<td align="center">Repair Pipelining for Erasure-Coded Storage.</td>
+<td align="center"><a href="/posts/2020/08/paper-reading-repair-pipelining-atc17/">Summary</a></td>
+<td align="center">ECPipe, repair, parallelization</td>
+</tr>
+<tr>
+<td align="center">Eurosys'16</td>
+<td align="center">Partial-Parallel-Repair (PPR): A Distributed Technique for Repairing Erasure Coded Storage.</td>
+<td align="center"><a href="/posts/2020/08/paper-reading-ppr-eurosys16/">Summary</a></td>
+<td align="center">PPR, repair, parallelization</td>
+</tr>
+<tr>
+<td align="center">MSST’12</td>
+<td align="center">On the speedup of single-disk failure recovery in XOR-coded storage systems: Theory and practice.</td>
+<td align="center"><a href="/posts/2020/09/paper-reading-zhu-replace-recovery-msst12/">Summary</a></td>
+<td align="center">repair</td>
+</tr>
+<tr>
+<td align="center">FAST'12</td>
+<td align="center">Rethinking Erasure Codes for Cloud File Systems: Minimizing I/O for Recovery and Degraded Reads.</td>
+<td align="center"><a href="/posts/2020/09/paper-reading-khan-fast12/">Summary</a></td>
+<td align="center">repair</td>
 </tr>
 </tbody>
 </table>
@@ -622,28 +603,70 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </thead>
 <tbody>
 <tr>
-<td align="center">SoCC'10</td>
-<td align="center">RACS: a case for cloud storage diversity.</td>
-<td align="center"><a href="/posts/2019/07/paper-reading-racs-socc10/">Summary</a></td>
-<td align="center">RACS</td>
+<td align="center">FAST'22</td>
+<td align="center">Hydra : Resilient and Highly Available Remote Memory</td>
+<td align="center"><a href="https://www.usenix.org/conference/fast22/presentation/lee">Link</a></td>
+<td align="center">Hydra, RDMA</td>
 </tr>
 <tr>
-<td align="center">Eurosys'11</td>
-<td align="center">DEPSKY: A High-Availability and Integrity Layer for Cloud Storage.</td>
-<td align="center"><a href="/posts/2019/07/paper-reading-depsky-eurosys11/">Summary</a></td>
-<td align="center">Depsky</td>
+<td align="center">FAST'22</td>
+<td align="center">DEPART: Replica Decoupling for Distributed Key-Value Storage</td>
+<td align="center"><a href="https://www.usenix.org/conference/fast22/presentation/zhang-qiang">Link</a></td>
+<td align="center">DEPART, distributed KVStore, EC</td>
 </tr>
 <tr>
-<td align="center">FAST'12</td>
-<td align="center">NCCloud: A Network-Coding-Based Storage System in a Cloud-of-Clouds.</td>
-<td align="center"><a href="/posts/2019/06/paper-reading-nccloud-fast12/">Summary</a></td>
-<td align="center">NCCloud, network coding</td>
+<td align="center">NSDI'20</td>
+<td align="center">Near-Optimal Latency Versus Cost Tradeoffs in Geo-Distributed Storage</td>
+<td align="center"><a href="/posts/2021/06/paper-reading-pando-nsdi20/">Summary</a></td>
+<td align="center">PANDO, consensus, EC</td>
 </tr>
 <tr>
-<td align="center">SOSP'13</td>
-<td align="center">SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services</td>
-<td align="center"><a href="/posts/2021/02/paper-reading-spanstore-sosp13/">Summary</a></td>
-<td align="center">SPANStore</td>
+<td align="center">SC'20</td>
+<td align="center">INEC: Fast and Coherent In-Network Erasure Coding</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/document/9355252">Link</a></td>
+<td align="center">INEC, RDMA</td>
+</tr>
+<tr>
+<td align="center">SC'19</td>
+<td align="center">TriEC: tripartite graph based erasure coding NIC offload</td>
+<td align="center"><a href="https://dl.acm.org/doi/abs/10.1145/3295500.3356178">Link</a></td>
+<td align="center">TriEC, RDMA</td>
+</tr>
+<tr>
+<td align="center">SYSTOR'19</td>
+<td align="center">Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways.</td>
+<td align="center"><a href="/posts/2021/02/paper-reading-kruma-systor19/">Summary</a></td>
+<td align="center">Kurma</td>
+</tr>
+<tr>
+<td align="center">SoCC'19</td>
+<td align="center">Coupling Decentralized Key-Value Stores with Erasure Coding</td>
+<td align="center"><a href="/posts/readings/paper/socc/socc19-echash">Summary</a></td>
+<td align="center">ECHash, KVStore</td>
+</tr>
+<tr>
+<td align="center">HPDC'19</td>
+<td align="center">UMR-EC: A Unified and Multi-Rail Erasure Coding Library for High-Performance Distributed Storage Systems</td>
+<td align="center"><a href="https://dl.acm.org/doi/abs/10.1145/3307681.3325406">Link</a></td>
+<td align="center">UMR-EC, RDMA</td>
+</tr>
+<tr>
+<td align="center">FAST'19</td>
+<td align="center">OpenEC: Toward Unified and Configurable Erasure Coding Management in Distributed Storage Systems.</td>
+<td align="center"><a href="/posts/2020/08/paper-reading-openec-fast19/">Summary</a></td>
+<td align="center">OpenEC</td>
+</tr>
+<tr>
+<td align="center">ICDCS'17</td>
+<td align="center">High-Performance and Resilient Key-Value Store with Online Erasure Coding for Big Data Workloads</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/document/7979997">Link</a></td>
+<td align="center">RDMA</td>
+</tr>
+<tr>
+<td align="center">OSDI'16</td>
+<td align="center">EC-Cache: Load-Balanced, Low-Latency Cluster Caching with Online Erasure Coding.</td>
+<td align="center"><a href="/posts/2021/02/paper-reading-eccache-osdi16/">Summary</a></td>
+<td align="center">Rashmi, EC-Cache</td>
 </tr>
 <tr>
 <td align="center">OSDI'14</td>
@@ -664,22 +687,47 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">Hybris</td>
 </tr>
 <tr>
-<td align="center">FAST'19</td>
-<td align="center">OpenEC: Toward Unified and Configurable Erasure Coding Management in Distributed Storage Systems.</td>
-<td align="center"><a href="/posts/2020/08/paper-reading-openec-fast19/">Summary</a></td>
-<td align="center">OpenEC</td>
+<td align="center">SOSP'13</td>
+<td align="center">SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services</td>
+<td align="center"><a href="/posts/2021/02/paper-reading-spanstore-sosp13/">Summary</a></td>
+<td align="center">SPANStore</td>
 </tr>
 <tr>
-<td align="center">SYSTOR'19</td>
-<td align="center">Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways.</td>
-<td align="center"><a href="/posts/2021/02/paper-reading-kruma-systor19/">Summary</a></td>
-<td align="center">Kurma</td>
+<td align="center">FAST'12</td>
+<td align="center">NCCloud: A Network-Coding-Based Storage System in a Cloud-of-Clouds.</td>
+<td align="center"><a href="/posts/2019/06/paper-reading-nccloud-fast12/">Summary</a></td>
+<td align="center">NCCloud, network coding</td>
 </tr>
 <tr>
-<td align="center">NSDI'20</td>
-<td align="center">Near-Optimal Latency Versus Cost Tradeoffs in Geo-Distributed Storage</td>
-<td align="center"><a href="/posts/2021/06/paper-reading-pando-nsdi20/">Summary</a></td>
-<td align="center">PANDO, consensus, EC</td>
+<td align="center">Eurosys'11</td>
+<td align="center">DEPSKY: A High-Availability and Integrity Layer for Cloud Storage.</td>
+<td align="center"><a href="/posts/2019/07/paper-reading-depsky-eurosys11/">Summary</a></td>
+<td align="center">Depsky</td>
+</tr>
+<tr>
+<td align="center">SoCC'10</td>
+<td align="center">RACS: a case for cloud storage diversity.</td>
+<td align="center"><a href="/posts/2019/07/paper-reading-racs-socc10/">Summary</a></td>
+<td align="center">RACS</td>
+</tr>
+</tbody>
+</table>
+<h4 id="miscellaneous">Miscellaneous</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Venue</th>
+<th align="center">Title</th>
+<th align="center">Link / Summary</th>
+<th align="center">Brief</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">IPTPS'02</td>
+<td align="center">Erasure coding vs. replication:a quantitative comparison</td>
+<td align="center"><a href="http://people.eecs.berkeley.edu/~kubitron/courses/cs252/handouts/papers/erasure_iptps.pdf">Link</a></td>
+<td align="center">EC vs replication</td>
 </tr>
 </tbody>
 </table>
@@ -698,7 +746,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">HotEdge'20</td>
 <td align="center">Sharing and Caring of Data at the Edge.</td>
 <td align="center"><a href="/posts/2021/02/paper-reading-sharing-hotedge20/">Summary</a></td>
-<td align="center">edge storage survey</td>
+<td align="center">Edge storage survey (including a list of papers, must read)</td>
 </tr>
 <tr>
 <td align="center">JPDC'20</td>
@@ -708,9 +756,85 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<ul>
-<li><a href="#sec--symposium-on-edge-computing--paper-list">SEC Paper List</a></li>
-</ul>
+<h4 id="sec-symposium-on-edge-computing-paper-list">SEC (Symposium on Edge Computing) Paper List</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Venue</th>
+<th align="center">Title</th>
+<th align="center">Link / Summary</th>
+<th align="center">Brief</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">SEC’17</td>
+<td align="center">EdgeCourier: An Edge-hosted Personal Service for Low-bandwidth Document Synchronization in Mobile Cloud Storage Services</td>
+<td align="center">---</td>
+<td align="center">---</td>
+</tr>
+<tr>
+<td align="center">SEC’17</td>
+<td align="center">CloudPath: A Multi-Tier Cloud Computing Framework</td>
+<td align="center">---</td>
+<td align="center">---</td>
+</tr>
+<tr>
+<td align="center">SEC’17</td>
+<td align="center">LAVEA: Latency-aware Video Analytics on Edge Computing Platform</td>
+<td align="center">---</td>
+<td align="center">---</td>
+</tr>
+<tr>
+<td align="center">SEC’17</td>
+<td align="center">Fast Transparent Virtual Machine Migration in Distributed Edge Clouds</td>
+<td align="center">---</td>
+<td align="center">---</td>
+</tr>
+<tr>
+<td align="center">SEC’17</td>
+<td align="center">A Vehicle-based Edge Computing Platform for Transit and Human Mobility Analytics</td>
+<td align="center">---</td>
+<td align="center">---</td>
+</tr>
+<tr>
+<td align="center">SEC’18</td>
+<td align="center">VideoEdge: Processing Camera Streams using Hierarchical Clusters</td>
+<td align="center">---</td>
+<td align="center">---</td>
+</tr>
+<tr>
+<td align="center">SEC’18</td>
+<td align="center">Extend Cloud to Edge with KubeEdge</td>
+<td align="center">---</td>
+<td align="center">---</td>
+</tr>
+<tr>
+<td align="center">SEC’19</td>
+<td align="center">Sandpaper: mitigating performance interference in CDN edge proxies</td>
+<td align="center">---</td>
+<td align="center">---</td>
+</tr>
+<tr>
+<td align="center">SEC’19</td>
+<td align="center">Real-time traffic estimation at vehicular edge nodes</td>
+<td align="center">---</td>
+<td align="center">---</td>
+</tr>
+<tr>
+<td align="center">SEC’19</td>
+<td align="center">Infrastructure fault detection and prediction in edge cloud environments</td>
+<td align="center">---</td>
+<td align="center">---</td>
+</tr>
+<tr>
+<td align="center">SEC’19</td>
+<td align="center">Why cloud applications are not ready for the edge (yet)</td>
+<td align="center">---</td>
+<td align="center">---</td>
+</tr>
+</tbody>
+</table>
 <h3 id="deduplication">Deduplication</h3>
 <table>
 <thead>
@@ -768,25 +892,6 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="network-measurement">Network Measurement</h3>
-<table>
-<thead>
-<tr>
-<th align="center">Venue</th>
-<th align="center">Title</th>
-<th align="center">Link / Summary</th>
-<th align="center">Brief</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">SIGCOMM'18</td>
-<td align="center">SketchLearn: Relieving User Burdens in Approximate Measurement with Automated Statistical Inference.</td>
-<td align="center"><a href="/posts/2020/08/paper-reading-sketchlearn-sigcomm18/">Summary</a></td>
-<td align="center">SketchLearn</td>
-</tr>
-</tbody>
-</table>
 <h3 id="graph-processing">Graph Processing</h3>
 <table>
 <thead>
@@ -830,7 +935,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">Scheduling proof</td>
 </tr>
 <tr>
-<td align="center">COMMACM'1974</td>
+<td align="center">Communications of ACM'1974</td>
 <td align="center">Scheduling independent tasks to reduce mean finishing time</td>
 <td align="center"><a href="/posts/readings/paper/commacm/commacm1974-scheduling">Summary</a></td>
 <td align="center">Scheduling algorithms</td>
@@ -855,7 +960,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="bipartite-graph">Bipartite Graph</h3>
+<h3 id="graph-theory">Graph Theory</h3>
 <table>
 <thead>
 <tr>
@@ -889,6 +994,87 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">Optimal Balanced Semi-Matchings for Weighted Bipartite Graphs</td>
 <td align="center"><a href="/posts/readings/paper/ipsj/ipsj07-matching">Summary</a></td>
 <td align="center">Optimal Semi-matching proof</td>
+</tr>
+</tbody>
+</table>
+<h3 id="networking">Networking</h3>
+<h4 id="software-defined-network-sdn">Software Defined Network (SDN)</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Venue</th>
+<th align="center">Title</th>
+<th align="center">Link / Summary</th>
+<th align="center">Brief</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Book</td>
+<td align="center">Software-Defined-Networks: A Systems Approach</td>
+<td align="center">Reading notes: <a href="/posts/readings/book/sdn-system/sdn-system-ch1">Ch.1</a>, <a href="/posts/readings/book/sdn-system/sdn-system-ch2">Ch.2</a>, <a href="/posts/readings/book/sdn-system/sdn-system-ch3">Ch.3</a>, <a href="/posts/readings/book/sdn-system/sdn-system-ch4">Ch.4</a>, <a href="/posts/readings/book/sdn-system/sdn-system-ch5">Ch.5</a>, <a href="/posts/readings/book/sdn-system/sdn-system-ch6">Ch.6</a>, <a href="/posts/readings/book/sdn-system/sdn-system-ch7">Ch.7</a>, <a href="/posts/readings/book/sdn-system/sdn-system-ch8">Ch.8</a></td>
+<td align="center">SDN Book</td>
+</tr>
+<tr>
+<td align="center">White paper</td>
+<td align="center">Cisco SD-WAN white paper</td>
+<td align="center"><a href="https://www.cisco.com/c/en/us/solutions/enterprise-networks/sd-wan/white-paper-listing.html">Link</a></td>
+<td align="center">Cisco SD-WAN</td>
+</tr>
+<tr>
+<td align="center">IEEE Communications Surveys &amp; Tutorials'14</td>
+<td align="center">A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/document/6739370">Link</a></td>
+<td align="center">SDN Survey</td>
+</tr>
+<tr>
+<td align="center">ICCCN'21</td>
+<td align="center">Software-Defined Wide Area Network (SD-WAN): Architecture, Advances and Opportunities</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/document/8847124">Link</a></td>
+<td align="center">SD-WAN Survey</td>
+</tr>
+<tr>
+<td align="center">SIGCOMM'18</td>
+<td align="center">B4: Experience with a Globally-Deployed Software Defined WAN.</td>
+<td align="center"><a href="https://dl.acm.org/doi/10.1145/2534169.2486019">Link</a></td>
+<td align="center">B4</td>
+</tr>
+<tr>
+<td align="center">NSDI'14</td>
+<td align="center">Network Virtualization in Multi-tenant Datacenters.</td>
+<td align="center"><a href="https://www.usenix.org/conference/nsdi14/technical-sessions/presentation/koponen">Link</a></td>
+<td align="center">Network Virtualization</td>
+</tr>
+<tr>
+<td align="center">SIGCOMM'13</td>
+<td align="center">Achieving High Utilization with Software-Driven WAN.</td>
+<td align="center"><a href="https://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p15.pdf">Link</a> (Not done)</td>
+<td align="center">Software-Driven WAN</td>
+</tr>
+<tr>
+<td align="center">SIGCOMM'08</td>
+<td align="center">OpenFlow: Enabling Innovation in Campus Networks.</td>
+<td align="center"><a href="http://ccr.sigcomm.org/online/files/p69-v38n2n-mckeown.pdf">Link</a> (Not done)</td>
+<td align="center">OpenFlow</td>
+</tr>
+</tbody>
+</table>
+<h4 id="network-measurement">Network Measurement</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Venue</th>
+<th align="center">Title</th>
+<th align="center">Link / Summary</th>
+<th align="center">Brief</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">SIGCOMM'18</td>
+<td align="center">SketchLearn: Relieving User Burdens in Approximate Measurement with Automated Statistical Inference.</td>
+<td align="center"><a href="/posts/2020/08/paper-reading-sketchlearn-sigcomm18/">Summary</a></td>
+<td align="center">SketchLearn</td>
 </tr>
 </tbody>
 </table>
@@ -1105,7 +1291,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="data-placement_1">Data Placement</h4>
+<h4 id="data-placement">Data Placement</h4>
 <table>
 <thead>
 <tr>
@@ -1317,90 +1503,11 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="sec-symposium-on-edge-computing-paper-list">SEC (Symposium on Edge Computing) Paper List</h3>
-<table>
-<thead>
-<tr>
-<th align="center">Venue</th>
-<th align="center">Title</th>
-<th align="center">Link / Summary</th>
-<th align="center">Brief</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">SEC’17</td>
-<td align="center">EdgeCourier: An Edge-hosted Personal Service for Low-bandwidth Document Synchronization in Mobile Cloud Storage Services</td>
-<td align="center">---</td>
-<td align="center">---</td>
-</tr>
-<tr>
-<td align="center">SEC’17</td>
-<td align="center">CloudPath: A Multi-Tier Cloud Computing Framework</td>
-<td align="center">---</td>
-<td align="center">---</td>
-</tr>
-<tr>
-<td align="center">SEC’17</td>
-<td align="center">LAVEA: Latency-aware Video Analytics on Edge Computing Platform</td>
-<td align="center">---</td>
-<td align="center">---</td>
-</tr>
-<tr>
-<td align="center">SEC’17</td>
-<td align="center">Fast Transparent Virtual Machine Migration in Distributed Edge Clouds</td>
-<td align="center">---</td>
-<td align="center">---</td>
-</tr>
-<tr>
-<td align="center">SEC’17</td>
-<td align="center">A Vehicle-based Edge Computing Platform for Transit and Human Mobility Analytics</td>
-<td align="center">---</td>
-<td align="center">---</td>
-</tr>
-<tr>
-<td align="center">SEC’18</td>
-<td align="center">VideoEdge: Processing Camera Streams using Hierarchical Clusters</td>
-<td align="center">---</td>
-<td align="center">---</td>
-</tr>
-<tr>
-<td align="center">SEC’18 short</td>
-<td align="center">Extend Cloud to Edge with KubeEdge</td>
-<td align="center">---</td>
-<td align="center">---</td>
-</tr>
-<tr>
-<td align="center">SEC’19</td>
-<td align="center">Sandpaper: mitigating performance interference in CDN edge proxies</td>
-<td align="center">---</td>
-<td align="center">---</td>
-</tr>
-<tr>
-<td align="center">SEC’19</td>
-<td align="center">Real-time traffic estimation at vehicular edge nodes</td>
-<td align="center">---</td>
-<td align="center">---</td>
-</tr>
-<tr>
-<td align="center">SEC’19</td>
-<td align="center">Infrastructure fault detection and prediction in edge cloud environments</td>
-<td align="center">---</td>
-<td align="center">---</td>
-</tr>
-<tr>
-<td align="center">SEC’19</td>
-<td align="center">Why cloud applications are not ready for the edge (yet)</td>
-<td align="center">---</td>
-<td align="center">---</td>
-</tr>
-</tbody>
-</table>
 </p>
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=hjlE08H62g0QrFuFnXlDVZSpUAsKAk-ankkgLdsKGGA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff"></script>
 <div id="footer">
 <div id="footer-text">
-Page generated 2023-08-17 13:06:46 HKT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2023-08-18 14:20:01 HKT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>

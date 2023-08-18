@@ -3,10 +3,10 @@
 Title: Heuristic Algorithms for Scheduling Independent Tasks on Nonidentical
 Processors
 
-Conference (): [link]()
+Conference (): [Link]()
 
 Journal (Journal of the ACM'1977):
-[link](https://doi.org/10.1145/322003.322011)
+[Link](https://doi.org/10.1145/322003.322011)
 
 ## Summary
 

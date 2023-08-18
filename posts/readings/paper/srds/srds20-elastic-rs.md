@@ -3,9 +3,9 @@
 Title: Enabling I/O-Efficient Redundancy Transitioning in Erasure-Coded KV
 Stores via Elastic Reed-Solomon Codes
 
-Conference (SRDS'20): [link](https://ieeexplore.ieee.org/document/9252042)
+Conference (SRDS'20): [Link](https://ieeexplore.ieee.org/document/9252042)
 
-Journal (): [link]()
+Journal (): [Link]()
 
 ## Summary
 

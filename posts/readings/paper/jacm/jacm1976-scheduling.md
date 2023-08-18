@@ -2,10 +2,10 @@
 
 Title: Exact and Approximate Algorithms for Scheduling Nonidentical Processors
 
-Conference (): [link]()
+Conference (): [Link]()
 
 Journal (Journal of the ACM, 1976):
-[link](https://dl.acm.org/doi/abs/10.1145/321941.321951)
+[Link](https://dl.acm.org/doi/abs/10.1145/321941.321951)
 
 ## Summary
 

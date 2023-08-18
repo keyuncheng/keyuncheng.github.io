@@ -3,9 +3,9 @@
 Title: Scheduling independent tasks to reduce mean finishing time
 
 Conference (Communications of the ACM'1974):
-[link](https://doi.org/10.1145/361011.361064)
+[Link](https://doi.org/10.1145/361011.361064)
 
-Journal (): [link]()
+Journal (): [Link]()
 
 ## Summary
 

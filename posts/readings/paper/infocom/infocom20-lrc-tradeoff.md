@@ -2,9 +2,9 @@
 
 Title: On the Optimal Repair-Scaling Trade-off in Locally Repairable Codes
 
-Conference (INFOCOM'20): [link](https://ieeexplore.ieee.org/document/9155417)
+Conference (INFOCOM'20): [Link](https://ieeexplore.ieee.org/document/9155417)
 
-Journal (TPDS'22): [link](https://ieeexplore.ieee.org/document/9448455)
+Journal (TPDS'22): [Link](https://ieeexplore.ieee.org/document/9448455)
 
 ## Summary
 
