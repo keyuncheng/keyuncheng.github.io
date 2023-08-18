@@ -58,7 +58,7 @@ PVLDB'13 | XORing Elephants: Novel Erasure Codes for Big Data. | [Summary](/post
 TOS'13 | Pyramid Codes: Flexible Schemes to Trade Space for Access Efficiency in Reliable Data Storage Systems. | [Summary](/posts/2020/09/paper-reading-pyramid-codes-tos13/) | Pyramid codes
 ISIT'13, TIT'17 | A Piggybacking Design Framework for Read-and Download-efficient Distributed Storage Codes | [Link](https://ieeexplore.ieee.org/document/7949040) | Piggybacking codes
 TOS'12 | Generalized X-code: An efficient RAID-6 code for arbitrary size of disk array. | [Summary](/posts/2020/10/paper-reading-generalized-x-code-tos12/) | Generalized X-codes
-ATC'12 | Erasure Coding in Windows Azure Storage. | [Summary](/posts/2020/08/paper-reading-huang-lrc-atc12/) | Azure-LRC
+ATC'12 | Erasure Coding in Windows Azure Storage. | [Summary](/posts/readings/paper/atc/atc12-azurelrc) | Azure-LRC
 ISIT'10, TIT'10 | Optimal Exact-Regenerating Codes for Distributed Storage at the MSR and MBR Points via a Product-Matrix Construction | [Link](https://ieeexplore.ieee.org/document/5961826) | Product-Matrix Code
 TOS'09 | GRID codes: Strip-based erasure codes with high fault tolerance for storage systems. | [Summary](/posts/2020/10/paper-reading-grid-codes-tos09/) | GRID codes
 FAST'04 | Improving Storage System Availability with D-GRAID | [Link](https://www.usenix.org/conference/fast-04/improving-storage-system-availability-d-graid) | D-GRAID codes
