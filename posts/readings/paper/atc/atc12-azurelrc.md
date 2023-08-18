@@ -8,7 +8,11 @@ Journal (): [Link]()
 
 ## Summary
 
-This paper introduces well known Local Reconstruction Codes (LRC). "LRC reduces the number of erasure coding fragments that need to be read when reconstructing data fragments that are offline, while still keeping the storage overhead low." This paper also introduces LRC in WAS (Windows Azure Storage).
+This paper introduces Windows's Azure Local Reconstruction Codes (Azure's
+LRCs). LRC reduces the number of erasure coding fragments that need to be read
+when reconstructing the failed data fragments, while still keeping the storage
+overhead low. The construction is based on local groups, each of which encodes
+partial data fragments.
 
 ## Main Contributions
 
@@ -18,24 +22,43 @@ This paper introduces well known Local Reconstruction Codes (LRC). "LRC reduces 
   size, WAS will perform erasure coding on the data. Erasure coding is lazily
   performed in the background.
 
-* Problems: reconstruction takes a long time
-    * 
+* Problems: reconstruction takes a long time at the node to read data.
 
-### Background
+* Azure's LRCs have *k* data fragments, *l* local groups, and *r* global
+   parities. *n* total number of fragments, where *n = k + l + r*.
+    * Storage overhead: *1 + (l + r) / k*.
+    * The repair reads fewer data fragments by reading from local groups. But
+   it introduces more storage overhead, as it stores more local parity
+   fragments.
+    * Single fragment failure in a local group: it reads *l* fragments
+      (including *l - 1* data fragments and one parity fragment).
 
-1. Previously Azure uses 3 replica, (n, k) = (12, 4); RS code has to collect 12 copies, performance bounded by single node. 3 replica is commonly accepted industry standard.
+* Azure's LRCs are not MDS codes, where not all multiple failure patterns are
+   recoverable. For example, for (6,2,2) Azure's LRCs, if there are four
+   failures, where 3 data fragments and one parity fragment are all failed,
+   the data are not recoverable, since the remaining parity fragments can't be
+   used to reconstruct the remaining 3 data fragments.
 
-### Approach
+* Azure's LRCs achieves *Maximally Recoverable Property*, which can recover
+   information-theoretically decodable failure patterns. To elaborate, it
+   tolerates (r + 1) failures, but it can not tolerate arbitrary *(l + r)*
+   failures. For example, (6,2,2) Azure's LRCs can tolerate arbitrary 3
+   fragments failure, and it allows all local groups where each group has one
+   single node failure; but it cannot tolerate arbitrary four failures.
 
-1. LRC: *k* data fragments, *l* groups, *r* global parities. *n* total number of fragments, *n = k + l + r*. Storage overhead: *1 + (l + r) / k*
+* Goal of Azure's LRC: how to design coding equations to decode all the
+  information-theoretically decodable failure patterns.
+    * LRC coding equations: XOR for local parities; RS for global parities
+    * Discuss decodable cases of four failures (not all). The other cases are
+      skipped.
+    * Comparing the Pyramid codes, Azure's LRCs have smaller finite field
+      sizes.
+    * An easy method to detect whether the failure pattern is decodable: swap
+      the local parity fragment to the failed data fragment, and see whether
+      there are more than *r* failures for the **data + global parities**. If
+      yes, then the failure pattern is not decodable. 
 
-2. It's done by reading less fragments. It's more efficient if reconstructing a data fragment **only by reading the fragments in a group, as well as the global parity**. But it definitely introduces additional more parity fragments.
-
-3. LRC is not MDS code, but it targets at low reconstruction cost. Some of the 4 failure patterns are not recoverable, like the example (6,2,2). If in 4 fragments, 3 data fragments and one parity are all failed, the group is not recoverable, since the remaining parity can't be used to reconstruct the remaining 3 at all.
-
-4. LRC of (6,2,2) tolerates arbitrary 3 fragments failure, and it allows local group repair with single node failure. This is called Maximally Recoverable Property, it tolerates (r + 1) failures.
-
-5. (To read in more detail later) Reliability Analysis. 
+* Reliability Analysis (**TODO**)
 
 6. In large I/Os, the latency is mostly bottlenecked by network and disk bandwidth. Thus, reducing the read fragments will significantly improves the reconstruction performance.
 
