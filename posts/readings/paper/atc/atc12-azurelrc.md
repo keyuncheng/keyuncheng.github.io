@@ -39,16 +39,17 @@ partial data fragments.
    the data are not recoverable, since the remaining parity fragments can't be
    used to reconstruct the remaining 3 data fragments.
 
-* Azure's LRCs achieves *Maximally Recoverable Property*, which can recover
+* Azure's LRCs achieve *Maximally Recoverable Property*, which can recover
    information-theoretically decodable failure patterns. To elaborate, it
    tolerates (r + 1) failures, but it can not tolerate arbitrary *(l + r)*
    failures. For example, (6,2,2) Azure's LRCs can tolerate arbitrary 3
    fragments failure, and it allows all local groups where each group has one
    single node failure; but it cannot tolerate arbitrary four failures.
 
-* Goal of Azure's LRC: how to design coding equations to decode all the
+* The goal of Azure's LRC: how to design coding equations to decode all the
   information-theoretically decodable failure patterns.
-    * LRC coding equations: XOR for local parities; RS for global parities
+    * LRC coding equations: XOR for local parities; RS for global parity
+      fragments
     * Discuss decodable cases of four failures (not all). The other cases are
       skipped.
     * Comparing the Pyramid codes, Azure's LRCs have smaller finite field
@@ -76,7 +77,7 @@ partial data fragments.
     * Azure reports the number of fault domains as 20.
     * Comparisons: LRC lower bound curve vs RS lower bound curve for fault
       domain <= 20
-        * LRC achieves higher cost and performance trade-off than RS.
+        * LRC achieves a higher cost and performance trade-off than RS.
     * Comparisons: LRC vs other code constructions: HoVer, Stepped
       Combination, Weaver and RS codes
 
