@@ -58,11 +58,30 @@ partial data fragments.
       there are more than *r* failures for the **data + global parities**. If
       yes, then the failure pattern is not decodable. 
 
-* Reliability Analysis (**TODO**)
+* Reliability Analysis
+    * Markov Reliability Model: the modeling is augmented from standard
+      modeling, as LRCs have non-decodable failures. The modeling assumes
+      failures are independent.
+        * Extension of the modeling to correlated failures: check OSDI'10 (GFS)
+    * Average single failure repair rate
+    * multiple repair rate: They make an assumption: in practice, the repair
+      rates for multiple failures (beyond single failures) are dominated by
+      the time taken to detect failure and trigger repair. Thus they set the
+      as 1/T, where T is the time to detect and trigger repair.
+    * Average repair cost (in number of fragments)
+    * Decodability ratio: the ratio of decodable failure patterns to all
+      enumerated failure patterns.
+    * Storage Overhead vs Reconstruction Cost (Figure. 4): there exists a
+      tradeoff between the storage overhead and the reconstruction cost.
+    * Azure reports the number of fault domains as 20.
+    * Comparisons: LRC lower bound curve vs RS lower bound curve for fault
+      domain <= 20
+        * LRC achieves higher cost and performance trade-off than RS.
+    * Comparisons: LRC vs other code constructions: HoVer, Stepped
+      Combination, Weaver and RS codes
 
-6. In large I/Os, the latency is mostly bottlenecked by network and disk bandwidth. Thus, reducing the read fragments will significantly improves the reconstruction performance.
-
-7. WAS chooses LRC (12, 2, 2) and compared with RS (12, 4).
+* WAS chooses LRC (12, 2, 2) as the example under the 20 fault domains.
+    * EC is implemented in the stream layer after the blocks are sealed.
 
 
 ## Strength
@@ -71,6 +90,6 @@ partial data fragments.
 
 ## Weakness
 
-1. Non MDS in theory. Additional storage overhead is introduced for the same fault tolerance.
+1. LRCs are non-MDS codes. Additional storage overhead is introduced for the same fault tolerance.
 
-2. LRC is optimized for reconstructing data fragments but not parity. In terms of parity reconstruction, Weaver codes, HoVer codes and Stepped Combination codes can be more efficient. (It's desiable to tradeoff the parity reconstruction)
+2. LRC is optimized for reconstructing data fragments but not (global) parity fragments. In terms of parity reconstruction, Weaver codes, HoVer codes and Stepped Combination codes can be more efficient.
