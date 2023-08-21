@@ -54,7 +54,7 @@ FAST'15 | Having Your Cake and Eating It Too: Jointly Optimal Erasure Codes for 
 TIT'14 | A family of optimal locally recoverable codes. | [Summary](/posts/2020/09/paper-reading-optimal-lrc-tit14/) | Optimal LRCs
 SIGCOMM’14 | A “Hitchhiker’s” Guide to Fast and Efficient Data Reconstruction in Erasure-coded Data Centers. | [Summary](/posts/2020/08/paper-reading-rashmi-hitchhikker-sigcomm14/) | Rashmi, Hitchhikker’s guide
 FAST'14 | STAIR Codes: A General Family of Erasure Codes for Tolerating Device and Sector Failures in Practical Storage Systems. | [Summary](/posts/2020/08/paper-reading-staircodes-fast14/) | STAIR Codes
-PVLDB'13 | XORing Elephants: Novel Erasure Codes for Big Data. | [Summary](/posts/2020/08/paper-reading-sathiamoorthy-lrc-pvldb13/) | Azure-LRC+
+PVLDB'13 | XORing Elephants: Novel Erasure Codes for Big Data. | [Summary](/posts/readings/paper/pvldb/pvldb13-xorbas) | Xorbas codes
 TOS'13 | Pyramid Codes: Flexible Schemes to Trade Space for Access Efficiency in Reliable Data Storage Systems. | [Summary](/posts/2020/09/paper-reading-pyramid-codes-tos13/) | Pyramid codes
 ISIT'13, TIT'17 | A Piggybacking Design Framework for Read-and Download-efficient Distributed Storage Codes | [Link](https://ieeexplore.ieee.org/document/7949040) | Piggybacking codes
 TOS'12 | Generalized X-code: An efficient RAID-6 code for arbitrary size of disk array. | [Summary](/posts/2020/10/paper-reading-generalized-x-code-tos12/) | Generalized X-codes
@@ -115,6 +115,7 @@ SNAPI'07| Outshining Mirrors: MTTDL of Fixed-Order SSPiRAL Layouts | [Link](http
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 ICPP'22 | Repair-Optimal Data Placement for Locally Repairable Codes with Optimal Minimum Hamming Distance | [Summary](/posts/readings/paper/icpp/icpp22-optimallrc) | LRC, repair, data placement
+SOSP'21 | Geometric Partitioning: Explore the Boundary of Optimal Erasure Code Repair | [Link](https://dl.acm.org/doi/10.1145/3477132.3483558) | Geometric Partitioning
 FAST'21 | Exploiting Combined Locality for Wide-Stripe Erasure Coding in Distributed Storage | [Link](https://www.usenix.org/conference/fast21/presentation/hu) | ECWide, LRC, wide stripe
 IWQoS'21 | EC-Scheduler: A Load-Balanced Scheduler to Accelerate the Straggler Recovery for Erasure Coded Storage Systems | [Summary](/posts/readings/paper/iwqos/iwqos21-ecscheduler) | repair, load balancing  
 HotStorage'20 | SelectiveEC: Selective Reconstruction in Erasure-coded Storage Systems. | [Summary](/posts/2020/08/paper-reading-selectiveec-hotstorage20/) | SelectiveEC, load balancing
