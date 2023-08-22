@@ -74,6 +74,11 @@ This paper introduces Xorbas, another LRC construction. With implementation over
     * Metrics: repair I/O (bytes read), repair bandwidth (Network Traffic) and
       Repair time (duration). The metrics are standard.
 
+* Appendix
+    * Theoretical proofs for the distance of Xorbas-LRCs through *entropy*.
+    * Proving that Xorbas-LRCs have the optimal distance (minimum distance)
+      for the specified locality.
+    * Show the Xorbas-LRC constructions over RS(10,4), and prove the optimal distance.
 
 ## Strength
 
@@ -85,5 +90,4 @@ This paper introduces Xorbas, another LRC construction. With implementation over
   parity to the global parity group and additional local parities. The
   theoretical contribution is very limited.
 
-* It does not study the multiple failures and the related patterns in the
-  theoretical analysis, but only shows via the Markov Reliability Modeling.
+* The construction is not shown to be general. More analysis can be conducted.
