@@ -27,18 +27,18 @@ Venue | Title | Link / Summary | Brief
 Summary | Concepts that must know | [Summary](/posts/2021/07/blogs-ec-basic-concepts/) | EC basic Concepts and keywords
 Manuscript | An Introduction to Galois Fields and Reed-Solomon Coding | [Link](https://people.cs.clemson.edu/~westall/851/rs-code.pdf) | Into to Finite Field and RS code (communication) in Clemenson
 Manuscript | Reed-Solomon Codes | [Link](https://courses.cs.duke.edu//spring10/cps296.3/rs_scribe.pdf) | Intro to RS code from Duke Univ.
-USENIX Login'13 | Erasure Codes for Storage Systems: A Brief Primer. | [Summary](/posts/2020/08/paper-reading-plank-usenixlogin13/) | Plank EC basics
-FAST Tutorial'13 | Tutorial: Erasure Coding for Storage Systems. | [Summary](/posts/2020/08/docs-reading-plank-tutorial-fast13/) | Plank EC tutorial
-FAST'09 | A Performance Evaluation and Examination of Open-Source Erasure Coding Libraries For Storage. | [Summary](/posts/2020/08/paper-reading-plank-fast09/) | Plank EC eval
+USENIX Login'13 | Erasure Codes for Storage Systems: A Brief Primer | [Summary](/posts/2020/08/paper-reading-plank-usenixlogin13/) | Plank EC basics
+FAST Tutorial'13 | Tutorial: Erasure Coding for Storage Systems | [Summary](/posts/2020/08/docs-reading-plank-tutorial-fast13/) | Plank EC tutorial
+FAST'09 | A Performance Evaluation and Examination of Open-Source Erasure Coding Libraries For Storage | [Summary](/posts/2020/08/paper-reading-plank-fast09/) | Plank EC eval
 
 
 #### Network Coding (basics)
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-FAST'11 Poster | Repairing Erasure Codes. | [Link](https://www.usenix.org/legacy/event/fast11/posters_files/Papailiopoulos.pdf) | Network coding for storage (poster)
-IEEE Survey'11 | A Survey on Network Codes. | [Summary](/posts/2021/06/paper-reading-ncstoragesurvey-ieeesurvery/) | Network coding for storage (survey)
-TIT'10 | Network Coding for Distributed Storage Systems. | [Summary](/posts/2020/08/paper-reading-ncstorage-tit10/) | Network coding for storage [video](https://www.youtube.com/watch?v=RMRyP6JRKGk), [report](https://www.cs.cmu.edu/~venkatg/teaching/codingtheory-au14/projects/codes-DSS-report.pdf)
+FAST'11 Poster | Repairing Erasure Codes | [Link](https://www.usenix.org/legacy/event/fast11/posters_files/Papailiopoulos.pdf) | Network coding for storage (poster)
+IEEE Survey'11 | A Survey on Network Codes | [Summary](/posts/2021/06/paper-reading-ncstoragesurvey-ieeesurvery/) | Network coding for storage (survey)
+TIT'10 | Network Coding for Distributed Storage Systems | [Summary](/posts/2020/08/paper-reading-ncstorage-tit10/) | Network coding for storage [video](https://www.youtube.com/watch?v=RMRyP6JRKGk), [report](https://www.cs.cmu.edu/~venkatg/teaching/codingtheory-au14/projects/codes-DSS-report.pdf)
 PPT | Regenerating codes for distributed storage | [Link](https://ewh.ieee.org/r6/scv/mag/MtgSum/Meeting2017_05_2_presentation.pdf) | ---
 
 
@@ -47,27 +47,31 @@ PPT | Regenerating codes for distributed storage | [Link](https://ewh.ieee.org/r
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 FAST'23 | Practical Design Considerations for Wide Locally Recoverable Codes (LRCs) | [Link](https://www.usenix.org/conference/fast23/presentation/kadekodi) | Uniform Cauchy LRCs
-ATC'18 | On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes. | [Summary](/posts/2020/09/paper-reading-lrc-comparison-atc18/) | LRC constructions comparison
-FAST’18 | Clay Codes: Moulding MDS Codes to Yield an MSR Code. | [Summary](/posts/2020/08/paper-reading-clay-codes-fast18/) | Clay codes
-FAST’16 | Opening the Chrysalis: On the Real Repair Performance of MSR Codes. | [Summary](/posts/2020/08/paper-reading-butterfly-codes-fast16/) | Butterfly codes
-FAST'15 | Having Your Cake and Eating It Too: Jointly Optimal Erasure Codes for I/O, Storage, and Network-bandwidth. | [Summary](/posts/2020/08/paper-reading-rashmi-pm-rbt-fast15/) | PM-RBT codes
-TIT'14 | A family of optimal locally recoverable codes. | [Summary](/posts/2020/09/paper-reading-optimal-lrc-tit14/) | Optimal LRCs
-SIGCOMM’14 | A “Hitchhiker’s” Guide to Fast and Efficient Data Reconstruction in Erasure-coded Data Centers. | [Summary](/posts/2020/08/paper-reading-rashmi-hitchhikker-sigcomm14/) | Rashmi, Hitchhikker’s guide
-FAST'14 | STAIR Codes: A General Family of Erasure Codes for Tolerating Device and Sector Failures in Practical Storage Systems. | [Summary](/posts/2020/08/paper-reading-staircodes-fast14/) | STAIR Codes
-PVLDB'13 | XORing Elephants: Novel Erasure Codes for Big Data. | [Summary](/posts/readings/paper/pvldb/pvldb13-xorbas) | Xorbas codes
-TOS'13 | Pyramid Codes: Flexible Schemes to Trade Space for Access Efficiency in Reliable Data Storage Systems. | [Summary](/posts/2020/09/paper-reading-pyramid-codes-tos13/) | Pyramid codes
+ATC'18 | On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes | [Summary](/posts/readings/paper/atc/atc18-lrc-comparison.md) | LRC comparison
+FAST’18 | Clay Codes: Moulding MDS Codes to Yield an MSR Code | [Summary](/posts/2020/08/paper-reading-clay-codes-fast18/) | Clay codes
+TIT'17 | Explicit constructions of high-rate MDS array codes with optimal repair bandwidth | [Link](https://ieeexplore.ieee.org/document/7990181) | Ye and Barg codes
+STOC'16 | Repairing Reed-solomon codes | [Link](https://dl.acm.org/doi/10.1145/2897518.2897525) | RS codes repair with sub-packetization
+FAST’16 | Opening the Chrysalis: On the Real Repair Performance of MSR Codes | [Summary](/posts/2020/08/paper-reading-butterfly-codes-fast16/) | Butterfly codes
+FAST'15 | Having Your Cake and Eating It Too: Jointly Optimal Erasure Codes for I/O, Storage, and Network-bandwidth | [Summary](/posts/2020/08/paper-reading-rashmi-pm-rbt-fast15/) | PM-RBT codes
+TIT'14 | A family of optimal locally recoverable codes | [Summary](/posts/2020/09/paper-reading-optimal-lrc-tit14/) | Optimal LRCs
+TIT'14 | Locally Repairable Codes | [Link](https://ieeexplore.ieee.org/abstract/document/6818438) | LRCs
+SIGCOMM’14 | A “Hitchhiker’s” Guide to Fast and Efficient Data Reconstruction in Erasure-coded Data Centers | [Summary](/posts/2020/08/paper-reading-rashmi-hitchhikker-sigcomm14/) | Hitchhikker codes
+FAST'14 | STAIR Codes: A General Family of Erasure Codes for Tolerating Device and Sector Failures in Practical Storage Systems | [Summary](/posts/2020/08/paper-reading-staircodes-fast14/) | STAIR Codes
+PVLDB'13 | XORing Elephants: Novel Erasure Codes for Big Data | [Summary](/posts/readings/paper/pvldb/pvldb13-xorbas) | Xorbas codes
+TOS'13 | Pyramid Codes: Flexible Schemes to Trade Space for Access Efficiency in Reliable Data Storage Systems | [Summary](/posts/2020/09/paper-reading-pyramid-codes-tos13/) | Pyramid codes
 ISIT'13, TIT'17 | A Piggybacking Design Framework for Read-and Download-efficient Distributed Storage Codes | [Link](https://ieeexplore.ieee.org/document/7949040) | Piggybacking codes
-TOS'12 | Generalized X-code: An efficient RAID-6 code for arbitrary size of disk array. | [Summary](/posts/2020/10/paper-reading-generalized-x-code-tos12/) | Generalized X-codes
-ATC'12 | Erasure Coding in Windows Azure Storage. | [Summary](/posts/readings/paper/atc/atc12-azurelrc) | Azure-LRC
+TOS'12 | Generalized X-code: An efficient RAID-6 code for arbitrary size of disk array | [Summary](/posts/2020/10/paper-reading-generalized-x-code-tos12/) | Generalized X-codes
+TIT'12 | On the Locality of Codeword Symbols | [Link](https://ieeexplore.ieee.org/document/6259860) | Theory of LRCs
+ATC'12 | Erasure Coding in Windows Azure Storage | [Summary](/posts/readings/paper/atc/atc12-azurelrc) | Azure-LRC
 ISIT'10, TIT'10 | Optimal Exact-Regenerating Codes for Distributed Storage at the MSR and MBR Points via a Product-Matrix Construction | [Link](https://ieeexplore.ieee.org/document/5961826) | Product-Matrix Code
-TOS'09 | GRID codes: Strip-based erasure codes with high fault tolerance for storage systems. | [Summary](/posts/2020/10/paper-reading-grid-codes-tos09/) | GRID codes
+TOS'09 | GRID codes: Strip-based erasure codes with high fault tolerance for storage systems | [Summary](/posts/2020/10/paper-reading-grid-codes-tos09/) | GRID codes
 FAST'04 | Improving Storage System Availability with D-GRAID | [Link](https://www.usenix.org/conference/fast-04/improving-storage-system-availability-d-graid) | D-GRAID codes
 FAST'04 | Row-Diagonal Parity for Double Disk Failure Correction | [Link](https://www.usenix.org/conference/fast-04/row-diagonal-parity-double-disk-failure-correction#:~:text=Row%2DDiagonal%20Parity%20(RDP),both%20during%20construction%20and%20reconstruction.) | RDP codes
 ATC'1996 | AFRAID - A Frequently Redundant Array of Independent Disks | [Link](https://www.usenix.org/legacy/publications/library/proceedings/sd96/full_papers/wilkes.pdf) | AFRAID
 ISCA'1994, TC'1995 | EVENODD: an optimal scheme for tolerating double disk failures in RAID architectures | [Link](https://dl.acm.org/doi/10.1145/191995.192033) | EVENODD codes
 SIGMOD'1988 | A Case for Redundant Arrays of Inexpensive Disks (RAID) | [Link](https://dl.acm.org/doi/10.1145/50202.50214) | RAID
-SIGMETRICS Perf. Eval. Review'1995 | Striping in a RAID level 5 disk array | [Link](https://dl.acm.org/doi/10.1145/223586.223603) | RAID striping
-SIAM'1960 | Polynomial Codes Over Certain Finite Fields. | [Summary](/posts/2021/06/paper-reading-rs-siam1960/) | RS codes (original version)
+SIGMETRICS Perf Eval. Review'1995 | Striping in a RAID level 5 disk array | [Link](https://dl.acm.org/doi/10.1145/223586.223603) | RAID striping
+SIAM'1960 | Polynomial Codes Over Certain Finite Fields | [Summary](/posts/2021/06/paper-reading-rs-siam1960/) | RS codes (original version)
 
 
 
@@ -78,11 +82,11 @@ Venue | Title | Link / Summary | Brief
 OSDI'22 | Tiger: disk-adaptive redundancy without placement restrictions | [Summary](/posts/readings/paper/osdi/osdi22-tiger) | Tiger
 ISIT'22 | Bandwidth Cost of Code Conversions in the Split Regime | [Link](https://arxiv.org/abs/2205.06793) | Convertible codes: bandwidth
 ISIT'21, TIT'23 | Bandwidth Cost of Code Conversions in Distributed Storage: Fundamental Limits and Optimal Constructions | [Link](https://ieeexplore.ieee.org/document/10097511) | Convertible codes: bandwidth
-INFOCOM'22 | Optimal Data Placement for Stripe Merging in Locally Repairable Codes. | [Summary](/posts/readings/paper/infocom/infocom22-lrc) | LRC stripe merging
-ICDCS'21 | StripeMerge: Efficient Wide-Stripe Generation for Large-Scale Erasure-Coded Storage. | [Summary](/posts/readings/paper/icdcs/icdcs21-stripemerge) | StripeMerge
+INFOCOM'22 | Optimal Data Placement for Stripe Merging in Locally Repairable Codes | [Summary](/posts/readings/paper/infocom/infocom22-lrc) | LRC stripe merging
+ICDCS'21 | StripeMerge: Efficient Wide-Stripe Generation for Large-Scale Erasure-Coded Storage | [Summary](/posts/readings/paper/icdcs/icdcs21-stripemerge) | StripeMerge
 OSDI'20 | Pacemaker: avoiding HeART attacks in storage clusters with disk-adaptive redundancy | [Summary](/posts/readings/paper/osdi/osdi20-pacemaker) | PACEMAKER
-SRDS'20 | Enabling I/O-Efficient Redundancy Transitioning in Erasure-Coded KV Stores via Elastic Reed-Solomon Codes. | [Summary](/posts/readings/paper/srds/srds20-elastic-rs) | Elastic Reed-Solomon (ERS) codes
-INFOCOM'20 | On the Optimal Repair-Scaling Trade-off in Locally Repairable Codes. | [Summary](/posts/readings/paper/infocom/infocom20-lrc-tradeoff) | LRC Repair-Scaling Tradeoff
+SRDS'20 | Enabling I/O-Efficient Redundancy Transitioning in Erasure-Coded KV Stores via Elastic Reed-Solomon Codes | [Summary](/posts/readings/paper/srds/srds20-elastic-rs) | Elastic Reed-Solomon (ERS) codes
+INFOCOM'20 | On the Optimal Repair-Scaling Trade-off in Locally Repairable Codes | [Summary](/posts/readings/paper/infocom/infocom20-lrc-tradeoff) | LRC Repair-Scaling Tradeoff
 IEEE Access'20 | Efficient Storage Scaling for MBR and MSR Codes | [Summary](/posts/readings/paper/ieeeaccess/ieeeaccess20-rc-scaling) | MSR codes, scaling
 ITCS'20, TIT'22 | Convertible Codes: New Class of Codes for Efficient Conversion of Coded Data in Distributed Storage | [Summary](/posts/readings/paper/itcs/itcs20-convertible-codes) | Convertible Codes: I/O
 ISIT'20 | Access-optimal Linear MDS Convertible Codes for All Parameters | [Summary](/posts/readings/paper/isit/isit20-access-optimal-convertible-codes) | Access-optimal Convertible Codes
@@ -90,7 +94,7 @@ FAST'19 | Cluster storage systems gotta have HeART: improving storage efficiency
 ISIT'18 | Generalized Optimal Storage Scaling via Network Coding | [Summary](/posts/readings/paper/isit/isit18-nc-scaling) | Network coding, scaling
 INFOCOM'18, TPDS'22 | Toward Optimal Storage Scaling via Network Coding: From Theory to Practice | [Summary](/posts/readings/paper/infocom/infocom18-ncscale) | NCScale, scaling
 TPDS'16 | I/O-Efficient Scaling Schemes for Distributed Storage Systems with CRS Codes | [Link](http://ieeexplore.ieee.org/abstract/document/7347422/) | CRS, scaling
-DSN'15, TPDS'17 | Enabling Efficient and Reliable Transition from Replication to Erasure Coding for Clustered File Systems. | [Link](https://ieeexplore.ieee.org/document/7872497) | Replication to EC transitioning
+DSN'15, TPDS'17 | Enabling Efficient and Reliable Transition from Replication to Erasure Coding for Clustered File Systems | [Link](https://ieeexplore.ieee.org/document/7872497) | Replication to EC transitioning
 FAST'15 | A Tale of Two Erasure Codes in HDFS | [Summary](/posts/2020/09/paper-reading-twoec-fast15/) | HACFS
 TC'15 | Accelerate RDP RAID-6 Scaling by Reducing Disk I/Os and XOR Operations | [Link](http://ieeexplore.ieee.org/abstract/document/6642028/) | RAID, scaling
 TPDS'14 | An Efficient Scaling Scheme for RS-Coded Storage Clusters | [Summary](/posts/readings/paper/tpds/tpds14-scalers) | Scale-RS, scaling
@@ -118,14 +122,14 @@ ICPP'22 | Repair-Optimal Data Placement for Locally Repairable Codes with Optima
 SOSP'21 | Geometric Partitioning: Explore the Boundary of Optimal Erasure Code Repair | [Link](https://dl.acm.org/doi/10.1145/3477132.3483558) | Geometric Partitioning
 FAST'21 | Exploiting Combined Locality for Wide-Stripe Erasure Coding in Distributed Storage | [Link](https://www.usenix.org/conference/fast21/presentation/hu) | ECWide, LRC, wide stripe
 IWQoS'21 | EC-Scheduler: A Load-Balanced Scheduler to Accelerate the Straggler Recovery for Erasure Coded Storage Systems | [Summary](/posts/readings/paper/iwqos/iwqos21-ecscheduler) | repair, load balancing  
-HotStorage'20 | SelectiveEC: Selective Reconstruction in Erasure-coded Storage Systems. | [Summary](/posts/2020/08/paper-reading-selectiveec-hotstorage20/) | SelectiveEC, load balancing
-Eurosys'20 | RAIDP: replication with intra-disk parity. | [Summary](/posts/2020/08/paper-reading-raidp-eurosys20/) | RAID-P
-FAST'19 | Fast Erasure Coding for Data Storage: A Comprehensive Study of the Acceleration Techniques. | [Summary](/posts/2020/08/paper-reading-ec-acceleration-fast19/) | repair acceleration
-DSN'19 | Fast Predictive Repair in Erasure-Coded Storage. | [Summary](/posts/2020/08/paper-reading-fpr-dsn19/) | FastPR, repair, parallelization
-ATC'17 | Repair Pipelining for Erasure-Coded Storage. | [Summary](/posts/2020/08/paper-reading-repair-pipelining-atc17/) | ECPipe, repair, parallelization
-Eurosys'16 | Partial-Parallel-Repair (PPR): A Distributed Technique for Repairing Erasure Coded Storage. | [Summary](/posts/2020/08/paper-reading-ppr-eurosys16/) | PPR, repair, parallelization
-MSST’12 | On the speedup of single-disk failure recovery in XOR-coded storage systems: Theory and practice. | [Summary](/posts/2020/09/paper-reading-zhu-replace-recovery-msst12/) | repair
-FAST'12 | Rethinking Erasure Codes for Cloud File Systems: Minimizing I/O for Recovery and Degraded Reads. | [Summary](/posts/2020/09/paper-reading-khan-fast12/) | repair
+HotStorage'20 | SelectiveEC: Selective Reconstruction in Erasure-coded Storage Systems | [Summary](/posts/2020/08/paper-reading-selectiveec-hotstorage20/) | SelectiveEC, load balancing
+Eurosys'20 | RAIDP: replication with intra-disk parity | [Summary](/posts/2020/08/paper-reading-raidp-eurosys20/) | RAID-P
+FAST'19 | Fast Erasure Coding for Data Storage: A Comprehensive Study of the Acceleration Techniques | [Summary](/posts/2020/08/paper-reading-ec-acceleration-fast19/) | repair acceleration
+DSN'19 | Fast Predictive Repair in Erasure-Coded Storage | [Summary](/posts/2020/08/paper-reading-fpr-dsn19/) | FastPR, repair, parallelization
+ATC'17 | Repair Pipelining for Erasure-Coded Storage | [Summary](/posts/2020/08/paper-reading-repair-pipelining-atc17/) | ECPipe, repair, parallelization
+Eurosys'16 | Partial-Parallel-Repair (PPR): A Distributed Technique for Repairing Erasure Coded Storage | [Summary](/posts/2020/08/paper-reading-ppr-eurosys16/) | PPR, repair, parallelization
+MSST’12 | On the speedup of single-disk failure recovery in XOR-coded storage systems: Theory and practice | [Summary](/posts/2020/09/paper-reading-zhu-replace-recovery-msst12/) | repair
+FAST'12 | Rethinking Erasure Codes for Cloud File Systems: Minimizing I/O for Recovery and Degraded Reads | [Summary](/posts/2020/09/paper-reading-khan-fast12/) | repair
 
 
 
@@ -139,19 +143,19 @@ FAST'22 | DEPART: Replica Decoupling for Distributed Key-Value Storage | [Link](
 NSDI'20 | Near-Optimal Latency Versus Cost Tradeoffs in Geo-Distributed Storage | [Summary](/posts/2021/06/paper-reading-pando-nsdi20/) | PANDO, consensus, EC
 SC'20 | INEC: Fast and Coherent In-Network Erasure Coding | [Link](https://ieeexplore.ieee.org/document/9355252) | INEC, RDMA
 SC'19 | TriEC: tripartite graph based erasure coding NIC offload | [Link](https://dl.acm.org/doi/abs/10.1145/3295500.3356178) | TriEC, RDMA
-SYSTOR'19 | Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways. | [Summary](/posts/2021/02/paper-reading-kruma-systor19/) | Kurma
+SYSTOR'19 | Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways | [Summary](/posts/2021/02/paper-reading-kruma-systor19/) | Kurma
 SoCC'19 | Coupling Decentralized Key-Value Stores with Erasure Coding | [Summary](/posts/readings/paper/socc/socc19-echash) | ECHash, KVStore
 HPDC'19 | UMR-EC: A Unified and Multi-Rail Erasure Coding Library for High-Performance Distributed Storage Systems | [Link](https://dl.acm.org/doi/abs/10.1145/3307681.3325406) | UMR-EC, RDMA
-FAST'19 | OpenEC: Toward Unified and Configurable Erasure Coding Management in Distributed Storage Systems. | [Summary](/posts/2020/08/paper-reading-openec-fast19/) | OpenEC
+FAST'19 | OpenEC: Toward Unified and Configurable Erasure Coding Management in Distributed Storage Systems | [Summary](/posts/2020/08/paper-reading-openec-fast19/) | OpenEC
 ICDCS'17 | High-Performance and Resilient Key-Value Store with Online Erasure Coding for Big Data Workloads | [Link](https://ieeexplore.ieee.org/document/7979997) | RDMA
-OSDI'16 | EC-Cache: Load-Balanced, Low-Latency Cluster Caching with Online Erasure Coding. | [Summary](/posts/2021/02/paper-reading-eccache-osdi16/) | Rashmi, EC-Cache
-OSDI'14 | Pelican: A Building Block for Exascale Cold Data Storage. | [Summary](/posts/2021/06/paper-reading-pelican-osdi14/) | Pelican, cold DSS
-ATC'14 | SCFS: A Shared Cloud-backed File System. | [Summary](/posts/2021/01/paper-reading-scfs-atc14/) | SCFS, Depsky extension
-SoCC'14 | Hybris: Robust Hybrid Cloud Storage. | [Summary](/posts/2021/02/paper-reading-hybris-socc14/) | Hybris
+OSDI'16 | EC-Cache: Load-Balanced, Low-Latency Cluster Caching with Online Erasure Coding | [Summary](/posts/2021/02/paper-reading-eccache-osdi16/) |  EC-Cache
+OSDI'14 | Pelican: A Building Block for Exascale Cold Data Storage | [Summary](/posts/2021/06/paper-reading-pelican-osdi14/) | Pelican, cold DSS
+ATC'14 | SCFS: A Shared Cloud-backed File System | [Summary](/posts/2021/01/paper-reading-scfs-atc14/) | SCFS, Depsky extension
+SoCC'14 | Hybris: Robust Hybrid Cloud Storage | [Summary](/posts/2021/02/paper-reading-hybris-socc14/) | Hybris
 SOSP'13 | SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services | [Summary](/posts/2021/02/paper-reading-spanstore-sosp13/) | SPANStore
-FAST'12 | NCCloud: A Network-Coding-Based Storage System in a Cloud-of-Clouds. | [Summary](/posts/2019/06/paper-reading-nccloud-fast12/) | NCCloud, network coding
-Eurosys'11 | DEPSKY: A High-Availability and Integrity Layer for Cloud Storage. | [Summary](/posts/2019/07/paper-reading-depsky-eurosys11/) | Depsky
-SoCC'10 | RACS: a case for cloud storage diversity. | [Summary](/posts/2019/07/paper-reading-racs-socc10/) | RACS
+FAST'12 | NCCloud: A Network-Coding-Based Storage System in a Cloud-of-Clouds | [Summary](/posts/2019/06/paper-reading-nccloud-fast12/) | NCCloud, network coding
+Eurosys'11 | DEPSKY: A High-Availability and Integrity Layer for Cloud Storage | [Summary](/posts/2019/07/paper-reading-depsky-eurosys11/) | Depsky
+SoCC'10 | RACS: a case for cloud storage diversity | [Summary](/posts/2019/07/paper-reading-racs-socc10/) | RACS
 
 
 #### Miscellaneous
@@ -165,8 +169,8 @@ IPTPS'02 |  Erasure coding vs. replication:a quantitative comparison | [Link](ht
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-HotEdge'20 | Sharing and Caring of Data at the Edge. | [Summary](/posts/2021/02/paper-reading-sharing-hotedge20/) | Edge storage survey (including a list of papers, must read)
-JPDC'20 | EdgeKV: Decentralized, scalable, and consistent storage for the edge. | [Summary](/posts/2021/06/paper-reading-edgekv-jpdc20/) | EdgeKV
+HotEdge'20 | Sharing and Caring of Data at the Edge | [Summary](/posts/2021/02/paper-reading-sharing-hotedge20/) | Edge storage survey (including a list of papers, must read)
+JPDC'20 | EdgeKV: Decentralized, scalable, and consistent storage for the edge | [Summary](/posts/2021/06/paper-reading-edgekv-jpdc20/) | EdgeKV
 
 
 #### SEC (Symposium on Edge Computing) Paper List
@@ -191,29 +195,29 @@ SEC’19 | Why cloud applications are not ready for the edge (yet) | --- | ---
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-ATC'15 | Toward Reliable, Secure, and Cost-Efficient Cloud Storage via Convergent Dispersal. | [Summary](/posts/2019/06/paper-reading-cdstore/) | CDStore
+ATC'15 | Toward Reliable, Secure, and Cost-Efficient Cloud Storage via Convergent Dispersal | [Summary](/posts/2019/06/paper-reading-cdstore/) | CDStore
 
 
 ### Consensus
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-ATC'14 | In Search of an Understandable Consensus Algorithm. | [Summary](/posts/2019/07/paper-reading-raft-atc14/) | Raft
+ATC'14 | In Search of an Understandable Consensus Algorithm | [Summary](/posts/2019/07/paper-reading-raft-atc14/) | Raft
 
 
 ### Stream Processing
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-ICDCS'20 | Toward Adaptive Disk Failure Prediction via Stream Mining. | [Summary](/posts/2020/08/paper-reading-streamdfp-icdcs20/) | StreamDFP
+ICDCS'20 | Toward Adaptive Disk Failure Prediction via Stream Mining | [Summary](/posts/2020/08/paper-reading-streamdfp-icdcs20/) | StreamDFP
 
 
 ### Graph Processing
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-OSDI'16 | Gemini: A Computation-Centric Distributed Graph Processing System. | [Summary](/posts/2020/09/paper-reading-gemini-osdi16/) | Gemini
-SIGMOD'19 | Nanosecond Indexing of Graph Data With Hash Maps and VLists. | [Summary](/posts/2020/09/paper-reading-nanosecond-sigmod19/) | Nanosecond
+OSDI'16 | Gemini: A Computation-Centric Distributed Graph Processing System | [Summary](/posts/2020/09/paper-reading-gemini-osdi16/) | Gemini
+SIGMOD'19 | Nanosecond Indexing of Graph Data With Hash Maps and VLists | [Summary](/posts/2020/09/paper-reading-nanosecond-sigmod19/) | Nanosecond
 
 
 ### Scheduling
@@ -247,16 +251,16 @@ Book | Software-Defined-Networks: A Systems Approach | Reading notes: [Ch.1](/po
 White paper | Cisco SD-WAN white paper | [Link](https://www.cisco.com/c/en/us/solutions/enterprise-networks/sd-wan/white-paper-listing.html) | Cisco SD-WAN
 IEEE Communications Surveys & Tutorials'14 | A Survey of Software-Defined Networking: Past, Present, and Future of Programmable Networks | [Link](https://ieeexplore.ieee.org/document/6739370) | SDN Survey
 ICCCN'21 | Software-Defined Wide Area Network (SD-WAN): Architecture, Advances and Opportunities | [Link](https://ieeexplore.ieee.org/document/8847124) | SD-WAN Survey
-SIGCOMM'18 | B4: Experience with a Globally-Deployed Software Defined WAN. | [Link](https://dl.acm.org/doi/10.1145/2534169.2486019) | B4
-NSDI'14 | Network Virtualization in Multi-tenant Datacenters. | [Link](https://www.usenix.org/conference/nsdi14/technical-sessions/presentation/koponen) | Network Virtualization
-SIGCOMM'13 | Achieving High Utilization with Software-Driven WAN. | [Link](https://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p15.pdf) (Not done) | Software-Driven WAN
-SIGCOMM'08 | OpenFlow: Enabling Innovation in Campus Networks. | [Link](http://ccr.sigcomm.org/online/files/p69-v38n2n-mckeown.pdf) (Not done) | OpenFlow
+SIGCOMM'18 | B4: Experience with a Globally-Deployed Software Defined WAN | [Link](https://dl.acm.org/doi/10.1145/2534169.2486019) | B4
+NSDI'14 | Network Virtualization in Multi-tenant Datacenters | [Link](https://www.usenix.org/conference/nsdi14/technical-sessions/presentation/koponen) | Network Virtualization
+SIGCOMM'13 | Achieving High Utilization with Software-Driven WAN | [Link](https://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p15.pdf) (Not done) | Software-Driven WAN
+SIGCOMM'08 | OpenFlow: Enabling Innovation in Campus Networks | [Link](http://ccr.sigcomm.org/online/files/p69-v38n2n-mckeown.pdf) (Not done) | OpenFlow
 
 #### Network Measurement
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-SIGCOMM'18 | SketchLearn: Relieving User Burdens in Approximate Measurement with Automated Statistical Inference. | [Summary](/posts/2020/08/paper-reading-sketchlearn-sigcomm18/) | SketchLearn
+SIGCOMM'18 | SketchLearn: Relieving User Burdens in Approximate Measurement with Automated Statistical Inference | [Summary](/posts/2020/08/paper-reading-sketchlearn-sigcomm18/) | SketchLearn
 
 
 ### TOS (Transaction on Storage) Paper List
@@ -265,106 +269,106 @@ SIGCOMM'18 | SketchLearn: Relieving User Burdens in Approximate Measurement with
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-TOS'09 | GRID codes: Strip-based erasure codes with high fault tolerance for storage systems. | [Link](https://dl.acm.org/doi/10.1145/1480439.1480444) | ---
-TOS'12 | Generalized X-code: An efficient RAID-6 code for arbitrary size of disk array. | [Link](https://dl.acm.org/doi/10.1145/2339118.2339121) | ---
-TOS'13 | Exploiting Redundancies and Deferred Writes to Conserve Energy in Erasure-Coded Storage Clusters. | [Link](https://doi.org/10.1145/2491472.2491473) | ---
-TOS'13 | Pyramid Codes: Flexible Schemes to Trade Space for Access Efficiency in Reliable Data Storage Systems. | [Link](https://doi.org/10.1145/2435204.2435207) | ---
-TOS'14 | STAIR Codes: A General Family of Erasure Codes for Tolerating Device and Sector Failures. | [Link](https://doi.org/10.1145/2658991) | ---
-TOS'14 | Sector-Disk (SD) Erasure Codes for Mixed Failure Modes in RAID Systems. | [Link](https://dl.acm.org/doi/10.1145/2560013) | ---
-TOS'15 | Low-Complexity Implementation of RAID Based on Reed-Solomon Codes. | [Link](https://dl.acm.org/doi/10.1145/2700308) | ---
-TOS'17 | High-Performance General Functional Regenerating Codes with Near-Optimal Repair Bandwidth. | [Link](https://dl.acm.org/doi/10.1145/3051122) | ---
-TOS'17 | Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice. | [Link](https://doi.org/10.1145/3149349) | ---
-TOS'17 | Systematic Erasure Codes with Optimal Repair Bandwidth and Storage. | [Link](https://doi.org/10.1145/3109479) | ---
-TOS'20 | On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes. | [Link](https://doi.org/10.1145/3381832) | ---
-TOS'20 | Fast Erasure Coding for Data Storage: A Comprehensive Study of the Acceleration Techniques. | [Link](https://doi.org/10.1145/3375554) | ---
-TOS'20 | PBS: An Efficient Erasure-Coded Block Storage System Based on Speculative Partial Writes. | [Link](https://doi.org/10.1145/3365839) | ---
+TOS'09 | GRID codes: Strip-based erasure codes with high fault tolerance for storage systems | [Link](https://dl.acm.org/doi/10.1145/1480439.1480444) | ---
+TOS'12 | Generalized X-code: An efficient RAID-6 code for arbitrary size of disk array | [Link](https://dl.acm.org/doi/10.1145/2339118.2339121) | ---
+TOS'13 | Exploiting Redundancies and Deferred Writes to Conserve Energy in Erasure-Coded Storage Clusters | [Link](https://doi.org/10.1145/2491472.2491473) | ---
+TOS'13 | Pyramid Codes: Flexible Schemes to Trade Space for Access Efficiency in Reliable Data Storage Systems | [Link](https://doi.org/10.1145/2435204.2435207) | ---
+TOS'14 | STAIR Codes: A General Family of Erasure Codes for Tolerating Device and Sector Failures | [Link](https://doi.org/10.1145/2658991) | ---
+TOS'14 | Sector-Disk (SD) Erasure Codes for Mixed Failure Modes in RAID Systems | [Link](https://dl.acm.org/doi/10.1145/2560013) | ---
+TOS'15 | Low-Complexity Implementation of RAID Based on Reed-Solomon Codes | [Link](https://dl.acm.org/doi/10.1145/2700308) | ---
+TOS'17 | High-Performance General Functional Regenerating Codes with Near-Optimal Repair Bandwidth | [Link](https://dl.acm.org/doi/10.1145/3051122) | ---
+TOS'17 | Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice | [Link](https://doi.org/10.1145/3149349) | ---
+TOS'17 | Systematic Erasure Codes with Optimal Repair Bandwidth and Storage | [Link](https://doi.org/10.1145/3109479) | ---
+TOS'20 | On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes | [Link](https://doi.org/10.1145/3381832) | ---
+TOS'20 | Fast Erasure Coding for Data Storage: A Comprehensive Study of the Acceleration Techniques | [Link](https://doi.org/10.1145/3375554) | ---
+TOS'20 | PBS: An Efficient Erasure-Coded Block Storage System Based on Speculative Partial Writes | [Link](https://doi.org/10.1145/3365839) | ---
 
 
 #### RAID
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-TOS'05 | Improving storage system availability with D-GRAID. | [Link](https://doi.org/10.1145/1063786.1063787) | ---
-TOS'05 | Reliability and security of RAID storage systems and D2D archives using SATA disk drives. | [Link](https://doi.org/10.1145/1044956.1044961) | ---
-TOS'07 | PARAID: A gear-shifting power-aware RAID. | [Link](https://dl.acm.org/doi/10.1145/1288783.1289721) | ---
-TOS'08 | A new intra-disk redundancy scheme for high-reliability RAID storage systems in the presence of unrecoverable errors. | [Link](https://dl.acm.org/doi/10.1145/1353452.1353453) | ---
-TOS'09 | Higher reliability redundant disk arrays: Organization, operation, and coding. | [Link](https://dl.acm.org/doi/10.1145/1629075.1629076) | ---
-TOS'10 | Differential RAID: Rethinking RAID for SSD reliability. | [Link](https://dl.acm.org/doi/10.1145/1807060.1807061) | ---
-TOS'11 | A Hybrid Approach to Failed Disk Recovery Using RAID-6 Codes: Algorithms and Performance Evaluation. | [Link](https://dl.acm.org/doi/10.1145/2027066.2027071) | ---
-TOS'11 | Minimum density RAID-6 codes. | [Link](https://doi.org/10.1145/1970338.1970341) | ---
-TOS'11 | Online availability upgrades for parity-based RAIDs through supplementary parity augmentations. | [Link](https://doi.org/10.1145/1970338.1970340) | ---
-TOS'11 | Reducing Repair Traffic in P2P Backup Systems: Exact Regenerating Codes on Hierarchical Codes. | [Link](https://doi.org/10.1145/2027066.2027070) | ---
-TOS'11 | Disk Scrubbing Versus Intradisk Redundancy for RAID Storage Systems. | [Link](https://doi.org/10.1145/1970348.1970350) | ---
-TOS'14 | Beyond MTTDL: A Closed-Form RAID 6 Reliability Equation. | [Link](https://doi.org/10.1145/2577386) | ---
-TOS'15 | RAIDShield: Characterizing, Monitoring, and Proactively Protecting Against Disk Failures. | [Link](https://doi.org/10.1145/2820615) | ---
-TOS'15 | An Energy-Efficient and Reliable Storage Mechanism for Data-Intensive Academic Archive Systems. | [Link](https://doi.org/10.1145/2720021) | ---
-TOS'15 | Rebuttal to “Beyond MTTDL: A Closed-Form RAID-6 Reliability Equation”. | [Link](https://doi.org/10.1145/2700311) | ---
-TOS'16 | LoneStar RAID: Massive Array of Offline Disks for Archival Systems. | [Link](https://doi.org/10.1145/2840810) | ---
-TOS'16 | H-Scale: A Fast Approach to Scale Disk Arrays via Hybrid Stripe Deployment. | [Link](https://dl.acm.org/doi/10.1145/2822895) | ---
-TOS'19 | Determining Data Distribution for Large Disk Enclosures with 3-D Data Templates. | [Link](https://doi.org/10.1145/3342858) | RAID+
+TOS'05 | Improving storage system availability with D-GRAID | [Link](https://doi.org/10.1145/1063786.1063787) | ---
+TOS'05 | Reliability and security of RAID storage systems and D2D archives using SATA disk drives | [Link](https://doi.org/10.1145/1044956.1044961) | ---
+TOS'07 | PARAID: A gear-shifting power-aware RAID | [Link](https://dl.acm.org/doi/10.1145/1288783.1289721) | ---
+TOS'08 | A new intra-disk redundancy scheme for high-reliability RAID storage systems in the presence of unrecoverable errors | [Link](https://dl.acm.org/doi/10.1145/1353452.1353453) | ---
+TOS'09 | Higher reliability redundant disk arrays: Organization, operation, and coding | [Link](https://dl.acm.org/doi/10.1145/1629075.1629076) | ---
+TOS'10 | Differential RAID: Rethinking RAID for SSD reliability | [Link](https://dl.acm.org/doi/10.1145/1807060.1807061) | ---
+TOS'11 | A Hybrid Approach to Failed Disk Recovery Using RAID-6 Codes: Algorithms and Performance Evaluation | [Link](https://dl.acm.org/doi/10.1145/2027066.2027071) | ---
+TOS'11 | Minimum density RAID-6 codes | [Link](https://doi.org/10.1145/1970338.1970341) | ---
+TOS'11 | Online availability upgrades for parity-based RAIDs through supplementary parity augmentations | [Link](https://doi.org/10.1145/1970338.1970340) | ---
+TOS'11 | Reducing Repair Traffic in P2P Backup Systems: Exact Regenerating Codes on Hierarchical Codes | [Link](https://doi.org/10.1145/2027066.2027070) | ---
+TOS'11 | Disk Scrubbing Versus Intradisk Redundancy for RAID Storage Systems | [Link](https://doi.org/10.1145/1970348.1970350) | ---
+TOS'14 | Beyond MTTDL: A Closed-Form RAID 6 Reliability Equation | [Link](https://doi.org/10.1145/2577386) | ---
+TOS'15 | RAIDShield: Characterizing, Monitoring, and Proactively Protecting Against Disk Failures | [Link](https://doi.org/10.1145/2820615) | ---
+TOS'15 | An Energy-Efficient and Reliable Storage Mechanism for Data-Intensive Academic Archive Systems | [Link](https://doi.org/10.1145/2720021) | ---
+TOS'15 | Rebuttal to “Beyond MTTDL: A Closed-Form RAID-6 Reliability Equation” | [Link](https://doi.org/10.1145/2700311) | ---
+TOS'16 | LoneStar RAID: Massive Array of Offline Disks for Archival Systems | [Link](https://doi.org/10.1145/2840810) | ---
+TOS'16 | H-Scale: A Fast Approach to Scale Disk Arrays via Hybrid Stripe Deployment | [Link](https://dl.acm.org/doi/10.1145/2822895) | ---
+TOS'19 | Determining Data Distribution for Large Disk Enclosures with 3-D Data Templates | [Link](https://doi.org/10.1145/3342858) | RAID+
 
 
 #### Data Placement
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-TOS'14 | Random Slicing: Efficient and Scalable Data Placement for Large-Scale Storage Systems. | [Link](https://doi.org/10.1145/2632230) | ---
+TOS'14 | Random Slicing: Efficient and Scalable Data Placement for Large-Scale Storage Systems | [Link](https://doi.org/10.1145/2632230) | ---
 
 
 #### Flash-memory
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-TOS'18 | An Analysis of Flash Page Reuse With WOM Codes. | [Link](https://doi.org/10.1145/3177886) | ---
+TOS'18 | An Analysis of Flash Page Reuse With WOM Codes | [Link](https://doi.org/10.1145/3177886) | ---
 
 
 #### Backup
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-TOS'12 | Efficient cooperative backup with decentralized trust management. | [Link](https://doi.org/10.1145/2339118.2339119) | ---
+TOS'12 | Efficient cooperative backup with decentralized trust management | [Link](https://doi.org/10.1145/2339118.2339119) | ---
 
 
 #### Storage System
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-TOS'05 | DISP: Practical, efficient, secure and fault-tolerant distributed data storage. | [Link](https://doi.org/10.1145/1044956.1044960) | ---
-TOS'09 | POTSHARDS—a secure, recoverable, long-term archival storage system. | [Link](https://doi.org/10.1145/1534912.1534914) | ---
-TOS'11 | PRESIDIO: A Framework for Efficient Archival Data Storage. | [Link](https://doi.org/10.1145/1970348.1970351) | ---
-TOS'13 | DepSky: Dependable and Secure Storage in a Cloud-of-Clouds. | [Summary](/posts/2019/07/paper-reading-depsky-eurosys11/) | ---
-TOS'17 | Hybris: Robust Hybrid Cloud Storage. | [Summary](/posts/2021/02/paper-reading-racs-socc14/) | ---
-TOS'17 | Redundancy Does Not Imply Fault Tolerance: Analysis of Distributed Storage Reactions to File-System Faults. | [Link](https://dl.acm.org/doi/10.1145/3125497) | ---
-TOS'19 | Liquid Cloud Storage. | [Link](https://doi.org/10.1145/3281276) | ---
-TOS'20 | The Case for Custom Storage Backends in Distributed Storage Systems. | [Link](https://doi.org/10.1145/3386362) | ---
+TOS'05 | DISP: Practical, efficient, secure and fault-tolerant distributed data storage | [Link](https://doi.org/10.1145/1044956.1044960) | ---
+TOS'09 | POTSHARDS—a secure, recoverable, long-term archival storage system | [Link](https://doi.org/10.1145/1534912.1534914) | ---
+TOS'11 | PRESIDIO: A Framework for Efficient Archival Data Storage | [Link](https://doi.org/10.1145/1970348.1970351) | ---
+TOS'13 | DepSky: Dependable and Secure Storage in a Cloud-of-Clouds | [Summary](/posts/2019/07/paper-reading-depsky-eurosys11/) | ---
+TOS'17 | Hybris: Robust Hybrid Cloud Storage | [Summary](/posts/2021/02/paper-reading-racs-socc14/) | ---
+TOS'17 | Redundancy Does Not Imply Fault Tolerance: Analysis of Distributed Storage Reactions to File-System Faults | [Link](https://dl.acm.org/doi/10.1145/3125497) | ---
+TOS'19 | Liquid Cloud Storage | [Link](https://doi.org/10.1145/3281276) | ---
+TOS'20 | The Case for Custom Storage Backends in Distributed Storage Systems | [Link](https://doi.org/10.1145/3386362) | ---
 
 
 #### KV-Store
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-TOS'17 | Efficient and Available In-Memory KV-Store with Hybrid Erasure Coding and Replication. | [Link](https://doi.org/10.1145/3129900) | ---
+TOS'17 | Efficient and Available In-Memory KV-Store with Hybrid Erasure Coding and Replication | [Link](https://doi.org/10.1145/3129900) | ---
 
 
 #### Benchmark
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-TOS'07 | Understanding disk failure rates: What does an MTTF of 1,000,000 hours mean to you?. | [Link](https://doi.org/10.1145/1288783.1288785) | ---
-TOS'08 | A nine year study of file system and storage benchmarking. | [Link](https://dl.acm.org/doi/10.1145/1367829.1367831) | ---
+TOS'07 | Understanding disk failure rates: What does an MTTF of 1,000,000 hours mean to you? | [Link](https://doi.org/10.1145/1288783.1288785) | ---
+TOS'08 | A nine year study of file system and storage benchmarking | [Link](https://dl.acm.org/doi/10.1145/1367829.1367831) | ---
 
 
 #### Techniques
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-TOS'12 | Efficient software implementations of large finite fields GF(2n) for secure storage applications. | [Link](https://doi.org/10.1145/2093139.2093141) | ---
-TOS'16 | Tools for Predicting the Reliability of Large-Scale Storage Systems. | [Link](https://doi.org/10.1145/2911987) | ---
+TOS'12 | Efficient software implementations of large finite fields GF(2n) for secure storage applications | [Link](https://doi.org/10.1145/2093139.2093141) | ---
+TOS'16 | Tools for Predicting the Reliability of Large-Scale Storage Systems | [Link](https://doi.org/10.1145/2911987) | ---
 
 
 #### File System
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-TOS'14 | A Study of Linux File System Evolution. | [Link](https://doi.org/10.1145/2560012) | ---
-TOS'20 | Everyone Loves File: Oracle File Storage Service. | [Link](https://doi.org/10.1145/3377877) | ---
+TOS'14 | A Study of Linux File System Evolution | [Link](https://doi.org/10.1145/2560012) | ---
+TOS'20 | Everyone Loves File: Oracle File Storage Service | [Link](https://doi.org/10.1145/3377877) | ---
