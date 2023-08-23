@@ -58,7 +58,8 @@ Proceedings of IEEE International Conference on Computer Communications (INFOCOM
 # ------------------
 . Yueming Jin, *Keyun Cheng*, Qi Dou, Pheng Ann Heng. \n
 *"Incorporating Temporal Prior from Motion Flow for Instrument Segmentation in Minimally Invasive Surgery Video."* \n
-Medical Image Computing and Computer Assisted Intervention (MICCAI), 2019. (*Oral*) \n
+Proceedings of the 22nd International Conference on Medical Image Computing
+and Computer Assisted Intervention (MICCAI 2019), Shenzhen, China, Oct 2019. (*Oral*) \n
 [files/publications/miccai19mftapnet.pdf \[pdf\]]
 [https://github.com/keyuncheng/MF-TAPNet \[code\]]
 
