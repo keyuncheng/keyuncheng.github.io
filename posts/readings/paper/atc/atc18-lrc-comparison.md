@@ -28,12 +28,13 @@ of the LRC constructions.
 
 ## Details
 
-* Motivation: directly comparing the costs and benefits of different LRC
-  constructions is *nontrivial*, as these codes have different tradeoffs
-  between storage overhead, recovery costs and degraded read performances.
-  Furthermore, these codes with different parameters have different locality
-  semantics. How to choose the optimal codes under different scenarios is
-  non-trivial.
+* Motivation 
+    * directly comparing the costs and benefits of different LRC constructions
+      is *nontrivial*, as these codes have different tradeoffs between storage
+      overhead, recovery costs and degraded read performances. Furthermore,
+      these codes with different parameters have different locality semantics.
+      How to choose the optimal codes under different scenarios is
+      non-trivial.
   
 * Codes for comparison
     * Azure-LRC
@@ -41,13 +42,18 @@ of the LRC constructions.
     * Xorbas-LRC
     * Optimal-LRC
 
-* LRCs
-    * data-LRCs. Azure LRC and Pyramid codes are data-LRCs. Only the data block and local parities can be repaired locally. Global parities should be repaired with k blocks.
-    * full-LRCs. Xorbas, Optimal-LRC are full-LRCs. The glocal parities can be repaired locally as well. Optimal-LRC requires n mod (r + 1) != 1. The storage overhead is slightly higher, and the code minimum distance is higher than data-LRCs. Gophan has provided an upper bound for the full-LRC code minimum distance, and shows that Optimal-LRC achieves this upper bound.
+* Types of LRCs
+    * data-LRCs. Azure LRC and Pyramid codes are data-LRCs. Only the data block and local parities can be repaired locally. Global parities should be repaired with *k* blocks.
+    * full-LRCs. Xorbas, Optimal-LRC are full-LRCs. The glocal parities can be
+      repaired locally as well. Optimal-LRC requires *n mod (r + 1) != 1*. The
+      storage overhead is slightly higher, and the code minimum distance is
+      higher than data-LRCs. Gophan has provided an upper bound for the
+      full-LRC code minimum distance, and shows that Optimal-LRC achieves this
+      upper bound.
 
 * Problems
     * The comparison between code constructions is not straightforward.
-    * r (the local group size - 1) is not appropriate as a metric for the repair
+    * *r* (the local group size - 1) is not appropriate as a metric for the repair
     locality, because it's not fair for data-LRCs.
 
 * Metrics
@@ -56,40 +62,115 @@ of the LRC constructions.
           each set of coding parameters, and this model does not always yields
           an analytic closed-form equation.
     * ARC (appeared in ATC'12 Azure-LRC), which averages the number of blocks
-      to collect for different single block failures. ARC does not take into
-      account the higher overhead of some of these codes, which implies that
-      more blocks will have to be repaired in the event of a node failure
-      (e.g., global parities for Azure-LRC). ARC is also not appropriate for
-      modeling the degraded reads.
-    * NRC. NRC = ARC * n / k. The cost of repairing the parity blocks is
+      to collect for different combinations of single block failures. ARC does
+      not take into account the higher overhead (in *n*, but not in *k*) of
+      some of these codes, which implies that more blocks will have to be
+      repaired in the event of a node failure (e.g., global parities for
+      Azure-LRC). ARC is also not appropriate for modeling the degraded read
+      (but how about full node recovery?).
+    * NRC. NRC = ARC * *n / k*. The cost of repairing the parity blocks is
       amortized over the *k* **data blocks**, instead of all *n* blocks.
     * Average degraded read cost, as repairing data blocks only.
+    * Storage overhead *n / k*
+    * *rd*-ratio (*NRC/d*), showing the tradeoff between repair cost and fault
+      tolerance. For the same fault tolerance *d*, the lower *rd*-ratio is
+      better.
 
-* (Continue here)
+* Details of codes to be compared
+    * Azure-LRC. The last local group which contains *k mod r* data blocks is
+      also assigned with one local parity. Need to make sure that *k + l < n*.
+      This extension is general for most of the *(n,k,r)* parameters.
+    * Azure-LRC+1. Add one local parity to the global parities, calculated by
+      XORing all global parities (the difference from Xorbas is that it
+      doesn't linearly combine the local parities). It's a naive extension of
+      Azure-LRC and Pyramid codes.
+    * Xorbas-LRC. The same as VLDB'13.
+    * Optimal-LRC. 
 
-4. Codes being compared
-  * Xorbas (only in theoretical analysis, not in experiments)
-  * Azure-LRC
-  * Azure-LRC+1. Adding one local parity to the global parities, calculated by XORing all global parities. Can be directly appied to Azure-LRC and Pyramid codes.
-  * Optimal-LRC. The author proposed a new code construction for all admissible parameters. It's discussed in another paper (Optimal LRC codes for all lenghts n ≤ q) from him.
+* Codes being compared
+    * Xorbas (only in theoretical analysis, not in experiments)
+    * Azure-LRC
+    * Azure-LRC+1. Adding one local parity to the global parities, calculated
+      by XORing all global parities. Can be directly applied to Azure-LRC and
+      Pyramid codes.
+    * Optimal-LRC. The authors propose a new construction based on the
+      original Optimal-LRC construction (TIT'14), which is generally
+      applicable to parameters *n mod (r+1) != 1*. The encoding coefficients
+      are different from the original Optimal-LRC construction (see Appendix).
+      The new construction attains the largest possible minimum distance; and
+      is the first optimal construction for all possible parameters.
 
-5. Theoretical Comparison
-  * For the same (n, k,r), there is always one full-LRC with a lower NRC than that of Azure-LRC. However, in most settings, the reduction in NRC is coupled with a reduction in d.
-  * Adding a local parity to global parity always reduces the repair cost, with additional storage overhead.
-  * Azure-LRC and Optimal-LRC are most flexible in (n, k).
+* Theoretical analysis
+    * Repair cost (Fig. 7)
+        * Some parameters are not feasible for some code constructions under
+          the same *(n,k,r)*
+        * For the same *(n,k,r)*, the degraded read costs are almost the same
+        * Increasing *r* increases the degraded read costs and NRCs.
+    * Code distance (Fig. 8)
+        * Increase *d* mush either increase *n* or *r*.
+        *  For the same *(n,k,r)*, there is always one full-LRC with a lower
+           NRC than that of Azure-LRC. However, in most settings, the
+           reduction in NRC is coupled with a reduction in the code distance
+           *d* (reasonable).
+    * Comparing *(n,k,r)* Azure-LRC and *(n+1,k,r)* full-LRCs (Azure-LRC+1,
+      Optimal-LRC), which adds one local parity over the global parities.
+        * Reduction in NRC and *d*, at the cost of increasing storage overhead
+    * Optimal-LRC does not always achieve optimal NRC (Fig. 10)
+        * Reason: Optimal-LRC is designed to accommodate the global parities
+          with data blocks in the same local group; when there exists only a
+          few global parities (much smaller than *r*), the local group size
+          increases (because of the constraints of *k* and *r*)
+    * A metric to model the tradeoff between the repair cost and fault
+      tolerance: *rd*-ratio (*NRC / d*) (Fig. 11)
+        * The code achieving the lowest *rd*-ration is not necessarily a
+          full-LRC.
+        * When fixing *n* and *k*, different codes that achieve the minimal
+          *rd*-ratio have different *n* and *r* (reasonable).
+            * When fixing *n* and *k*, we can find an available *r*, where the
+              Optimal-LRC achieves the lowest *rd*-ratio among all codes
+        * Generalization of *rd*-ratio: *NRC / d^x*. Physical meaning?
+            * Goal: tune the weight of *d* according to the system's tradeoff
+              between durability (reliability?) and repair cost.
+            * Optimal-LRC wins for almost all (but one) cases, indicating a
+              better allocation of local parities.
+        * Given a target fault tolerance threshold *d*, find feasible
+          *(n,k,r)* for different codes.
+            * Azure-LRC and Optimal-LRC are most flexible in *(n,k,r)*, as
+              they can find feasible coding parameters.
+    * Multiple failures for higher redundancy codes (Fig. 14 where *n >= 2k*)      
+        * The case is less common, and it's possible that the **local repair
+          may be worse than the global repair**
+        * Appeared in the **distributed and peer-to-peer settings**
+          (multiple concurrent failures are common)
+        * In this case, the definitions of ARC and NRC need to be adapted to a
+          weighted version of multiple failures, instead of just considering
+          single failures 
 
-6. Experimental Comparison
-  * In Ceph. It is the only open-source distributed storage system that implements LRCs as part of its main distribution. LRC as a plugin in Ceph.
-  * Optimal-LRC implementation. They implemented Optimal-LRC in Ceph, but haven't release the source code yet.
-  * For a given (n, k,r) combination, both ARC and NRC can predict which code will incur the the highest and lowest repair costs. At the same time, they are both inaccurate in their prediction of the actual repair cost.
-  * Their results show that the reduction in the amount of data read for repair does not directly translate to a reduction in repair time. This is the result of additional bottlenecks in the system. Overall, the full-LRCs achieves the greatest reduction in repair time.
-  * This paper also compares the results for LRCs in different zones, with local groups in each zone, and repaired locally. Data-LRCs and full-LRCs are expected to achieve the highest benefit in large-scale deployments, where sufficient I/O parallelism can be achieved within a single zone
+* Experimental Comparison (TBD)
+    * In Ceph. It is the only open-source distributed storage system that implements LRCs as part of its main distribution. LRC as a plugin in Ceph.
+        * Original optimal-LRC implementation. They implemented Optimal-LRC in
+          Ceph, but haven't released the source code yet.
+    * For a given (n, k,r) combination, both ARC and NRC can predict which
+      code will incur the highest and lowest repair costs. At the same time,
+      they are both inaccurate in their prediction of the actual repair cost.
+    * Their results show that the reduction in the amount of data read for repair does not directly translate to a reduction in repair time. This is the result of additional bottlenecks in the system. Overall, the full-LRCs achieve the greatest reduction in repair time.
+    * This paper also compares the results for LRCs in different zones (rack),
+      with local groups in each zone, and repaired locally. Data-LRCs and
+      full-LRCs are expected to achieve the highest benefit in large-scale
+      deployments, where sufficient I/O parallelism can be achieved within a
+      single zone.
 
 
 ## Strength
 
-1. This paper tries to analyse all existing LRCs with proposed metrics in theoretical ways, and shows that LRC reduces the repair cost in real setup.
+* Theoretical contributions
+    * Metrics for comparison
+        * NRC
+        * *rd*-ratio
+    * A more general optimal-LRC construction than TIT'14 (the construction is
+      based on it)
+    
 
 ## Weakness
 
-N/A for this paper. It's more a comparison.
+N/A
