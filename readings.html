@@ -51,12 +51,13 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <li><a href="#network-coding-basics">Network Coding (basics)</a></li>
 <li><a href="#erasure-codes">Erasure Codes</a></li>
 <li><a href="#redundancy-transitioning">Redundancy Transitioning</a></li>
-<li><a href="#reliability-analysis">Reliability Analysis</a></li>
-<li><a href="#techniques">Techniques</a></li>
-<li><a href="#systems">Systems</a></li>
+<li><a href="#erasure-coding-reliability-analysis">Erasure Coding Reliability Analysis</a></li>
+<li><a href="#techniques-for-erasure-coding">Techniques for Erasure Coding</a></li>
+<li><a href="#erasure-coded-systems">Erasure-coded Systems</a></li>
 <li><a href="#miscellaneous">Miscellaneous</a></li>
 </ul>
 </li>
+<li><a href="#storage-systems-and-cloud">Storage Systems and Cloud</a></li>
 <li><a href="#edge">Edge</a><ul>
 <li><a href="#sec-symposium-on-edge-computing-paper-list">SEC (Symposium on Edge Computing) Paper List</a></li>
 </ul>
@@ -73,16 +74,16 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </ul>
 </li>
 <li><a href="#tos-transaction-on-storage-paper-list">TOS (Transaction on Storage) Paper List</a><ul>
-<li><a href="#erasure-coding_1">Erasure Coding</a></li>
-<li><a href="#raid">RAID</a></li>
-<li><a href="#data-placement">Data Placement</a></li>
-<li><a href="#flash-memory">Flash-memory</a></li>
-<li><a href="#backup">Backup</a></li>
-<li><a href="#storage-system">Storage System</a></li>
-<li><a href="#kv-store">KV-Store</a></li>
-<li><a href="#benchmark">Benchmark</a></li>
-<li><a href="#techniques_1">Techniques</a></li>
-<li><a href="#file-system">File System</a></li>
+<li><a href="#erasure-coding-tos">Erasure Coding (TOS)</a></li>
+<li><a href="#raid-tos">RAID (TOS)</a></li>
+<li><a href="#data-placement-tos">Data Placement (TOS)</a></li>
+<li><a href="#flash-memory-tos">Flash-memory (TOS)</a></li>
+<li><a href="#backup-tos">Backup (TOS)</a></li>
+<li><a href="#storage-system-tos">Storage System (TOS)</a></li>
+<li><a href="#kv-store-tos">KV-Store (TOS)</a></li>
+<li><a href="#benchmark-tos">Benchmark (TOS)</a></li>
+<li><a href="#techniques-tos">Techniques (TOS)</a></li>
+<li><a href="#file-system-tos">File System (TOS)</a></li>
 </ul>
 </li>
 </ul>
@@ -90,7 +91,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </ul>
 </div>
 <h2 id="recent">Recent</h2>
-<p><a href="#software-defined-network-sdn">SDN</a></p>
+<p><a href="#erasure-coding">Erasure Coding</a></p>
 <h2 id="categories">Categories</h2>
 <h3 id="erasure-coding">Erasure Coding</h3>
 <h4 id="quick-start-basics">Quick Start (Basics)</h4>
@@ -108,13 +109,13 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">Summary</td>
 <td align="center">Concepts that must know</td>
 <td align="center"><a href="/posts/2021/07/blogs-ec-basic-concepts/">Summary</a></td>
-<td align="center">EC basic Concepts and keywords</td>
+<td align="center">EC basic concepts and keywords</td>
 </tr>
 <tr>
 <td align="center">Manuscript</td>
 <td align="center">An Introduction to Galois Fields and Reed-Solomon Coding</td>
 <td align="center"><a href="https://people.cs.clemson.edu/~westall/851/rs-code.pdf">Link</a></td>
-<td align="center">Into to Finite Field and RS code (communication) in Clemenson</td>
+<td align="center">Intro to Finite Field and RS code (communication) in Clemenson Univ.</td>
 </tr>
 <tr>
 <td align="center">Manuscript</td>
@@ -138,7 +139,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">FAST'09</td>
 <td align="center">A Performance Evaluation and Examination of Open-Source Erasure Coding Libraries For Storage</td>
 <td align="center"><a href="/posts/2020/08/paper-reading-plank-fast09/">Summary</a></td>
-<td align="center">Plank EC eval</td>
+<td align="center">Plank EC evaluation</td>
 </tr>
 </tbody>
 </table>
@@ -201,6 +202,12 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes</td>
 <td align="center"><a href="/posts/readings/paper/atc/atc18-lrc-comparison">Summary</a></td>
 <td align="center">LRC comparison: Azure-LRC, Azure-LRC+1, Xorbas, Optimal-LRC</td>
+</tr>
+<tr>
+<td align="center">FAST'18</td>
+<td align="center">RAID+: Deterministic and Balanced Data Distribution for Large Disk Enclosures</td>
+<td align="center"><a href="https://www.usenix.org/conference/fast18/presentation/zhang">Link</a></td>
+<td align="center">RAID+, load balancing</td>
 </tr>
 <tr>
 <td align="center">FAST’18</td>
@@ -493,7 +500,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="reliability-analysis">Reliability Analysis</h4>
+<h4 id="erasure-coding-reliability-analysis">Erasure Coding Reliability Analysis</h4>
 <table>
 <thead>
 <tr>
@@ -536,7 +543,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="techniques">Techniques</h4>
+<h4 id="techniques-for-erasure-coding">Techniques for Erasure Coding</h4>
 <table>
 <thead>
 <tr>
@@ -645,7 +652,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="systems">Systems</h4>
+<h4 id="erasure-coded-systems">Erasure-coded Systems</h4>
 <table>
 <thead>
 <tr>
@@ -685,12 +692,6 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">TriEC: tripartite graph based erasure coding NIC offload</td>
 <td align="center"><a href="https://dl.acm.org/doi/abs/10.1145/3295500.3356178">Link</a></td>
 <td align="center">TriEC, RDMA</td>
-</tr>
-<tr>
-<td align="center">SYSTOR'19</td>
-<td align="center">Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways</td>
-<td align="center"><a href="/posts/2021/02/paper-reading-kruma-systor19/">Summary</a></td>
-<td align="center">Kurma</td>
 </tr>
 <tr>
 <td align="center">SoCC'19</td>
@@ -741,40 +742,10 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">Pelican, cold DSS</td>
 </tr>
 <tr>
-<td align="center">ATC'14</td>
-<td align="center">SCFS: A Shared Cloud-backed File System</td>
-<td align="center"><a href="/posts/2021/01/paper-reading-scfs-atc14/">Summary</a></td>
-<td align="center">SCFS, Depsky extension</td>
-</tr>
-<tr>
-<td align="center">SoCC'14</td>
-<td align="center">Hybris: Robust Hybrid Cloud Storage</td>
-<td align="center"><a href="/posts/2021/02/paper-reading-hybris-socc14/">Summary</a></td>
-<td align="center">Hybris</td>
-</tr>
-<tr>
-<td align="center">SOSP'13</td>
-<td align="center">SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services</td>
-<td align="center"><a href="/posts/2021/02/paper-reading-spanstore-sosp13/">Summary</a></td>
-<td align="center">SPANStore</td>
-</tr>
-<tr>
 <td align="center">FAST'12</td>
 <td align="center">NCCloud: A Network-Coding-Based Storage System in a Cloud-of-Clouds</td>
 <td align="center"><a href="/posts/2019/06/paper-reading-nccloud-fast12/">Summary</a></td>
 <td align="center">NCCloud, network coding</td>
-</tr>
-<tr>
-<td align="center">Eurosys'11</td>
-<td align="center">DEPSKY: A High-Availability and Integrity Layer for Cloud Storage</td>
-<td align="center"><a href="/posts/2019/07/paper-reading-depsky-eurosys11/">Summary</a></td>
-<td align="center">Depsky</td>
-</tr>
-<tr>
-<td align="center">SoCC'10</td>
-<td align="center">RACS: a case for cloud storage diversity</td>
-<td align="center"><a href="/posts/2019/07/paper-reading-racs-socc10/">Summary</a></td>
-<td align="center">RACS</td>
 </tr>
 </tbody>
 </table>
@@ -794,6 +765,55 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">Erasure coding vs. replication:a quantitative comparison</td>
 <td align="center"><a href="http://people.eecs.berkeley.edu/~kubitron/courses/cs252/handouts/papers/erasure_iptps.pdf">Link</a></td>
 <td align="center">EC vs replication</td>
+</tr>
+</tbody>
+</table>
+<h3 id="storage-systems-and-cloud">Storage Systems and Cloud</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Venue</th>
+<th align="center">Title</th>
+<th align="center">Link / Summary</th>
+<th align="center">Brief</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">SYSTOR'19</td>
+<td align="center">Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways</td>
+<td align="center"><a href="/posts/2021/02/paper-reading-kruma-systor19/">Summary</a></td>
+<td align="center">Kurma</td>
+</tr>
+<tr>
+<td align="center">ATC'14</td>
+<td align="center">SCFS: A Shared Cloud-backed File System</td>
+<td align="center"><a href="/posts/2021/01/paper-reading-scfs-atc14/">Summary</a></td>
+<td align="center">SCFS, Depsky extension</td>
+</tr>
+<tr>
+<td align="center">SoCC'14</td>
+<td align="center">Hybris: Robust Hybrid Cloud Storage</td>
+<td align="center"><a href="/posts/2021/02/paper-reading-hybris-socc14/">Summary</a></td>
+<td align="center">Hybris</td>
+</tr>
+<tr>
+<td align="center">SOSP'13</td>
+<td align="center">SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services</td>
+<td align="center"><a href="/posts/2021/02/paper-reading-spanstore-sosp13/">Summary</a></td>
+<td align="center">SPANStore</td>
+</tr>
+<tr>
+<td align="center">Eurosys'11</td>
+<td align="center">DEPSKY: A High-Availability and Integrity Layer for Cloud Storage</td>
+<td align="center"><a href="/posts/2019/07/paper-reading-depsky-eurosys11/">Summary</a></td>
+<td align="center">Depsky</td>
+</tr>
+<tr>
+<td align="center">SoCC'10</td>
+<td align="center">RACS: a case for cloud storage diversity</td>
+<td align="center"><a href="/posts/2019/07/paper-reading-racs-socc10/">Summary</a></td>
+<td align="center">RACS</td>
 </tr>
 </tbody>
 </table>
@@ -1145,7 +1165,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tbody>
 </table>
 <h3 id="tos-transaction-on-storage-paper-list">TOS (Transaction on Storage) Paper List</h3>
-<h4 id="erasure-coding_1">Erasure Coding</h4>
+<h4 id="erasure-coding-tos">Erasure Coding (TOS)</h4>
 <table>
 <thead>
 <tr>
@@ -1236,7 +1256,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="raid">RAID</h4>
+<h4 id="raid-tos">RAID (TOS)</h4>
 <table>
 <thead>
 <tr>
@@ -1357,7 +1377,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="data-placement">Data Placement</h4>
+<h4 id="data-placement-tos">Data Placement (TOS)</h4>
 <table>
 <thead>
 <tr>
@@ -1376,7 +1396,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="flash-memory">Flash-memory</h4>
+<h4 id="flash-memory-tos">Flash-memory (TOS)</h4>
 <table>
 <thead>
 <tr>
@@ -1395,7 +1415,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="backup">Backup</h4>
+<h4 id="backup-tos">Backup (TOS)</h4>
 <table>
 <thead>
 <tr>
@@ -1414,7 +1434,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="storage-system">Storage System</h4>
+<h4 id="storage-system-tos">Storage System (TOS)</h4>
 <table>
 <thead>
 <tr>
@@ -1475,7 +1495,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="kv-store">KV-Store</h4>
+<h4 id="kv-store-tos">KV-Store (TOS)</h4>
 <table>
 <thead>
 <tr>
@@ -1494,7 +1514,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="benchmark">Benchmark</h4>
+<h4 id="benchmark-tos">Benchmark (TOS)</h4>
 <table>
 <thead>
 <tr>
@@ -1519,7 +1539,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="techniques_1">Techniques</h4>
+<h4 id="techniques-tos">Techniques (TOS)</h4>
 <table>
 <thead>
 <tr>
@@ -1544,7 +1564,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="file-system">File System</h4>
+<h4 id="file-system-tos">File System (TOS)</h4>
 <table>
 <thead>
 <tr>
@@ -1573,7 +1593,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=hjlE08H62g0QrFuFnXlDVZSpUAsKAk-ankkgLdsKGGA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff"></script>
 <div id="footer">
 <div id="footer-text">
-Page generated 2023-08-24 13:37:58 HKT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2023-08-24 13:55:31 HKT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>

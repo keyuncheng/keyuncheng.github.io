@@ -13,7 +13,7 @@ research purposes. Items are characterized by their topics/keywords.
 
 ## Recent
 
-[SDN](#software-defined-network-sdn)
+[Erasure Coding](#erasure-coding)
 
 ## Categories
 
@@ -24,12 +24,12 @@ research purposes. Items are characterized by their topics/keywords.
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-Summary | Concepts that must know | [Summary](/posts/2021/07/blogs-ec-basic-concepts/) | EC basic Concepts and keywords
-Manuscript | An Introduction to Galois Fields and Reed-Solomon Coding | [Link](https://people.cs.clemson.edu/~westall/851/rs-code.pdf) | Into to Finite Field and RS code (communication) in Clemenson
+Summary | Concepts that must know | [Summary](/posts/2021/07/blogs-ec-basic-concepts/) | EC basic concepts and keywords
+Manuscript | An Introduction to Galois Fields and Reed-Solomon Coding | [Link](https://people.cs.clemson.edu/~westall/851/rs-code.pdf) | Intro to Finite Field and RS code (communication) in Clemenson Univ.
 Manuscript | Reed-Solomon Codes | [Link](https://courses.cs.duke.edu//spring10/cps296.3/rs_scribe.pdf) | Intro to RS code from Duke Univ.
 USENIX Login'13 | Erasure Codes for Storage Systems: A Brief Primer | [Summary](/posts/2020/08/paper-reading-plank-usenixlogin13/) | Plank EC basics
 FAST Tutorial'13 | Tutorial: Erasure Coding for Storage Systems | [Summary](/posts/2020/08/docs-reading-plank-tutorial-fast13/) | Plank EC tutorial
-FAST'09 | A Performance Evaluation and Examination of Open-Source Erasure Coding Libraries For Storage | [Summary](/posts/2020/08/paper-reading-plank-fast09/) | Plank EC eval
+FAST'09 | A Performance Evaluation and Examination of Open-Source Erasure Coding Libraries For Storage | [Summary](/posts/2020/08/paper-reading-plank-fast09/) | Plank EC evaluation
 
 
 #### Network Coding (basics)
@@ -48,6 +48,7 @@ Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 FAST'23 | Practical Design Considerations for Wide Locally Recoverable Codes (LRCs) | [Link](https://www.usenix.org/conference/fast23/presentation/kadekodi) | Uniform Cauchy LRCs
 ATC'18 | On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes | [Summary](/posts/readings/paper/atc/atc18-lrc-comparison) | LRC comparison: Azure-LRC, Azure-LRC+1, Xorbas, Optimal-LRC
+FAST'18 | RAID+: Deterministic and Balanced Data Distribution for Large Disk Enclosures | [Link](https://www.usenix.org/conference/fast18/presentation/zhang) | RAID+, load balancing
 FAST’18 | Clay Codes: Moulding MDS Codes to Yield an MSR Code | [Summary](/posts/2020/08/paper-reading-clay-codes-fast18/) | Clay codes
 TIT'17 | Explicit constructions of high-rate MDS array codes with optimal repair bandwidth | [Link](https://ieeexplore.ieee.org/document/7990181) | Ye and Barg codes
 STOC'16 | Repairing Reed-solomon codes | [Link](https://dl.acm.org/doi/10.1145/2897518.2897525) | RS codes repair with sub-packetization
@@ -103,7 +104,7 @@ FAST'11 | Accelerate RAID Scaling by Minimizing Data Migration | [Link](https://
 TOCS'1996 | The HP AutoRAID Hierarchical Storage System | [Link](https://ieeexplore.ieee.org/document/5264167) | AutoRAID, replication to RAID
 
 
-#### Reliability Analysis
+#### Erasure Coding Reliability Analysis
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
@@ -114,7 +115,7 @@ I2TS'08 | When MTTDLs Are Not Good Enough: Providing Better Estimates of Disk Ar
 SNAPI'07| Outshining Mirrors: MTTDL of Fixed-Order SSPiRAL Layouts | [Link](http://www2.cs.uh.edu/~paris/MYPAPERS/Snapi07.pdf) | ---
 
 
-#### Techniques
+#### Techniques for Erasure Coding
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
@@ -138,7 +139,7 @@ FAST'12 | Rethinking Erasure Codes for Cloud File Systems: Minimizing I/O for Re
 
 
 
-#### Systems
+#### Erasure-coded Systems
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
@@ -147,7 +148,6 @@ FAST'22 | DEPART: Replica Decoupling for Distributed Key-Value Storage | [Link](
 NSDI'20 | Near-Optimal Latency Versus Cost Tradeoffs in Geo-Distributed Storage | [Summary](/posts/2021/06/paper-reading-pando-nsdi20/) | PANDO, consensus, EC
 SC'20 | INEC: Fast and Coherent In-Network Erasure Coding | [Link](https://ieeexplore.ieee.org/document/9355252) | INEC, RDMA
 SC'19 | TriEC: tripartite graph based erasure coding NIC offload | [Link](https://dl.acm.org/doi/abs/10.1145/3295500.3356178) | TriEC, RDMA
-SYSTOR'19 | Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways | [Summary](/posts/2021/02/paper-reading-kruma-systor19/) | Kurma
 SoCC'19 | Coupling Decentralized Key-Value Stores with Erasure Coding | [Summary](/posts/readings/paper/socc/socc19-echash) | ECHash, KVStore
 HPDC'19 | UMR-EC: A Unified and Multi-Rail Erasure Coding Library for High-Performance Distributed Storage Systems | [Link](https://dl.acm.org/doi/abs/10.1145/3307681.3325406) | UMR-EC, RDMA
 FAST'19 | OpenEC: Toward Unified and Configurable Erasure Coding Management in Distributed Storage Systems | [Summary](/posts/2020/08/paper-reading-openec-fast19/) | OpenEC
@@ -156,12 +156,7 @@ ATC'17 | Giza: Erasure Coding Objects across Global Data Centers | [Link](https:
 FAST'16 | Efficient and Available In-memory KV-Store with Hybrid Erasure Coding and Replication | [Link](https://www.usenix.org/conference/fast16/technical-sessions/presentation/zhang-heng) | Cocytus, KVStore
 OSDI'16 | EC-Cache: Load-Balanced, Low-Latency Cluster Caching with Online Erasure Coding | [Summary](/posts/2021/02/paper-reading-eccache-osdi16/) |  EC-Cache
 OSDI'14 | Pelican: A Building Block for Exascale Cold Data Storage | [Summary](/posts/2021/06/paper-reading-pelican-osdi14/) | Pelican, cold DSS
-ATC'14 | SCFS: A Shared Cloud-backed File System | [Summary](/posts/2021/01/paper-reading-scfs-atc14/) | SCFS, Depsky extension
-SoCC'14 | Hybris: Robust Hybrid Cloud Storage | [Summary](/posts/2021/02/paper-reading-hybris-socc14/) | Hybris
-SOSP'13 | SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services | [Summary](/posts/2021/02/paper-reading-spanstore-sosp13/) | SPANStore
 FAST'12 | NCCloud: A Network-Coding-Based Storage System in a Cloud-of-Clouds | [Summary](/posts/2019/06/paper-reading-nccloud-fast12/) | NCCloud, network coding
-Eurosys'11 | DEPSKY: A High-Availability and Integrity Layer for Cloud Storage | [Summary](/posts/2019/07/paper-reading-depsky-eurosys11/) | Depsky
-SoCC'10 | RACS: a case for cloud storage diversity | [Summary](/posts/2019/07/paper-reading-racs-socc10/) | RACS
 
 
 #### Miscellaneous
@@ -169,6 +164,18 @@ SoCC'10 | RACS: a case for cloud storage diversity | [Summary](/posts/2019/07/pa
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 IPTPS'02 |  Erasure coding vs. replication:a quantitative comparison | [Link](http://people.eecs.berkeley.edu/~kubitron/courses/cs252/handouts/papers/erasure_iptps.pdf) | EC vs replication
+
+
+### Storage Systems and Cloud
+
+Venue | Title | Link / Summary | Brief
+:---: | :---: | :---: | :---:
+SYSTOR'19 | Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways | [Summary](/posts/2021/02/paper-reading-kruma-systor19/) | Kurma
+ATC'14 | SCFS: A Shared Cloud-backed File System | [Summary](/posts/2021/01/paper-reading-scfs-atc14/) | SCFS, Depsky extension
+SoCC'14 | Hybris: Robust Hybrid Cloud Storage | [Summary](/posts/2021/02/paper-reading-hybris-socc14/) | Hybris
+SOSP'13 | SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services | [Summary](/posts/2021/02/paper-reading-spanstore-sosp13/) | SPANStore
+Eurosys'11 | DEPSKY: A High-Availability and Integrity Layer for Cloud Storage | [Summary](/posts/2019/07/paper-reading-depsky-eurosys11/) | Depsky
+SoCC'10 | RACS: a case for cloud storage diversity | [Summary](/posts/2019/07/paper-reading-racs-socc10/) | RACS
 
 
 ### Edge
@@ -271,7 +278,7 @@ SIGCOMM'18 | SketchLearn: Relieving User Burdens in Approximate Measurement with
 
 ### TOS (Transaction on Storage) Paper List
 
-#### Erasure Coding
+#### Erasure Coding (TOS)
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
@@ -290,7 +297,7 @@ TOS'20 | Fast Erasure Coding for Data Storage: A Comprehensive Study of the Acce
 TOS'20 | PBS: An Efficient Erasure-Coded Block Storage System Based on Speculative Partial Writes | [Link](https://doi.org/10.1145/3365839) | ---
 
 
-#### RAID
+#### RAID (TOS)
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
@@ -314,28 +321,28 @@ TOS'16 | H-Scale: A Fast Approach to Scale Disk Arrays via Hybrid Stripe Deploym
 TOS'19 | Determining Data Distribution for Large Disk Enclosures with 3-D Data Templates | [Link](https://doi.org/10.1145/3342858) | RAID+
 
 
-#### Data Placement
+#### Data Placement (TOS)
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 TOS'14 | Random Slicing: Efficient and Scalable Data Placement for Large-Scale Storage Systems | [Link](https://doi.org/10.1145/2632230) | ---
 
 
-#### Flash-memory
+#### Flash-memory (TOS)
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 TOS'18 | An Analysis of Flash Page Reuse With WOM Codes | [Link](https://doi.org/10.1145/3177886) | ---
 
 
-#### Backup
+#### Backup (TOS)
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 TOS'12 | Efficient cooperative backup with decentralized trust management | [Link](https://doi.org/10.1145/2339118.2339119) | ---
 
 
-#### Storage System
+#### Storage System (TOS)
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
@@ -349,14 +356,14 @@ TOS'19 | Liquid Cloud Storage | [Link](https://doi.org/10.1145/3281276) | ---
 TOS'20 | The Case for Custom Storage Backends in Distributed Storage Systems | [Link](https://doi.org/10.1145/3386362) | ---
 
 
-#### KV-Store
+#### KV-Store (TOS)
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 TOS'17 | Efficient and Available In-Memory KV-Store with Hybrid Erasure Coding and Replication | [Link](https://doi.org/10.1145/3129900) | ---
 
 
-#### Benchmark
+#### Benchmark (TOS)
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
@@ -364,7 +371,7 @@ TOS'07 | Understanding disk failure rates: What does an MTTF of 1,000,000 hours 
 TOS'08 | A nine year study of file system and storage benchmarking | [Link](https://dl.acm.org/doi/10.1145/1367829.1367831) | ---
 
 
-#### Techniques
+#### Techniques (TOS)
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
@@ -372,7 +379,7 @@ TOS'12 | Efficient software implementations of large finite fields GF(2n) for se
 TOS'16 | Tools for Predicting the Reliability of Large-Scale Storage Systems | [Link](https://doi.org/10.1145/2911987) | ---
 
 
-#### File System
+#### File System (TOS)
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
