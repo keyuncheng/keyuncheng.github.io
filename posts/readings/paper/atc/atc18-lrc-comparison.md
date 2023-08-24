@@ -146,19 +146,45 @@ of the LRC constructions.
           weighted version of multiple failures, instead of just considering
           single failures 
 
-* Experimental Comparison (TBD)
-    * In Ceph. It is the only open-source distributed storage system that implements LRCs as part of its main distribution. LRC as a plugin in Ceph.
-        * Original optimal-LRC implementation. They implemented Optimal-LRC in
-          Ceph, but haven't released the source code yet.
-    * For a given (n, k,r) combination, both ARC and NRC can predict which
+* Experimental Comparison 
+    * Codes compared
+        * RS, Azure-LRC, Azure-LRC+1, Optimal-LRC
+        * Xorbas is not implemented, as the coding parameters are not
+          explicitly provided in the VLDB'13 paper except *(16,10,5)*; Plus
+          Ceph doesn't support the local recovery for the global parity group
+          from other local groups
+    * System
+        * Use Ceph. It is the only open-source distributed storage system that
+          implements LRCs as part of its main distribution. Besides, Ceph
+          supports online coding instead of replication first, then performs
+          EC in the background.
+            * Use Jerasure for coding, LRC Plugin implemented in Ceph for
+              Azure-LRC and Azure-LRC+1.
+            * It also discusses some implementation issues in Ceph: redundant
+              data read; sub-optimal replacement OSDs (collision and handling
+              with *straw2* algorithm)
+        * Ceph doesn't support local repair by default. Degraded read needs to
+          retrieve *k* blocks.
+        * Original optimal-LRC implementation. They provide the constructions
+          and coefficients
+        * Deployment: 20 nodes, each node has two OSDs: 40 OSDs.
+    * Metric: full-node recovery for single node
+    * For a given (n,k,r) combination, both ARC and NRC can predict which
       code will incur the highest and lowest repair costs. At the same time,
       they are both inaccurate in their prediction of the actual repair cost.
-    * Their results show that the reduction in the amount of data read for repair does not directly translate to a reduction in repair time. This is the result of additional bottlenecks in the system. Overall, the full-LRCs achieve the greatest reduction in repair time.
-    * This paper also compares the results for LRCs in different zones (rack),
-      with local groups in each zone, and repaired locally. Data-LRCs and
-      full-LRCs are expected to achieve the highest benefit in large-scale
+    * Their results show that the reduction in the amount of data read for
+      repair does not directly translate to a reduction in repair time. This
+      is the result of additional bottlenecks in the system. Overall, the
+      full-LRCs achieve the greatest reduction in repair time.
+        * The I/O bandwidth utilized by RS and LRCs are different, RS has a
+          higher utilization; for LRCs, the system may not saturate the
+          storage devices (**No breakdown**)
+    * It compares the results for LRCs in different zones (geographically
+      different places), with local groups in each zone, and repaired locally.
+      LRCs are expected to achieve the highest benefit in large-scale
       deployments, where sufficient I/O parallelism can be achieved within a
       single zone.
+        * Why not use Optimal-LRC in the experiment for full-LRC?
 
 
 ## Strength
@@ -169,8 +195,19 @@ of the LRC constructions.
         * *rd*-ratio
     * A more general optimal-LRC construction than TIT'14 (the construction is
       based on it)
+
+* System contributions
+    * Modification of LRC plugin (Azure-LRC and Azure-LRC+1)
+    * Optimal-LRC implementation
+    * Ceph's implementation support
+    * Extensive evaluation over EC2
     
 
 ## Weakness
 
-N/A
+There are some confusing settings in the evaluation, such as the parameter
+settings and code selection
+    * Some parameters and codes are chosen without explanation (e.g., the Zone
+    experiment, why not use Optimal-LRC?)
+    * The Ceph system performance has no breakdown.
+    * It is better to use plots for the results instead of using the tables

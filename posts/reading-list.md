@@ -47,7 +47,7 @@ PPT | Regenerating codes for distributed storage | [Link](https://ewh.ieee.org/r
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 FAST'23 | Practical Design Considerations for Wide Locally Recoverable Codes (LRCs) | [Link](https://www.usenix.org/conference/fast23/presentation/kadekodi) | Uniform Cauchy LRCs
-ATC'18 | On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes | [Summary](/posts/readings/paper/atc/atc18-lrc-comparison.md) | LRC comparison
+ATC'18 | On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes | [Summary](/posts/readings/paper/atc/atc18-lrc-comparison) | LRC comparison
 FAST’18 | Clay Codes: Moulding MDS Codes to Yield an MSR Code | [Summary](/posts/2020/08/paper-reading-clay-codes-fast18/) | Clay codes
 TIT'17 | Explicit constructions of high-rate MDS array codes with optimal repair bandwidth | [Link](https://ieeexplore.ieee.org/document/7990181) | Ye and Barg codes
 STOC'16 | Repairing Reed-solomon codes | [Link](https://dl.acm.org/doi/10.1145/2897518.2897525) | RS codes repair with sub-packetization
