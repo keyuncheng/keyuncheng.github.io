@@ -47,7 +47,7 @@ PPT | Regenerating codes for distributed storage | [Link](https://ewh.ieee.org/r
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 FAST'23 | Practical Design Considerations for Wide Locally Recoverable Codes (LRCs) | [Link](https://www.usenix.org/conference/fast23/presentation/kadekodi) | Uniform Cauchy LRCs
-ATC'18 | On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes | [Summary](/posts/readings/paper/atc/atc18-lrc-comparison) | LRC comparison
+ATC'18 | On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes | [Summary](/posts/readings/paper/atc/atc18-lrc-comparison) | LRC comparison: Azure-LRC, Azure-LRC+1, Xorbas, Optimal-LRC
 FAST’18 | Clay Codes: Moulding MDS Codes to Yield an MSR Code | [Summary](/posts/2020/08/paper-reading-clay-codes-fast18/) | Clay codes
 TIT'17 | Explicit constructions of high-rate MDS array codes with optimal repair bandwidth | [Link](https://ieeexplore.ieee.org/document/7990181) | Ye and Barg codes
 STOC'16 | Repairing Reed-solomon codes | [Link](https://dl.acm.org/doi/10.1145/2897518.2897525) | RS codes repair with sub-packetization
@@ -124,12 +124,16 @@ FAST'21 | Exploiting Combined Locality for Wide-Stripe Erasure Coding in Distrib
 IWQoS'21 | EC-Scheduler: A Load-Balanced Scheduler to Accelerate the Straggler Recovery for Erasure Coded Storage Systems | [Summary](/posts/readings/paper/iwqos/iwqos21-ecscheduler) | repair, load balancing  
 HotStorage'20 | SelectiveEC: Selective Reconstruction in Erasure-coded Storage Systems | [Summary](/posts/2020/08/paper-reading-selectiveec-hotstorage20/) | SelectiveEC, load balancing
 Eurosys'20 | RAIDP: replication with intra-disk parity | [Summary](/posts/2020/08/paper-reading-raidp-eurosys20/) | RAID-P
+FAST'20 | CRaft: An Erasure-coding-supported Version of Raft for Reducing Storage Cost and Network Cost | [Link](https://www.usenix.org/conference/fast20/presentation/wang-zizhong) | CRaft
 FAST'19 | Fast Erasure Coding for Data Storage: A Comprehensive Study of the Acceleration Techniques | [Summary](/posts/2020/08/paper-reading-ec-acceleration-fast19/) | repair acceleration
 DSN'19 | Fast Predictive Repair in Erasure-Coded Storage | [Summary](/posts/2020/08/paper-reading-fpr-dsn19/) | FastPR, repair, parallelization
 ATC'17 | Repair Pipelining for Erasure-Coded Storage | [Summary](/posts/2020/08/paper-reading-repair-pipelining-atc17/) | ECPipe, repair, parallelization
+ATC'17 | PARIX: Speculative Partial Writes in Erasure-Coded Systems | [Link](https://www.usenix.org/conference/atc17/technical-sessions/presentation/li-huiba) | Parix
 Eurosys'16 | Partial-Parallel-Repair (PPR): A Distributed Technique for Repairing Erasure Coded Storage | [Summary](/posts/2020/08/paper-reading-ppr-eurosys16/) | PPR, repair, parallelization
-MSST’12 | On the speedup of single-disk failure recovery in XOR-coded storage systems: Theory and practice | [Summary](/posts/2020/09/paper-reading-zhu-replace-recovery-msst12/) | repair
-FAST'12 | Rethinking Erasure Codes for Cloud File Systems: Minimizing I/O for Recovery and Degraded Reads | [Summary](/posts/2020/09/paper-reading-khan-fast12/) | repair
+SYSTOR'14 | Lazy Means Smart: Reducing Repair Bandwidth Costs in Erasure-coded Distributed Storage | [Link](https://dl.acm.org/doi/abs/10.1145/2611354.2611370) | Lazy recovery
+FAST'14 | Parity Logging with Reserved Space: Towards Efﬁcient Updates and Recovery in Erasure-coded Clustered Storage | [Link](https://www.usenix.org/conference/fast14/technical-sessions/presentation/chan) | CodFS
+MSST’12 | On the speedup of single-disk failure recovery in XOR-coded storage systems: Theory and practice | [Summary](/posts/2020/09/paper-reading-zhu-replace-recovery-msst12/) | Zhu, replace recovery algorithms for XOR based codes
+FAST'12 | Rethinking Erasure Codes for Cloud File Systems: Minimizing I/O for Recovery and Degraded Reads | [Summary](/posts/2020/09/paper-reading-khan-fast12/) | Khan, repair I/O improvement
 
 
 
@@ -148,6 +152,8 @@ SoCC'19 | Coupling Decentralized Key-Value Stores with Erasure Coding | [Summary
 HPDC'19 | UMR-EC: A Unified and Multi-Rail Erasure Coding Library for High-Performance Distributed Storage Systems | [Link](https://dl.acm.org/doi/abs/10.1145/3307681.3325406) | UMR-EC, RDMA
 FAST'19 | OpenEC: Toward Unified and Configurable Erasure Coding Management in Distributed Storage Systems | [Summary](/posts/2020/08/paper-reading-openec-fast19/) | OpenEC
 ICDCS'17 | High-Performance and Resilient Key-Value Store with Online Erasure Coding for Big Data Workloads | [Link](https://ieeexplore.ieee.org/document/7979997) | RDMA
+ATC'17 | Giza: Erasure Coding Objects across Global Data Centers | [Link](https://www.usenix.org/conference/atc17/technical-sessions/presentation/chen-yu-lin) | Giza, consensus
+FAST'16 | Efficient and Available In-memory KV-Store with Hybrid Erasure Coding and Replication | [Link](https://www.usenix.org/conference/fast16/technical-sessions/presentation/zhang-heng) | Cocytus, KVStore
 OSDI'16 | EC-Cache: Load-Balanced, Low-Latency Cluster Caching with Online Erasure Coding | [Summary](/posts/2021/02/paper-reading-eccache-osdi16/) |  EC-Cache
 OSDI'14 | Pelican: A Building Block for Exascale Cold Data Storage | [Summary](/posts/2021/06/paper-reading-pelican-osdi14/) | Pelican, cold DSS
 ATC'14 | SCFS: A Shared Cloud-backed File System | [Summary](/posts/2021/01/paper-reading-scfs-atc14/) | SCFS, Depsky extension
