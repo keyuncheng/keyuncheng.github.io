@@ -47,7 +47,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <li><a href="#recent">Recent</a></li>
 <li><a href="#categories">Categories</a><ul>
 <li><a href="#erasure-coding">Erasure Coding</a><ul>
-<li><a href="#quick-start-basics">Quick Start (Basics)</a></li>
+<li><a href="#erasure-coding-basics">Erasure Coding (basics)</a></li>
 <li><a href="#network-coding-basics">Network Coding (basics)</a></li>
 <li><a href="#erasure-codes">Erasure Codes</a></li>
 <li><a href="#redundancy-transitioning">Redundancy Transitioning</a></li>
@@ -58,6 +58,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </ul>
 </li>
 <li><a href="#storage-systems-and-cloud">Storage Systems and Cloud</a></li>
+<li><a href="#security">Security</a></li>
 <li><a href="#edge">Edge</a><ul>
 <li><a href="#sec-symposium-on-edge-computing-paper-list">SEC (Symposium on Edge Computing) Paper List</a></li>
 </ul>
@@ -94,7 +95,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <p><a href="#erasure-coding">Erasure Coding</a></p>
 <h2 id="categories">Categories</h2>
 <h3 id="erasure-coding">Erasure Coding</h3>
-<h4 id="quick-start-basics">Quick Start (Basics)</h4>
+<h4 id="erasure-coding-basics">Erasure Coding (basics)</h4>
 <table>
 <thead>
 <tr>
@@ -198,6 +199,24 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">Uniform Cauchy LRCs</td>
 </tr>
 <tr>
+<td align="center">SRDS'22</td>
+<td align="center">XHR-Code: An Efficient Wide Stripe Erasure Code to Reduce Cross-Rack Overhead in Cloud Storage Systems</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/document/9996847/">Link</a></td>
+<td align="center">wide stripe, Hitchhiker</td>
+</tr>
+<tr>
+<td align="center">MSST'19</td>
+<td align="center">AZ-Code: An Efficient Availability Zone Level Erasure Code to Provide High Fault Tolerance in Cloud Storage Systems</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/document/8890228">Link</a></td>
+<td align="center">AZ-Code</td>
+</tr>
+<tr>
+<td align="center">DSN'18</td>
+<td align="center">Alpha Entanglement Codes: Practical Erasure Codes to Archive Data in Unreliable Environments</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/document/8416482">Link</a></td>
+<td align="center">Alpha Entanglement Codes, multiple failures</td>
+</tr>
+<tr>
 <td align="center">ATC'18</td>
 <td align="center">On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes</td>
 <td align="center"><a href="/posts/readings/paper/atc/atc18-lrc-comparison">Summary</a></td>
@@ -240,6 +259,12 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">PM-RBT codes</td>
 </tr>
 <tr>
+<td align="center">TOS'14</td>
+<td align="center">Sector-Disk (SD) Erasure Codes for Mixed Failure Modes in RAID Systems</td>
+<td align="center"><a href="https://dl.acm.org/doi/10.1145/2560013">Link</a></td>
+<td align="center">Sector-Disk (SD) codes</td>
+</tr>
+<tr>
 <td align="center">TIT'14</td>
 <td align="center">A family of optimal locally recoverable codes</td>
 <td align="center"><a href="/posts/2020/09/paper-reading-optimal-lrc-tit14/">Summary</a></td>
@@ -276,6 +301,18 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">Pyramid codes</td>
 </tr>
 <tr>
+<td align="center">HotStorage'13</td>
+<td align="center">A Solution to the Network Challenges of Data Recovery in Erasure-coded Distributed Storage Systems: A Study on the Facebook Warehouse Cluster</td>
+<td align="center"><a href="https://www.usenix.org/conference/hotstorage13/workshop-program/presentation/rashmi">Link</a></td>
+<td align="center">Piggybacking codes</td>
+</tr>
+<tr>
+<td align="center">TIT'13</td>
+<td align="center">Zigzag Codes: MDS Array Codes With Optimal Rebuilding</td>
+<td align="center"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6352912">Link</a></td>
+<td align="center">Zigzag Codes, regenerating codes</td>
+</tr>
+<tr>
 <td align="center">ISIT'13, TIT'17</td>
 <td align="center">A Piggybacking Design Framework for Read-and Download-efficient Distributed Storage Codes</td>
 <td align="center"><a href="https://ieeexplore.ieee.org/document/7949040">Link</a></td>
@@ -300,7 +337,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">Azure-LRC</td>
 </tr>
 <tr>
-<td align="center">ISIT'10, TIT'10</td>
+<td align="center">ISIT'10, TIT'11</td>
 <td align="center">Optimal Exact-Regenerating Codes for Distributed Storage at the MSR and MBR Points via a Product-Matrix Construction</td>
 <td align="center"><a href="https://ieeexplore.ieee.org/document/5961826">Link</a></td>
 <td align="center">Product-Matrix Code</td>
@@ -648,7 +685,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">FAST'12</td>
 <td align="center">Rethinking Erasure Codes for Cloud File Systems: Minimizing I/O for Recovery and Degraded Reads</td>
 <td align="center"><a href="/posts/2020/09/paper-reading-khan-fast12/">Summary</a></td>
-<td align="center">Khan, repair I/O improvement</td>
+<td align="center">Khan, RotatedRS, repair I/O improvement</td>
 </tr>
 </tbody>
 </table>
@@ -780,6 +817,12 @@ research purposes. Items are characterized by their topics/keywords.</p>
 </thead>
 <tbody>
 <tr>
+<td align="center">ATC'19</td>
+<td align="center">Dayu: Fast and Low-interference Data Recovery in Very-large Storage Systems</td>
+<td align="center"><a href="https://www.usenix.org/conference/atc19/presentation/wang-zhufan">Link</a></td>
+<td align="center">Dayu, recovery</td>
+</tr>
+<tr>
 <td align="center">SYSTOR'19</td>
 <td align="center">Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways</td>
 <td align="center"><a href="/posts/2021/02/paper-reading-kruma-systor19/">Summary</a></td>
@@ -804,6 +847,12 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">SPANStore</td>
 </tr>
 <tr>
+<td align="center">OSDI'12</td>
+<td align="center">Flat Datacenter Storage</td>
+<td align="center"><a href="https://www.usenix.org/system/files/conference/osdi12/osdi12-final-75.pdf">Link</a></td>
+<td align="center">Flat Datacenter Storage</td>
+</tr>
+<tr>
 <td align="center">Eurosys'11</td>
 <td align="center">DEPSKY: A High-Availability and Integrity Layer for Cloud Storage</td>
 <td align="center"><a href="/posts/2019/07/paper-reading-depsky-eurosys11/">Summary</a></td>
@@ -814,6 +863,31 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <td align="center">RACS: a case for cloud storage diversity</td>
 <td align="center"><a href="/posts/2019/07/paper-reading-racs-socc10/">Summary</a></td>
 <td align="center">RACS</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security">Security</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Venue</th>
+<th align="center">Title</th>
+<th align="center">Link / Summary</th>
+<th align="center">Brief</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Systor'18</td>
+<td align="center">How to Best Share a Big Secret</td>
+<td align="center"><a href="https://dl.acm.org/doi/10.1145/3211890.3211896">Link</a></td>
+<td align="center">Secret sharing</td>
+</tr>
+<tr>
+<td align="center">Communications of the ACM'1979</td>
+<td align="center">How to Share a Secret</td>
+<td align="center"><a href="https://dl.acm.org/doi/10.1145/359168.359176">Link</a></td>
+<td align="center">Secret sharing</td>
 </tr>
 </tbody>
 </table>
@@ -1593,7 +1667,7 @@ research purposes. Items are characterized by their topics/keywords.</p>
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=hjlE08H62g0QrFuFnXlDVZSpUAsKAk-ankkgLdsKGGA&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff"></script>
 <div id="footer">
 <div id="footer-text">
-Page generated 2023-08-24 13:55:31 HKT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2023-08-24 14:32:49 HKT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>

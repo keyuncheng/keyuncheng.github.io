@@ -20,7 +20,7 @@ research purposes. Items are characterized by their topics/keywords.
 
 ### Erasure Coding
 
-#### Quick Start (Basics)
+#### Erasure Coding (basics)
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
@@ -47,6 +47,9 @@ PPT | Regenerating codes for distributed storage | [Link](https://ewh.ieee.org/r
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 FAST'23 | Practical Design Considerations for Wide Locally Recoverable Codes (LRCs) | [Link](https://www.usenix.org/conference/fast23/presentation/kadekodi) | Uniform Cauchy LRCs
+SRDS'22 | XHR-Code: An Efficient Wide Stripe Erasure Code to Reduce Cross-Rack Overhead in Cloud Storage Systems | [Link](https://ieeexplore.ieee.org/document/9996847/) | wide stripe, Hitchhiker
+MSST'19 | AZ-Code: An Efficient Availability Zone Level Erasure Code to Provide High Fault Tolerance in Cloud Storage Systems | [Link](https://ieeexplore.ieee.org/document/8890228) | AZ-Code
+DSN'18 | Alpha Entanglement Codes: Practical Erasure Codes to Archive Data in Unreliable Environments | [Link](https://ieeexplore.ieee.org/document/8416482) | Alpha Entanglement Codes, multiple failures
 ATC'18 | On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes | [Summary](/posts/readings/paper/atc/atc18-lrc-comparison) | LRC comparison: Azure-LRC, Azure-LRC+1, Xorbas, Optimal-LRC
 FAST'18 | RAID+: Deterministic and Balanced Data Distribution for Large Disk Enclosures | [Link](https://www.usenix.org/conference/fast18/presentation/zhang) | RAID+, load balancing
 FAST’18 | Clay Codes: Moulding MDS Codes to Yield an MSR Code | [Summary](/posts/2020/08/paper-reading-clay-codes-fast18/) | Clay codes
@@ -54,17 +57,20 @@ TIT'17 | Explicit constructions of high-rate MDS array codes with optimal repair
 STOC'16 | Repairing Reed-solomon codes | [Link](https://dl.acm.org/doi/10.1145/2897518.2897525) | RS codes repair with sub-packetization
 FAST’16 | Opening the Chrysalis: On the Real Repair Performance of MSR Codes | [Summary](/posts/2020/08/paper-reading-butterfly-codes-fast16/) | Butterfly codes
 FAST'15 | Having Your Cake and Eating It Too: Jointly Optimal Erasure Codes for I/O, Storage, and Network-bandwidth | [Summary](/posts/2020/08/paper-reading-rashmi-pm-rbt-fast15/) | PM-RBT codes
+TOS'14 | Sector-Disk (SD) Erasure Codes for Mixed Failure Modes in RAID Systems | [Link](https://dl.acm.org/doi/10.1145/2560013) | Sector-Disk (SD) codes
 TIT'14 | A family of optimal locally recoverable codes | [Summary](/posts/2020/09/paper-reading-optimal-lrc-tit14/) | Optimal LRCs
 TIT'14 | Locally Repairable Codes | [Link](https://ieeexplore.ieee.org/abstract/document/6818438) | LRCs
 SIGCOMM’14 | A “Hitchhiker’s” Guide to Fast and Efficient Data Reconstruction in Erasure-coded Data Centers | [Summary](/posts/2020/08/paper-reading-rashmi-hitchhikker-sigcomm14/) | Hitchhikker codes
 FAST'14 | STAIR Codes: A General Family of Erasure Codes for Tolerating Device and Sector Failures in Practical Storage Systems | [Summary](/posts/2020/08/paper-reading-staircodes-fast14/) | STAIR Codes
 PVLDB'13 | XORing Elephants: Novel Erasure Codes for Big Data | [Summary](/posts/readings/paper/pvldb/pvldb13-xorbas) | Xorbas codes
 TOS'13 | Pyramid Codes: Flexible Schemes to Trade Space for Access Efficiency in Reliable Data Storage Systems | [Summary](/posts/2020/09/paper-reading-pyramid-codes-tos13/) | Pyramid codes
+HotStorage'13 | A Solution to the Network Challenges of Data Recovery in Erasure-coded Distributed Storage Systems: A Study on the Facebook Warehouse Cluster | [Link](https://www.usenix.org/conference/hotstorage13/workshop-program/presentation/rashmi) | Piggybacking codes
+TIT'13 | Zigzag Codes: MDS Array Codes With Optimal Rebuilding | [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6352912) | Zigzag Codes, regenerating codes
 ISIT'13, TIT'17 | A Piggybacking Design Framework for Read-and Download-efficient Distributed Storage Codes | [Link](https://ieeexplore.ieee.org/document/7949040) | Piggybacking codes
 TOS'12 | Generalized X-code: An efficient RAID-6 code for arbitrary size of disk array | [Summary](/posts/2020/10/paper-reading-generalized-x-code-tos12/) | Generalized X-codes
 TIT'12 | On the Locality of Codeword Symbols | [Link](https://ieeexplore.ieee.org/document/6259860) | Theory of LRCs
 ATC'12 | Erasure Coding in Windows Azure Storage | [Summary](/posts/readings/paper/atc/atc12-azurelrc) | Azure-LRC
-ISIT'10, TIT'10 | Optimal Exact-Regenerating Codes for Distributed Storage at the MSR and MBR Points via a Product-Matrix Construction | [Link](https://ieeexplore.ieee.org/document/5961826) | Product-Matrix Code
+ISIT'10, TIT'11 | Optimal Exact-Regenerating Codes for Distributed Storage at the MSR and MBR Points via a Product-Matrix Construction | [Link](https://ieeexplore.ieee.org/document/5961826) | Product-Matrix Code
 TOS'09 | GRID codes: Strip-based erasure codes with high fault tolerance for storage systems | [Summary](/posts/2020/10/paper-reading-grid-codes-tos09/) | GRID codes
 FAST'04 | Improving Storage System Availability with D-GRAID | [Link](https://www.usenix.org/conference/fast-04/improving-storage-system-availability-d-graid) | D-GRAID codes
 FAST'04 | Row-Diagonal Parity for Double Disk Failure Correction | [Link](https://www.usenix.org/conference/fast-04/row-diagonal-parity-double-disk-failure-correction#:~:text=Row%2DDiagonal%20Parity%20(RDP),both%20during%20construction%20and%20reconstruction.) | RDP codes
@@ -134,7 +140,7 @@ Eurosys'16 | Partial-Parallel-Repair (PPR): A Distributed Technique for Repairin
 SYSTOR'14 | Lazy Means Smart: Reducing Repair Bandwidth Costs in Erasure-coded Distributed Storage | [Link](https://dl.acm.org/doi/abs/10.1145/2611354.2611370) | Lazy recovery
 FAST'14 | Parity Logging with Reserved Space: Towards Efﬁcient Updates and Recovery in Erasure-coded Clustered Storage | [Link](https://www.usenix.org/conference/fast14/technical-sessions/presentation/chan) | CodFS
 MSST’12 | On the speedup of single-disk failure recovery in XOR-coded storage systems: Theory and practice | [Summary](/posts/2020/09/paper-reading-zhu-replace-recovery-msst12/) | Zhu, replace recovery algorithms for XOR based codes
-FAST'12 | Rethinking Erasure Codes for Cloud File Systems: Minimizing I/O for Recovery and Degraded Reads | [Summary](/posts/2020/09/paper-reading-khan-fast12/) | Khan, repair I/O improvement
+FAST'12 | Rethinking Erasure Codes for Cloud File Systems: Minimizing I/O for Recovery and Degraded Reads | [Summary](/posts/2020/09/paper-reading-khan-fast12/) | Khan, RotatedRS, repair I/O improvement
 
 
 
@@ -170,12 +176,21 @@ IPTPS'02 |  Erasure coding vs. replication:a quantitative comparison | [Link](ht
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
+ATC'19 | Dayu: Fast and Low-interference Data Recovery in Very-large Storage Systems | [Link](https://www.usenix.org/conference/atc19/presentation/wang-zhufan) | Dayu, recovery
 SYSTOR'19 | Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways | [Summary](/posts/2021/02/paper-reading-kruma-systor19/) | Kurma
 ATC'14 | SCFS: A Shared Cloud-backed File System | [Summary](/posts/2021/01/paper-reading-scfs-atc14/) | SCFS, Depsky extension
 SoCC'14 | Hybris: Robust Hybrid Cloud Storage | [Summary](/posts/2021/02/paper-reading-hybris-socc14/) | Hybris
 SOSP'13 | SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services | [Summary](/posts/2021/02/paper-reading-spanstore-sosp13/) | SPANStore
+OSDI'12 | Flat Datacenter Storage | [Link](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-75.pdf) | Flat Datacenter Storage
 Eurosys'11 | DEPSKY: A High-Availability and Integrity Layer for Cloud Storage | [Summary](/posts/2019/07/paper-reading-depsky-eurosys11/) | Depsky
 SoCC'10 | RACS: a case for cloud storage diversity | [Summary](/posts/2019/07/paper-reading-racs-socc10/) | RACS
+
+### Security
+
+Venue | Title | Link / Summary | Brief
+:---: | :---: | :---: | :---:
+Systor'18 | How to Best Share a Big Secret | [Link](https://dl.acm.org/doi/10.1145/3211890.3211896) | Secret sharing
+Communications of the ACM'1979 | How to Share a Secret | [Link](https://dl.acm.org/doi/10.1145/359168.359176) | Secret sharing
 
 
 ### Edge
