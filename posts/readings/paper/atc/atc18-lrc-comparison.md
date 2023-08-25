@@ -205,7 +205,7 @@ of the LRC constructions.
 
 ## Weakness
 
-There are some confusing settings in the evaluation, such as the parameter
+* There are some confusing settings in the evaluation, such as the parameter
 settings and code selection
     * Some parameters and codes are chosen without explanation (e.g., the Zone
     experiment, why not use Optimal-LRC?)

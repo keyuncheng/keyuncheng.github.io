@@ -46,7 +46,7 @@ PPT | Regenerating codes for distributed storage | [Link](https://ewh.ieee.org/r
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-FAST'23 | Practical Design Considerations for Wide Locally Recoverable Codes (LRCs) | [Link](https://www.usenix.org/conference/fast23/presentation/kadekodi) | Uniform Cauchy LRCs
+FAST'23 | Practical Design Considerations for Wide Locally Recoverable Codes (LRCs) | [Summary](/posts/readings/paper/fast/fast23-uniform-cauchy-lrc) | Uniform Cauchy LRCs
 SRDS'22 | XHR-Code: An Efficient Wide Stripe Erasure Code to Reduce Cross-Rack Overhead in Cloud Storage Systems | [Link](https://ieeexplore.ieee.org/document/9996847/) | wide stripe, Hitchhiker
 MSST'19 | AZ-Code: An Efficient Availability Zone Level Erasure Code to Provide High Fault Tolerance in Cloud Storage Systems | [Link](https://ieeexplore.ieee.org/document/8890228) | AZ-Code
 DSN'18 | Alpha Entanglement Codes: Practical Erasure Codes to Archive Data in Unreliable Environments | [Link](https://ieeexplore.ieee.org/document/8416482) | Alpha Entanglement Codes, multiple failures
@@ -60,6 +60,7 @@ FAST'15 | Having Your Cake and Eating It Too: Jointly Optimal Erasure Codes for 
 TOS'14 | Sector-Disk (SD) Erasure Codes for Mixed Failure Modes in RAID Systems | [Link](https://dl.acm.org/doi/10.1145/2560013) | Sector-Disk (SD) codes
 TIT'14 | A family of optimal locally recoverable codes | [Summary](/posts/2020/09/paper-reading-optimal-lrc-tit14/) | Optimal LRCs
 TIT'14 | Locally Repairable Codes | [Link](https://ieeexplore.ieee.org/abstract/document/6818438) | LRCs
+TIT'14 | Codes With Local Regeneration and Erasure Correction | [Link](https://ieeexplore.ieee.org/document/6846301) | LRC for multiple failures + sub-packetization
 SIGCOMM’14 | A “Hitchhiker’s” Guide to Fast and Efficient Data Reconstruction in Erasure-coded Data Centers | [Summary](/posts/2020/08/paper-reading-rashmi-hitchhikker-sigcomm14/) | Hitchhikker codes
 FAST'14 | STAIR Codes: A General Family of Erasure Codes for Tolerating Device and Sector Failures in Practical Storage Systems | [Summary](/posts/2020/08/paper-reading-staircodes-fast14/) | STAIR Codes
 PVLDB'13 | XORing Elephants: Novel Erasure Codes for Big Data | [Summary](/posts/readings/paper/pvldb/pvldb13-xorbas) | Xorbas codes
