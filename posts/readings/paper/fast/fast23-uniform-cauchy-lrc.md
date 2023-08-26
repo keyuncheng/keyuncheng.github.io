@@ -19,9 +19,29 @@ based on theoretical analysis and Monte-Carlo simulation experiments.
 
 ## Main Contributions
 
+* Compares state-of-the-art LRC constructions for wide stripes, including
+  Azure-LRC, Azure-LRC+1, Optimal Cauchy LRC (Xorbas)
+
+* Reliability analysis using observed failures (via Monte Carlo simulations)
+
+* Analyze the theoretical properties of Optimal distance LRCs and MR-LRCs with
+  maximal recovery property (not necessarily distance optimal)
+
+* Propose Uniform Cauchy LRC, a sub-optimal distance LRC that can tolerate
+  more failure patterns with the number of failures larger than the distance,
+  with a tradeoff of smaller code distance than the Optimal Cauchy LRCs.
+
 ## Details
 
-* The detailed constructions of different LRC constructions are TBD.
+* Optimal-LRC: very close to ATC'18
+
+* Uniform Cauchy LRC: the coefficients of global parities are the same as Optimal-LRC; the
+  coefficients of local parities changed.
+
+* One useful information: analyzing the multiple failure patterns in practice,
+  which suggests that multiple failures appear more common than shorter codes.
+  Supporting the multiple failures (especially on the system performance) for
+  wide-LRCs needs more research.
 
 ## Strength
 
