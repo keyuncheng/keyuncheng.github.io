@@ -61,6 +61,7 @@ TOS'14 | Sector-Disk (SD) Erasure Codes for Mixed Failure Modes in RAID Systems 
 TIT'14 | A family of optimal locally recoverable codes | [Summary](/posts/2020/09/paper-reading-optimal-lrc-tit14/) | Optimal LRCs
 TIT'14 | Locally Repairable Codes | [Link](https://ieeexplore.ieee.org/abstract/document/6818438) | LRCs
 TIT'14 | Codes With Local Regeneration and Erasure Correction | [Link](https://ieeexplore.ieee.org/document/6846301) | LRC for multiple failures + sub-packetization
+TIT'14 | Repair locality with multiple erasure tolerance | [Link](https://ieeexplore.ieee.org/iel7/18/4667673/06882150.pdf) | LRC for multiple failures
 SIGCOMM’14 | A “Hitchhiker’s” Guide to Fast and Efficient Data Reconstruction in Erasure-coded Data Centers | [Summary](/posts/2020/08/paper-reading-rashmi-hitchhikker-sigcomm14/) | Hitchhikker codes
 FAST'14 | STAIR Codes: A General Family of Erasure Codes for Tolerating Device and Sector Failures in Practical Storage Systems | [Summary](/posts/2020/08/paper-reading-staircodes-fast14/) | STAIR Codes
 PVLDB'13 | XORing Elephants: Novel Erasure Codes for Big Data | [Summary](/posts/readings/paper/pvldb/pvldb13-xorbas) | Xorbas codes
