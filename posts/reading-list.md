@@ -73,6 +73,7 @@ TIT'12 | On the Locality of Codeword Symbols | [Link](https://ieeexplore.ieee.or
 ATC'12 | Erasure Coding in Windows Azure Storage | [Summary](/posts/readings/paper/atc/atc12-azurelrc) | Azure-LRC
 ISIT'10, TIT'11 | Optimal Exact-Regenerating Codes for Distributed Storage at the MSR and MBR Points via a Product-Matrix Construction | [Link](https://ieeexplore.ieee.org/document/5961826) | Product-Matrix Code
 TOS'09 | GRID codes: Strip-based erasure codes with high fault tolerance for storage systems | [Summary](/posts/2020/10/paper-reading-grid-codes-tos09/) | GRID codes
+NCA'07 | Pyramid Codes: Flexible Schemes to Trade Space for Access Efficiency in Reliable Data Storage Systems | [Summary](/posts/readings/paper/nca/nca07-pyramid-codes) | Pyramid Codes
 FAST'04 | Improving Storage System Availability with D-GRAID | [Link](https://www.usenix.org/conference/fast-04/improving-storage-system-availability-d-graid) | D-GRAID codes
 FAST'04 | Row-Diagonal Parity for Double Disk Failure Correction | [Link](https://www.usenix.org/conference/fast-04/row-diagonal-parity-double-disk-failure-correction#:~:text=Row%2DDiagonal%20Parity%20(RDP),both%20during%20construction%20and%20reconstruction.) | RDP codes
 ATC'1996 | AFRAID - A Frequently Redundant Array of Independent Disks | [Link](https://www.usenix.org/legacy/publications/library/proceedings/sd96/full_papers/wilkes.pdf) | AFRAID
