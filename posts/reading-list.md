@@ -70,7 +70,7 @@ HotStorage'13 | A Solution to the Network Challenges of Data Recovery in Erasure
 TIT'13 | Zigzag Codes: MDS Array Codes With Optimal Rebuilding | [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6352912) | Zigzag Codes, regenerating codes
 ISIT'13, TIT'17 | A Piggybacking Design Framework for Read-and Download-efficient Distributed Storage Codes | [Link](https://ieeexplore.ieee.org/document/7949040) | Piggybacking codes
 TOS'12 | Generalized X-code: An efficient RAID-6 code for arbitrary size of disk array | [Summary](/posts/2020/10/paper-reading-generalized-x-code-tos12/) | Generalized X-codes
-TIT'12 | On the Locality of Codeword Symbols | [Link](https://ieeexplore.ieee.org/document/6259860) | Theory of LRCs
+TIT'12 | On the Locality of Codeword Symbols | [Link](/posts/readings/paper/tit/tit12-lrc) | Theory of LRCs
 ATC'12 | Erasure Coding in Windows Azure Storage | [Summary](/posts/readings/paper/atc/atc12-azurelrc) | Azure-LRC
 ISIT'10, TIT'11 | Optimal Exact-Regenerating Codes for Distributed Storage at the MSR and MBR Points via a Product-Matrix Construction | [Link](https://ieeexplore.ieee.org/document/5961826) | Product-Matrix Code
 TOS'09 | GRID codes: Strip-based erasure codes with high fault tolerance for storage systems | [Summary](/posts/2020/10/paper-reading-grid-codes-tos09/) | GRID codes
@@ -82,6 +82,7 @@ ISCA'1994, TC'1995 | EVENODD: an optimal scheme for tolerating double disk failu
 SIGMOD'1988 | A Case for Redundant Arrays of Inexpensive Disks (RAID) | [Link](https://dl.acm.org/doi/10.1145/50202.50214) | RAID
 SIGMETRICS Perf Eval. Review'1995 | Striping in a RAID level 5 disk array | [Link](https://dl.acm.org/doi/10.1145/223586.223603) | RAID striping
 SIAM'1960 | Polynomial Codes Over Certain Finite Fields | [Summary](/posts/2021/06/paper-reading-rs-siam1960/) | RS codes (original version)
+Monograph from Prof. P. Vijay Kumar | Codes for Distributed Storage | [Link](https://ece.iisc.ac.in/~pvkece/pdfs/CDS_as_Published_FnT.pdf) | Coding Theory (RS, MSR, LRC, etc.) 
 
 
 
