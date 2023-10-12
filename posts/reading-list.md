@@ -129,6 +129,7 @@ SNAPI'07| Outshining Mirrors: MTTDL of Fixed-Order SSPiRAL Layouts | [Link](http
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
+ICPP'23 | Toward Optimal Repair and Load Balance in Locally Repairable Codes | [Summary](/posts/readings/paper/icpp/icpp23-optimal-lrc) | LRC, repair, load balancing
 ICPP'22 | Repair-Optimal Data Placement for Locally Repairable Codes with Optimal Minimum Hamming Distance | [Summary](/posts/readings/paper/icpp/icpp22-optimallrc) | LRC, repair, data placement
 SOSP'21 | Geometric Partitioning: Explore the Boundary of Optimal Erasure Code Repair | [Link](https://dl.acm.org/doi/10.1145/3477132.3483558) | Geometric Partitioning
 FAST'21 | Exploiting Combined Locality for Wide-Stripe Erasure Coding in Distributed Storage | [Link](https://www.usenix.org/conference/fast21/presentation/hu) | ECWide, LRC, wide stripe
