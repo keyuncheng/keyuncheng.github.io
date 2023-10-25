@@ -121,6 +121,7 @@ Venue | Title | Link / Summary | Brief
 Summary | Reliability Analysis: MTTDL | [Summary](/posts/2021/07/blogs-mttdl/) | Calculation of MTTDL
 SRDS'17, TPDS'19 | SimEDC: A Simulator for the Reliability Analysis of Erasure-Coded Data Centers | [Link](https://www.cse.cuhk.edu.hk/~pclee/www/pubs/tpds19simedc.pdf) | SimEDC
 HotStorage'10 | Mean time to meaningless: MTTDL, Markov models, and storage system reliability | [Link](https://www.usenix.org/legacy/event/hotstorage10/tech/full_papers/Greenan.pdf) | MTTDL Meaningless
+OSDI'09 | Availability in Globally Distributed Storage Systems | [Summary](/posts/readings/paper/osdi/osdi09-availability) | Google Availability
 I2TS'08 | When MTTDLs Are Not Good Enough: Providing Better Estimates of Disk Array Reliability  | [Link](https://www.cse.scu.edu/~tschwarz/Papers/i2ts08.pdf) | ---
 SNAPI'07| Outshining Mirrors: MTTDL of Fixed-Order SSPiRAL Layouts | [Link](http://www2.cs.uh.edu/~paris/MYPAPERS/Snapi07.pdf) | ---
 
