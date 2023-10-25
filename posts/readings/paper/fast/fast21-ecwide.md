@@ -77,6 +77,17 @@ addresses the single-chunk and full node repair, encoding and update problems.
         * tradeoff-between redundancy and cross-rack repair bandwidth under
           the same k and f
     * MTTDL
+        * Almost the same as ATC'12 Azure-LRC.
+        * Make some simplifications
+            * Not consider multiple failure patterns beyond the fault
+              tolerance
+        * Provided the **sample parameters**
+    * Implementation
+        * Repair
+        * Encoding
+            * Multi-node encoding: idea is to encode early within rack
+        * Update
+            * Find update-intensive rack and swap the local parity block (novelty?)
 
 ## Strength
 
