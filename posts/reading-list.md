@@ -130,16 +130,22 @@ SNAPI'07| Outshining Mirrors: MTTDL of Fixed-Order SSPiRAL Layouts | [Link](http
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
+IPDPS'23 | Boosting Multi-Block Repair in Cloud Storage Systems with Wide-Stripe Erasure Coding | [Summary](/posts/readings/paper/ipdps/ipdps23-multiple-repair) | Multiple repair, wide stripe
 ICPP'23 | Toward Optimal Repair and Load Balance in Locally Repairable Codes | [Summary](/posts/readings/paper/icpp/icpp23-optimal-lrc) | LRC, repair, load balancing
+ICDCS'22 | PivotRepair: Fast Pipelined Repair for Erasure-Coded Hot Storage | [Link](https://ieeexplore.ieee.org/document/9912193/) | repair
+ICPP'22 | Exploiting Parallelism of Disk Failure Recovery via Partial Stripe Repair for an Erasure-Coded High-Density Storage Server | [Link](https://dl.acm.org/doi/abs/10.1145/3545008.3545014) | repair, high density storage
 ICPP'22 | Repair-Optimal Data Placement for Locally Repairable Codes with Optimal Minimum Hamming Distance | [Summary](/posts/readings/paper/icpp/icpp22-optimallrc) | LRC, repair, data placement
+ATC'21 | Boosting Full-Node Repair in Erasure-Coded Storage | [Link](https://www.usenix.org/conference/atc21/presentation/lin) | full-node recovery
 SOSP'21 | Geometric Partitioning: Explore the Boundary of Optimal Erasure Code Repair | [Link](https://dl.acm.org/doi/10.1145/3477132.3483558) | Geometric Partitioning
-FAST'21 | Exploiting Combined Locality for Wide-Stripe Erasure Coding in Distributed Storage | [Link](https://www.usenix.org/conference/fast21/presentation/hu) | ECWide, LRC, wide stripe
+FAST'21 | Exploiting Combined Locality for Wide-Stripe Erasure Coding in Distributed Storage | [Summary](/posts/readings/paper/fast/fast21-ecwide), [Summary (earlier)](/posts/2021/07/paper-reading-ecwide/) | ECWide, repair, LRC, wide stripe
+ICPP'21 | Multi-level Forwarding and Scheduling Repair Technique in Heterogeneous Network for Erasure-coded Clusters | [Link](https://dl.acm.org/doi/abs/10.1145/3472456.3472494) | repair, heterogeneous
 IWQoS'21 | EC-Scheduler: A Load-Balanced Scheduler to Accelerate the Straggler Recovery for Erasure Coded Storage Systems | [Summary](/posts/readings/paper/iwqos/iwqos21-ecscheduler) | repair, load balancing  
 HotStorage'20 | SelectiveEC: Selective Reconstruction in Erasure-coded Storage Systems | [Summary](/posts/2020/08/paper-reading-selectiveec-hotstorage20/) | SelectiveEC, load balancing
 Eurosys'20 | RAIDP: replication with intra-disk parity | [Summary](/posts/2020/08/paper-reading-raidp-eurosys20/) | RAID-P
 FAST'20 | CRaft: An Erasure-coding-supported Version of Raft for Reducing Storage Cost and Network Cost | [Link](https://www.usenix.org/conference/fast20/presentation/wang-zizhong) | CRaft
 FAST'19 | Fast Erasure Coding for Data Storage: A Comprehensive Study of the Acceleration Techniques | [Summary](/posts/2020/08/paper-reading-ec-acceleration-fast19/) | repair acceleration
 DSN'19 | Fast Predictive Repair in Erasure-Coded Storage | [Summary](/posts/2020/08/paper-reading-fpr-dsn19/) | FastPR, repair, parallelization
+ICPP'19 | Fast Recovery Techniques for Erasure-coded Clusters in Non-uniform Traffic Network | [Link](https://dl.acm.org/doi/10.1145/3337821.3337831) | multiple failure repair
 ATC'17 | Repair Pipelining for Erasure-Coded Storage | [Summary](/posts/2020/08/paper-reading-repair-pipelining-atc17/) | ECPipe, repair, parallelization
 ATC'17 | PARIX: Speculative Partial Writes in Erasure-Coded Systems | [Link](https://www.usenix.org/conference/atc17/technical-sessions/presentation/li-huiba) | Parix
 Eurosys'16 | Partial-Parallel-Repair (PPR): A Distributed Technique for Repairing Erasure Coded Storage | [Summary](/posts/2020/08/paper-reading-ppr-eurosys16/) | PPR, repair, parallelization
