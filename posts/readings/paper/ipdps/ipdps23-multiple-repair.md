@@ -64,6 +64,13 @@ demonstrates the effectiveness of the combination.
 * Design (it's good enough for a rank B paper)
     * Trivially combines both existing two approaches
     * Wide-stripe is not the focus
+    * I think multiple repair is also not the focus. The independent repair
+      approach for multiple repair has *f* times bandwidth consumption. The
+      bandwidth it generates is much higher than the centralized repair
+        * I think one experiment regarding **the proportion of** centralized
+          repair and independent repair is strongly needed. Otherwise, it's
+          not clear how much bandwidth is trade-offed for the repair
+          performance
 
 * Evaluation
     * To me it has many problems
