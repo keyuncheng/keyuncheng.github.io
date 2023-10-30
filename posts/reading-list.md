@@ -72,6 +72,7 @@ ISIT'13, TIT'17 | A Piggybacking Design Framework for Read-and Download-efficien
 TOS'12 | Generalized X-code: An efficient RAID-6 code for arbitrary size of disk array | [Summary](/posts/2020/10/paper-reading-generalized-x-code-tos12/) | Generalized X-codes
 TIT'12 | On the Locality of Codeword Symbols | [Link](/posts/readings/paper/tit/tit12-lrc) | Theory of LRCs
 ATC'12 | Erasure Coding in Windows Azure Storage | [Summary](/posts/readings/paper/atc/atc12-azurelrc) | Azure-LRC
+INFOCOM'12 | Simple regenerating codes: Network coding for cloud storage | [Link](https://ieeexplore.ieee.org/document/6195703) | Simple regenerating code
 ISIT'10, TIT'11 | Optimal Exact-Regenerating Codes for Distributed Storage at the MSR and MBR Points via a Product-Matrix Construction | [Link](https://ieeexplore.ieee.org/document/5961826) | Product-Matrix Code
 TOS'09 | GRID codes: Strip-based erasure codes with high fault tolerance for storage systems | [Summary](/posts/2020/10/paper-reading-grid-codes-tos09/) | GRID codes
 NCA'07 | Pyramid Codes: Flexible Schemes to Trade Space for Access Efficiency in Reliable Data Storage Systems | [Summary](/posts/readings/paper/nca/nca07-pyramid-codes) | Pyramid Codes
@@ -137,7 +138,7 @@ ICDCS'22 | PivotRepair: Fast Pipelined Repair for Erasure-Coded Hot Storage | [L
 ICPP'22 | Exploiting Parallelism of Disk Failure Recovery via Partial Stripe Repair for an Erasure-Coded High-Density Storage Server | [Link](https://dl.acm.org/doi/abs/10.1145/3545008.3545014) | repair, high density storage
 ICPP'22 | Repair-Optimal Data Placement for Locally Repairable Codes with Optimal Minimum Hamming Distance | [Summary](/posts/readings/paper/icpp/icpp22-optimal-lrc) | LRC, repair, data placement
 ATC'21 | Boosting Full-Node Repair in Erasure-Coded Storage | [Summary](/posts/readings/paper/atc/atc21-repairboost) | RepairBoost, full-node recovery
-SOSP'21 | Geometric Partitioning: Explore the Boundary of Optimal Erasure Code Repair | [Link](https://dl.acm.org/doi/10.1145/3477132.3483558) | Geometric Partitioning
+SOSP'21 | Geometric Partitioning: Explore the Boundary of Optimal Erasure Code Repair | [Link](/posts/readings/paper/sosp/sosp21-geometric-partitioning) | Geometric Partitioning
 FAST'21 | Exploiting Combined Locality for Wide-Stripe Erasure Coding in Distributed Storage | [Summary](/posts/readings/paper/fast/fast21-ecwide), [Summary (earlier)](/posts/2021/07/paper-reading-ecwide/) | ECWide, repair, LRC, wide stripe
 ICPP'21 | Multi-level Forwarding and Scheduling Repair Technique in Heterogeneous Network for Erasure-coded Clusters | [Link](https://dl.acm.org/doi/abs/10.1145/3472456.3472494) | repair, heterogeneous
 IWQoS'21 | EC-Scheduler: A Load-Balanced Scheduler to Accelerate the Straggler Recovery for Erasure Coded Storage Systems | [Summary](/posts/readings/paper/iwqos/iwqos21-ecscheduler) | repair, load balancing  
