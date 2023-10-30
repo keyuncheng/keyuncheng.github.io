@@ -45,6 +45,11 @@ Journal (): [Link]()
         * Considering the heterogeneity of clusters and nodes (new nodes and
           new clusters are with higher storage capacity)
 
+* Note: the motivating example under Motivation 1 is wrong
+    * Specifically, the global parity cross-rack repair bandwidth is not two,
+      but three. Three means that G1 and G2 does not help at all. There are
+      two sets of linear independent equations, we cannot only decode for one.
+
 * Design
     * Metrics
         * Storage load and bias

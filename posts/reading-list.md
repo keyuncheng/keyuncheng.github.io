@@ -136,7 +136,7 @@ ICPP'23 | Toward Optimal Repair and Load Balance in Locally Repairable Codes | [
 ICDCS'22 | PivotRepair: Fast Pipelined Repair for Erasure-Coded Hot Storage | [Link](https://ieeexplore.ieee.org/document/9912193/) | repair
 ICPP'22 | Exploiting Parallelism of Disk Failure Recovery via Partial Stripe Repair for an Erasure-Coded High-Density Storage Server | [Link](https://dl.acm.org/doi/abs/10.1145/3545008.3545014) | repair, high density storage
 ICPP'22 | Repair-Optimal Data Placement for Locally Repairable Codes with Optimal Minimum Hamming Distance | [Summary](/posts/readings/paper/icpp/icpp22-optimal-lrc) | LRC, repair, data placement
-ATC'21 | Boosting Full-Node Repair in Erasure-Coded Storage | [Link](/posts/readings/paper/atc/atc21-repairboost) | RepairBoost, full-node recovery
+ATC'21 | Boosting Full-Node Repair in Erasure-Coded Storage | [Summary](/posts/readings/paper/atc/atc21-repairboost) | RepairBoost, full-node recovery
 SOSP'21 | Geometric Partitioning: Explore the Boundary of Optimal Erasure Code Repair | [Link](https://dl.acm.org/doi/10.1145/3477132.3483558) | Geometric Partitioning
 FAST'21 | Exploiting Combined Locality for Wide-Stripe Erasure Coding in Distributed Storage | [Summary](/posts/readings/paper/fast/fast21-ecwide), [Summary (earlier)](/posts/2021/07/paper-reading-ecwide/) | ECWide, repair, LRC, wide stripe
 ICPP'21 | Multi-level Forwarding and Scheduling Repair Technique in Heterogeneous Network for Erasure-coded Clusters | [Link](https://dl.acm.org/doi/abs/10.1145/3472456.3472494) | repair, heterogeneous
