@@ -91,6 +91,7 @@ Monograph from Prof. P. Vijay Kumar | Codes for Distributed Storage | [Link](htt
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
+ISIT'23 | Locally Repairable Convertible Codes: Erasure Codes for Efficient Repair and Conversion | [Summary](/posts/readings/paper/isit/isit23-lrc-conversion) | LRC conversion
 OSDI'22 | Tiger: disk-adaptive redundancy without placement restrictions | [Summary](/posts/readings/paper/osdi/osdi22-tiger) | Tiger
 ISIT'22 | Bandwidth Cost of Code Conversions in the Split Regime | [Link](https://arxiv.org/abs/2205.06793) | Convertible codes: bandwidth
 ISIT'21, TIT'23 | Bandwidth Cost of Code Conversions in Distributed Storage: Fundamental Limits and Optimal Constructions | [Link](https://ieeexplore.ieee.org/document/10097511) | Convertible codes: bandwidth
