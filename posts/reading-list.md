@@ -54,6 +54,7 @@ ATC'18 | On Fault Tolerance, Locality, and Optimality in Locally Repairable Code
 FAST'18 | RAID+: Deterministic and Balanced Data Distribution for Large Disk Enclosures | [Link](https://www.usenix.org/conference/fast18/presentation/zhang) | RAID+, load balancing
 FAST’18 | Clay Codes: Moulding MDS Codes to Yield an MSR Code | [Summary](/posts/2020/08/paper-reading-clay-codes-fast18/) | Clay codes
 TIT'17 | Explicit constructions of high-rate MDS array codes with optimal repair bandwidth | [Link](https://ieeexplore.ieee.org/document/7990181) | Ye and Barg codes
+ISIT'16 | Double Regenerating Codes for hierarchical data centers | [Link](https://ieeexplore.ieee.org/document/7541298) | DRC
 STOC'16 | Repairing Reed-solomon codes | [Link](https://dl.acm.org/doi/10.1145/2897518.2897525) | RS codes repair with sub-packetization
 FAST’16 | Opening the Chrysalis: On the Real Repair Performance of MSR Codes | [Summary](/posts/2020/08/paper-reading-butterfly-codes-fast16/) | Butterfly codes
 FAST'15 | Having Your Cake and Eating It Too: Jointly Optimal Erasure Codes for I/O, Storage, and Network-bandwidth | [Summary](/posts/2020/08/paper-reading-rashmi-pm-rbt-fast15/) | PM-RBT codes
@@ -142,7 +143,9 @@ ATC'21 | Boosting Full-Node Repair in Erasure-Coded Storage | [Summary](/posts/r
 SOSP'21 | Geometric Partitioning: Explore the Boundary of Optimal Erasure Code Repair | [Link](/posts/readings/paper/sosp/sosp21-geometric-partitioning) | Geometric Partitioning
 FAST'21 | Exploiting Combined Locality for Wide-Stripe Erasure Coding in Distributed Storage | [Summary](/posts/readings/paper/fast/fast21-ecwide), [Summary (earlier)](/posts/2021/07/paper-reading-ecwide/) | ECWide, repair, LRC, wide stripe
 ICPP'21 | Multi-level Forwarding and Scheduling Repair Technique in Heterogeneous Network for Erasure-coded Clusters | [Link](https://dl.acm.org/doi/abs/10.1145/3472456.3472494) | repair, heterogeneous
-IWQoS'21 | EC-Scheduler: A Load-Balanced Scheduler to Accelerate the Straggler Recovery for Erasure Coded Storage Systems | [Summary](/posts/readings/paper/iwqos/iwqos21-ecscheduler) | repair, load balancing  
+IWQoS'21 | EC-Scheduler: A Load-Balanced Scheduler to Accelerate the Straggler Recovery for Erasure Coded Storage Systems | [Summary](/posts/readings/paper/iwqos/iwqos21-ecscheduler) | repair, load balancing
+IPDPS'20 | EC-Fusion: An Efficient Hybrid Erasure Coding Framework to Improve Both Application and Recovery Performance in Cloud Storage Systems | [Link]
+(https://ieeexplore.ieee.org/document/9139819) | EC-Fusion, multiple erasure codes 
 HotStorage'20 | SelectiveEC: Selective Reconstruction in Erasure-coded Storage Systems | [Summary](/posts/2020/08/paper-reading-selectiveec-hotstorage20/) | SelectiveEC, load balancing
 Eurosys'20 | RAIDP: replication with intra-disk parity | [Summary](/posts/2020/08/paper-reading-raidp-eurosys20/) | RAID-P
 FAST'20 | CRaft: An Erasure-coding-supported Version of Raft for Reducing Storage Cost and Network Cost | [Link](https://www.usenix.org/conference/fast20/presentation/wang-zizhong) | CRaft
