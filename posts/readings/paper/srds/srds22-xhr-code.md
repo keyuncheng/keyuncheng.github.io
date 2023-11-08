@@ -30,6 +30,9 @@ of racks small. Experiments shows its effectiveness.
   ECWide, and adds a layer of local parity blocks similar to pyramid codes
   with three levels of hierarchy
 
+* The design of using Hitchhiker to help multiple failure is definitely wrong
+  - Hitchhiker by design ONLY helps single failure repair. This is absolutely wrong
+
 * The design has many typos and makes the reading very difficult to
   understand. Also, the design is not accurately described especially for the
   Hitchhiker layer. What should be the number of rack groups? How many racks
