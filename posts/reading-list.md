@@ -49,6 +49,7 @@ Venue | Title | Link / Summary | Brief
 FAST'23 | Practical Design Considerations for Wide Locally Recoverable Codes (LRCs) | [Summary](/posts/readings/paper/fast/fast23-uniform-cauchy-lrc) | Uniform Cauchy LRC, wide stripe, LRC
 SRDS'22 | XHR-Code: An Efficient Wide Stripe Erasure Code to Reduce Cross-Rack Overhead in Cloud Storage Systems | [Summary](/posts/readings/paper/srds/srds22-xhr-code) | XHR-Code, repair, wide stripe, hierarchical settings, multiple failures
 MSST'19 | AZ-Code: An Efficient Availability Zone Level Erasure Code to Provide High Fault Tolerance in Cloud Storage Systems | [Link](https://ieeexplore.ieee.org/document/8890228) | AZ-Code
+ISIT'18 | Codes with Combined Locality and Regeneration Having Optimal Rate, dmin and Linear Field Size | [Link](https://dl.acm.org/doi/10.1109/ISIT.2018.8437455) | Local Regenerating Codes, LRC, regenerating codes
 DSN'18 | Alpha Entanglement Codes: Practical Erasure Codes to Archive Data in Unreliable Environments | [Link](https://ieeexplore.ieee.org/document/8416482) | Alpha Entanglement Codes, multiple failures
 ATC'18 | On Fault Tolerance, Locality, and Optimality in Locally Repairable Codes | [Summary](/posts/readings/paper/atc/atc18-lrc-comparison) | LRC,  comparison, Ceph
 FAST'18 | RAID+: Deterministic and Balanced Data Distribution for Large Disk Enclosures | [Link](https://www.usenix.org/conference/fast18/presentation/zhang) | RAID+, load balancing
@@ -61,7 +62,7 @@ FAST'15 | Having Your Cake and Eating It Too: Jointly Optimal Erasure Codes for 
 TOS'14 | Sector-Disk (SD) Erasure Codes for Mixed Failure Modes in RAID Systems | [Link](https://dl.acm.org/doi/10.1145/2560013) | Sector-Disk (SD) codes, sector-disk failures
 TIT'14 | A family of optimal locally recoverable codes | [Summary](/posts/2020/09/paper-reading-optimal-lrc-tit14/) | Optimal LRCs, LRC
 TIT'14 | Locally Repairable Codes | [Link](https://ieeexplore.ieee.org/abstract/document/6818438) | LRC
-TIT'14 | Codes With Local Regeneration and Erasure Correction | [Link](https://ieeexplore.ieee.org/document/6846301) | Local Regenerating Codes, LRC, multiple failures
+TIT'14 | Codes With Local Regeneration and Erasure Correction | [Summary](posts/readings/paper/tit/tit14-lrc-rc) | Local Regenerating Codes, LRC, multiple failures
 TIT'14 | Repair locality with multiple erasure tolerance | [Link](https://ieeexplore.ieee.org/iel7/18/4667673/06882150.pdf) | LRC, multiple failures
 SIGCOMM’14 | A “Hitchhiker’s” Guide to Fast and Efficient Data Reconstruction in Erasure-coded Data Centers | [Summary](/posts/2020/08/paper-reading-rashmi-hitchhikker-sigcomm14/) | Hitchhikker codes, regenerating codes, piggybacking codes
 FAST'14 | STAIR Codes: A General Family of Erasure Codes for Tolerating Device and Sector Failures in Practical Storage Systems | [Summary](/posts/2020/08/paper-reading-staircodes-fast14/) | STAIR Codes, sector-disk failures
@@ -142,8 +143,7 @@ SOSP'21 | Geometric Partitioning: Explore the Boundary of Optimal Erasure Code R
 FAST'21 | Exploiting Combined Locality for Wide-Stripe Erasure Coding in Distributed Storage | [Summary](/posts/readings/paper/fast/fast21-ecwide), [Summary (earlier)](/posts/2021/07/paper-reading-ecwide/) | ECWide, repair, LRC, wide stripe
 ICPP'21 | Multi-level Forwarding and Scheduling Repair Technique in Heterogeneous Network for Erasure-coded Clusters | [Link](https://dl.acm.org/doi/abs/10.1145/3472456.3472494) | repair, heterogeneous
 IWQoS'21 | EC-Scheduler: A Load-Balanced Scheduler to Accelerate the Straggler Recovery for Erasure Coded Storage Systems | [Summary](/posts/readings/paper/iwqos/iwqos21-ecscheduler) | repair, load balancing
-IPDPS'20 | EC-Fusion: An Efficient Hybrid Erasure Coding Framework to Improve Both Application and Recovery Performance in Cloud Storage Systems | [Link]
-(https://ieeexplore.ieee.org/document/9139819) | EC-Fusion, multiple erasure codes 
+IPDPS'20 | EC-Fusion: An Efficient Hybrid Erasure Coding Framework to Improve Both Application and Recovery Performance in Cloud Storage Systems | [Link](https://ieeexplore.ieee.org/document/9139819) | EC-Fusion, multiple erasure codes
 HotStorage'20 | SelectiveEC: Selective Reconstruction in Erasure-coded Storage Systems | [Summary](/posts/2020/08/paper-reading-selectiveec-hotstorage20/) | SelectiveEC, load balancing
 Eurosys'20 | RAIDP: replication with intra-disk parity | [Summary](/posts/2020/08/paper-reading-raidp-eurosys20/) | RAID-P
 FAST'20 | CRaft: An Erasure-coding-supported Version of Raft for Reducing Storage Cost and Network Cost | [Link](https://www.usenix.org/conference/fast20/presentation/wang-zizhong) | CRaft
