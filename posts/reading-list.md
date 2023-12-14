@@ -154,6 +154,7 @@ ATC'17 | Repair Pipelining for Erasure-Coded Storage | [Summary](/posts/2020/08/
 ATC'17 | PARIX: Speculative Partial Writes in Erasure-Coded Systems | [Link](https://www.usenix.org/conference/atc17/technical-sessions/presentation/li-huiba) | Parix
 Eurosys'16 | Partial-Parallel-Repair (PPR): A Distributed Technique for Repairing Erasure Coded Storage | [Summary](/posts/2020/08/paper-reading-ppr-eurosys16/) | PPR, repair, parallelization
 SYSTOR'14 | Lazy Means Smart: Reducing Repair Bandwidth Costs in Erasure-coded Distributed Storage | [Link](https://dl.acm.org/doi/abs/10.1145/2611354.2611370) | Lazy recovery
+TC'14 | Boosting Degraded Reads in Heterogeneous Erasure-Coded Storage Systems | [Summary](/posts/readings/paper/tc/tc14-degraded) | degraded read, heterogeneous network
 FAST'14 | Parity Logging with Reserved Space: Towards Efﬁcient Updates and Recovery in Erasure-coded Clustered Storage | [Link](https://www.usenix.org/conference/fast14/technical-sessions/presentation/chan) | CodFS
 MSST’12 | On the speedup of single-disk failure recovery in XOR-coded storage systems: Theory and practice | [Summary](/posts/2020/09/paper-reading-zhu-replace-recovery-msst12/) | Zhu, replace recovery algorithms for XOR based codes
 FAST'12 | Rethinking Erasure Codes for Cloud File Systems: Minimizing I/O for Recovery and Degraded Reads | [Summary](/posts/2020/09/paper-reading-khan-fast12/) | Khan, RotatedRS, repair I/O improvement
