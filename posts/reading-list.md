@@ -153,6 +153,7 @@ ICPP'19 | Fast Recovery Techniques for Erasure-coded Clusters in Non-uniform Tra
 ATC'17 | Repair Pipelining for Erasure-Coded Storage | [Summary](/posts/2020/08/paper-reading-repair-pipelining-atc17/) | ECPipe, repair, parallelization
 ATC'17 | PARIX: Speculative Partial Writes in Erasure-Coded Systems | [Link](https://www.usenix.org/conference/atc17/technical-sessions/presentation/li-huiba) | Parix
 Eurosys'16 | Partial-Parallel-Repair (PPR): A Distributed Technique for Repairing Erasure Coded Storage | [Summary](/posts/2020/08/paper-reading-ppr-eurosys16/) | PPR, repair, parallelization
+MSST'13 | CORE: Augmenting Regenerating-Coding-Based Recovery for Single and Concurrent Failures in Distributed Storage Systems | [Link](https://www.cse.cuhk.edu.hk/~pclee/www/pubs/msst13.pdf) | CORE, repair, mutli-failure
 SYSTOR'14 | Lazy Means Smart: Reducing Repair Bandwidth Costs in Erasure-coded Distributed Storage | [Link](https://dl.acm.org/doi/abs/10.1145/2611354.2611370) | Lazy recovery
 TC'14 | Boosting Degraded Reads in Heterogeneous Erasure-Coded Storage Systems | [Summary](/posts/readings/paper/tc/tc14-degraded) | degraded read, heterogeneous network
 FAST'14 | Parity Logging with Reserved Space: Towards Efﬁcient Updates and Recovery in Erasure-coded Clustered Storage | [Link](https://www.usenix.org/conference/fast14/technical-sessions/presentation/chan) | CodFS
