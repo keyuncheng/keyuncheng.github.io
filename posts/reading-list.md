@@ -132,7 +132,7 @@ SNAPI'07| Outshining Mirrors: MTTDL of Fixed-Order SSPiRAL Layouts | [Link](http
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-ATC'23 | Explore Data Placement Algorithm for Balanced Recovery Load Distribution | [Link](/posts/readings/paper/atc/atc23-repair-placement) | Recovery, data placement
+ATC'23 | Explore Data Placement Algorithm for Balanced Recovery Load Distribution | [Summary](/posts/readings/paper/atc/atc23-repair-placement) | Recovery, data placement
 IPDPS'23 | Boosting Multi-Block Repair in Cloud Storage Systems with Wide-Stripe Erasure Coding | [Summary](/posts/readings/paper/ipdps/ipdps23-multiple-repair) | Multiple repair, wide stripe
 ICPP'23 | Toward Optimal Repair and Load Balance in Locally Repairable Codes | [Summary](/posts/readings/paper/icpp/icpp23-optimal-lrc) | LRC, repair, load balancing
 ICDCS'22 | PivotRepair: Fast Pipelined Repair for Erasure-Coded Hot Storage | [Link](https://ieeexplore.ieee.org/document/9912193/) | repair
