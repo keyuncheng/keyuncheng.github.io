@@ -167,6 +167,8 @@ FAST'12 | Rethinking Erasure Codes for Cloud File Systems: Minimizing I/O for Re
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
+NSDI'22 | C2DN: How to Harness Erasure Codes at the Edge
+for Efficient Content Delivery | [Summary](/posts/readings/paper/nsdi/nsdi22-c2dn) | C2DN
 FAST'22 | Hydra : Resilient and Highly Available Remote Memory | [Link](https://www.usenix.org/conference/fast22/presentation/lee) | Hydra, RDMA
 FAST'22 | DEPART: Replica Decoupling for Distributed Key-Value Storage | [Link](https://www.usenix.org/conference/fast22/presentation/zhang-qiang) | DEPART, distributed KVStore, EC
 NSDI'20 | Near-Optimal Latency Versus Cost Tradeoffs in Geo-Distributed Storage | [Summary](/posts/2021/06/paper-reading-pando-nsdi20/) | PANDO, consensus, EC
