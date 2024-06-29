@@ -13,7 +13,7 @@ research purposes. Items are characterized by their topics/keywords.
 
 ## Recent
 
-[Erasure Coding](#erasure-coding)
+[Blockchain](#blockchain)
 
 ## Categories
 
@@ -204,6 +204,50 @@ SOSP'13 | SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Clo
 OSDI'12 | Flat Datacenter Storage | [Link](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-75.pdf) | Flat Datacenter Storage
 Eurosys'11 | DEPSKY: A High-Availability and Integrity Layer for Cloud Storage | [Summary](/posts/2019/07/paper-reading-depsky-eurosys11/) | Depsky
 SoCC'10 | RACS: a case for cloud storage diversity | [Summary](/posts/2019/07/paper-reading-racs-socc10/) | RACS
+
+### Blockchain
+
+Venue | Title | Link / Summary | Brief
+:---: | :---: | :---: | :---:
+Bitcoin white paper | Bitcoin: A Peer-to-Peer Electronic Cash System | [Link](https://bitcoin.org/bitcoin.pdf) | Bitcoin white paper
+Ethereum yellow paper | Ethereum: A secure decentralised generalised transaction ledger | [Link](https://ethereum.github.io/yellowpaper/paper.pdf) | Ethereum yellow paper
+HPCA'24 | Rapper: A Parameter-Aware Repair-in-Memory Accelerator for Blockchain Storage Platform | [Link](https://ieeexplore.ieee.org/document/10476464) | Blockchain, EC
+ACM Computing Survey'24 | Scaling Blockchains with Error Correction Codes: A Survey on Coded Blockchains | [Link](https://dl.acm.org/doi/10.1145/3637224) | Blockchain, coding
+TC'24 | BFT-DSN: A Byzantine Fault-Tolerant Decentralized Storage Network | [Link](https://ieeexplore.ieee.org/document/10436433) | BFT, EC
+IOTJ'24 | TORR: A Lightweight Blockchain for Decentralized Federated Learning | [Link](https://ieeexplore.ieee.org/document/10189448/) | Blockchain, EC, AI
+TKDE'23 | PartitionChain: A Scalable and Reliable Data Storage Strategy for Permissioned Blockchain | [Link](https://ieeexplore.ieee.org/document/9656652) | PartitionChain
+TC'23 | Efficient Integrity Auditing Mechanism With Secure Deduplication for Blockchain Storage | [Link](https://ieeexplore.ieee.org/document/10050830) | Blockchain, security, deduplication
+ICPADS'23 | DW-LRC: A Dynamic Wide-stripe LRC Codes for Blockchain Data Under Malicious Node Scenarios | [Link](https://ieeexplore.ieee.org/document/10476025) | Blockchain, EC, LRC
+IOTJ'23 | On Min–Max Storage for Resource-Restricted Clients in Coded Blockchain Systems | [Link](https://ieeexplore.ieee.org/document/10130762) | Blockchain, coding
+TDSC'22 | Enabling Secure and Efficient Decentralized Storage Auditing With Blockchain | [Link](https://ieeexplore.ieee.org/document/9436004/) | Blockchain, security, coding
+ISIT'22 | Polar Coded Merkle Tree: Improved Detection of Data Availability Attacks in Blockchain Systems | [Link](https://ieeexplore.ieee.org/iel7/9834325/9834269/09834538.pdf) | Blockchain, Merkle tree, Coding
+IOTJ'22 | Proof of Continuous Work for Reliable Data Storage Over Permissionless Blockchain | [Link](https://ieeexplore.ieee.org/document/9548672) | Permissionless blockchain, EC
+COMNET'22 | Speeding up block propagation in Bitcoin network: Uncoded and coded designs | [Link](https://www.sciencedirect.com/science/article/pii/S1389128622000238) | Bitcoin, coding
+TCOM'22 | Overcoming Data Availability Attacks in Blockchain Systems: Short Code-Length LDPC Code Design for Coded Merkle Tree | [Link](https://ieeexplore.ieee.org/document/9841605) | Blockchain, merkle tree, coding
+SmartWorld'22 | A Lightweight Locally Repairable Code-based Storage Architecture for Blockchains | [Link](https://ieeexplore.ieee.org/document/10189448/) | Blockchain, coding, LRC
+WCNC'22 | Secure and Private Fountain Code based Architecture for Blockchains | [Link](https://ieeexplore.ieee.org/document/9771862) | Blokchain, coding
+IEEE S&P (Oakland)'21 | Red Belly: A Secure, Fair and Scalable Open Blockchain | [Link](https://ieeexplore.ieee.org/document/9519440/) | Red Belly
+TIFS'21 | PolyShard: Coded Sharding Achieves Linearly Scaling Efficiency and Security Simultaneously | [Link](https://ieeexplore.ieee.org/iel7/9166581/9173928/09174305.pdf) | Polyshard, blockchain, sharding
+TON'21 | Coding for Scalable Blockchains via Dynamic Distributed Storage | [Link](https://ieeexplore.ieee.org/document/9508769) | Blockchain, EC
+TKDE'21 | Distributed Error Correction Coding Scheme for Low Storage Blockchain Systems | [Link](https://ieeexplore.ieee.org/document/9042862) | Erasure coding, blockchain
+ISIT'21 | Low Latency Cross-Shard Transactions in Coded Blockchain | [Link](https://ieeexplore.ieee.org/iel7/9517708/9517709/09518047.pdf) | Blockchain, coding, sharding
+ITW'21 | Communication-Efficient LDPC Code Design for Data Availability Oracle in Side Blockchains | [Link](https://dl.acm.org/doi/abs/10.1109/ITW48936.2021.9611473) | Blockchain, coding
+ICDE'20 | BFT-Store: Storage Partition for Permissioned Blockchain via Erasure Coding | [Link](https://ieeexplore.ieee.org/document/9101675) | BFT-Store
+SIGMOD'20 Demo | A Byzantine Fault Tolerant Storage for Permissioned Blockchain | [Link](https://dl.acm.org/doi/10.1145/3448016.3452744) | Erasure coding, permissioned blockchain
+JPDC'20 | Blockchain-based verification framework for data integrity in edge-cloud storage | [Link](https://www.sciencedirect.com/science/article/pii/S0743731520303142) | Blockchain, verification, coding
+ICDCS'20 | Towards Privacy-assured and Lightweight On-chain Auditing of Decentralized Storage | [Link](https://ieeexplore.ieee.org/document/9355771) | Blockchain, verification, auditing
+Blockchain'20 | Secure Regenerating Codes for Reducing Storage and Bootstrap Costs in Sharded Blockchains | [Link](https://ieeexplore.ieee.org/document/9284685) | Blockchain, EC, regenerating codes
+IOTJ'20 | Distributed Error Correction Coding Scheme for Low Storage Blockchain Systems | [Link](https://ieeexplore.ieee.org/document/9042862) | Erasure coding, blockchain
+AFT'19 | SoK: Sharding on Blockchain | [Link](https://dl.acm.org/doi/10.1145/3318041.3355457) | Sharding
+CCS'18 | RapidChain: Scaling Blockchain via Full Sharding | [Link](https://dl.acm.org/doi/10.1145/3243734.3243853) | RapidChain, blockchain, sharding
+iTings'18 | Erasure code-based low storage blockchain node | [Link](https://ieeexplore.ieee.org/document/8726839) | (highly cited reference) Erasure coding, blockchain
+TrustCom'18 | A Blockchain-based Decentralized Data Storage and Access Framework for PingER | [Link](https://ieeexplore.ieee.org/document/8456048) | Bitcoin, coding
+ICPADS'18 | Blockchain Based Data Integrity Verification in P2P Cloud Storage | [Link](https://ieeexplore.ieee.org/document/8644863/) | Blockchain, verification, coding
+PODC'07 | Verifying Distributed Erasure-Coded Data | [Link](https://dl.acm.org/doi/10.1145/1281100.1281122) | EC, verification
+DSN'04 | Efficient Byzantine-tolerant erasure-coded storage | [Link](https://ieeexplore.ieee.org/document/1311884) | BFT, erasure coding
+
+
+
 
 ### Security
 
