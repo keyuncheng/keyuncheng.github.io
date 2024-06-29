@@ -211,6 +211,7 @@ Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 Bitcoin white paper | Bitcoin: A Peer-to-Peer Electronic Cash System | [Link](https://bitcoin.org/bitcoin.pdf) | Bitcoin white paper
 Ethereum yellow paper | Ethereum: A secure decentralised generalised transaction ledger | [Link](https://ethereum.github.io/yellowpaper/paper.pdf) | Ethereum yellow paper
+Github Repo | Self-maintained blockchain paper list | [Repo 1](https://github.com/jianyu-niu/blockchain_conference_paper), [Repo 2](https://github.com/decrypto-org/blockchain-papers) | -
 HPCA'24 | Rapper: A Parameter-Aware Repair-in-Memory Accelerator for Blockchain Storage Platform | [Link](https://ieeexplore.ieee.org/document/10476464) | Blockchain, EC
 ACM Computing Survey'24 | Scaling Blockchains with Error Correction Codes: A Survey on Coded Blockchains | [Link](https://dl.acm.org/doi/10.1145/3637224) | Blockchain, coding
 TC'24 | BFT-DSN: A Byzantine Fault-Tolerant Decentralized Storage Network | [Link](https://ieeexplore.ieee.org/document/10436433) | BFT, EC
