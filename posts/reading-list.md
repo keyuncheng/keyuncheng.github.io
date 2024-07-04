@@ -209,7 +209,7 @@ SoCC'10 | RACS: a case for cloud storage diversity | [Summary](/posts/2019/07/pa
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
-Bitcoin white paper | Bitcoin: A Peer-to-Peer Electronic Cash System | [Link](https://bitcoin.org/bitcoin.pdf) | Bitcoin white paper
+Bitcoin white paper | Bitcoin: A Peer-to-Peer Electronic Cash System | [Summary](/posts/readings/paper/misc/bitcoin-white-paper) | Bitcoin white paper
 Ethereum yellow paper | Ethereum: A secure decentralised generalised transaction ledger | [Link](https://ethereum.github.io/yellowpaper/paper.pdf) | Ethereum yellow paper
 Github Repo | Self-maintained blockchain paper list | [Repo 1](https://github.com/jianyu-niu/blockchain_conference_paper), [Repo 2](https://github.com/decrypto-org/blockchain-papers) | -
 HPCA'24 | Rapper: A Parameter-Aware Repair-in-Memory Accelerator for Blockchain Storage Platform | [Link](https://ieeexplore.ieee.org/document/10476464) | Blockchain, EC
