@@ -40,7 +40,13 @@ His research interests include distributed storage systems and erasure coding.
 == Publications
 
 === Conferences
-
+# ------------------
+. *Keyun Cheng*, Si Wu, Xiaolu Li, and Patrick P. C. Lee. \n
+*"Harmonizing Repair and Maintenance in LRC-Coded Storage."* \n
+Proceedings of the 43rd International Symposium on Reliable Distributed Systems (SRDS 2024), Charlotte, NC, USA, September 2024. \n
+(AR: 27/87 = 31.0%) \n
+[files/publications/srds24lrc.pdf \[pdf\]]
+[https://github.com/adslabcuhk/openec-lrctradeoff/ \[code\]]
 # ------------------
 . Xiaolu Li, *Keyun Cheng*, Kaicheng Tang, Patrick P. C. Lee, Yuchong Hu, Dan Feng, Jie Li, and Ting-Yi Wu. \n
 *"ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage."* \n
