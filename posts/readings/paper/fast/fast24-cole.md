@@ -53,10 +53,35 @@ saving while having a better throughput.
     * Insertion of a state kv pair for the latest block
         * Using a stream-based manner (Fig. 4); where the old state are
           flushed from memory to disk through compaction
-            * Question: blockchain's write frequency is about one block per
-              10s, what's the performance overhead in reality?
-    * Index file construction
-
+        * The write flow is very similar to LSM-tree write operation, where
+          the compound key (address, block height) is first write to in-memory
+          L0 layer, then flush to disk in subsequent layers when the previous
+          layers are full
+        * Question: blockchain's write frequency is about one block per
+            10s, what's the performance overhead in reality?
+    * Index construction
+        * Using a linear model called PGM-index to reduce the I/O cost for
+          read operation
+            * Note: I did not understand how to model over the compound keys
+              with the help of convex hull
+            * Question: will blockchain's write overhead affects model
+              training?
+    * Merkle tree construction (as file)
+        * Streamingly generate the merkle files, but in a concurrent way: all
+          layers are consequently write to multiple merkle files to increase
+          the write throughput, due to the independence of different Merkle
+          Hash Tree layers (I need to validate whether this assumption is true)
+    * A discussion
+        * COLE does not support blockchain forking and designed to work with
+          non-forking blockchains
+            * Ethereum by default adopts a fork-based design, when multiple
+              miners has done over the same set of transactions and broadcast
+              over the networks
+    * To address the write stall problem for write operation (due to the
+      recursive merge operation in Algorithm 1), it proposes an async merge
+      algorithm
+        * Details: TBD
+        * Question: any consistency issue?
 * Read flow (TBD)
 
 ## Strength
