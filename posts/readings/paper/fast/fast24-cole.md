@@ -25,8 +25,6 @@ saving while having a better throughput.
 
 ## Details
 
-(Partially done)
-
 * Merkle Patricia Tree
     * A combination of a Merkle tree (hash-based tree for integrity
       verification) and Patricia trie (very similar to Radix Tree, where the
@@ -36,6 +34,13 @@ saving while having a better throughput.
         * The index structure cannot be removed as blockchain needs to support
           provenance queries
     * Data structure for indexing the Ethereum transactions and states.
+    * Supported query types:
+        * Get(): get the latest state from the input address
+        * Put(): insert the state with the value of the input address to the
+          current block
+        * ProvQuery(): get history results for an input range of blocks
+        * VerifyProv(): verify through hashing that the results returned by
+          ProvQuery() are valid.
 
 * Idea: 
     * Learned index can reduce the storage costs and query times in database
