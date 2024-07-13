@@ -21,7 +21,7 @@ saving while having a better throughput.
 * It leverages learned index and LSM tree to reduce the storage overhead for
   indexing incurred by MPT.
     * Directly applying Learned indexing to Merkle Tree introduces even higher
-      storage overhead. 
+      storage overhead and degraded write performance 
 
 ## Details
 
@@ -54,28 +54,44 @@ saving while having a better throughput.
       level of LSM tree; the latter levels are compacted to the disk (called
       disk levels) through async compaction to reduce the write latency.
 
-* Write flow (Partial)
+* Column-based storage
+    * Keys are compound keys (address, block_height)； compound keys are
+      represented by 64 bit big numbers
+    * Values are contiguously stored in the same level for the same address
+      (sorted by block height); hence, the MPT's storage overhead is reduced
+      (from internal nodes)
+    * To retrieve a value, COLE searches the MBTree first and then go to disk
+      level with learned indexes 
+
+* LSM-tree structure
+    * First level: Merkle B+Tree
+    * Next levels: on Disk with learned index
+
+* Write flow
     * Insertion of a state kv pair for the latest block
-        * Using a stream-based manner (Fig. 4); where the old state are
-          flushed from memory to disk through compaction
         * The write flow is very similar to LSM-tree write operation, where
           the compound key (address, block height) is first write to in-memory
-          L0 layer, then flush to disk in subsequent layers when the previous
-          layers are full
-        * Question: blockchain's write frequency is about one block per
-            10s, what's the performance overhead in reality?
+          L0 layer (MBTree), then flush to disk in subsequent on-disk levels
+          when the previous levels are full (refer to Fig. 4)
     * Index construction
-        * Using a linear model called PGM-index to reduce the I/O cost for
-          read operation
-            * Note: I did not understand how to model over the compound keys
-              with the help of convex hull
-            * Question: will blockchain's write overhead affects model
-              training?
-    * Merkle tree construction (as file)
-        * Streamingly generate the merkle files, but in a concurrent way: all
-          layers are consequently write to multiple merkle files to increase
-          the write throughput, due to the independence of different Merkle
-          Hash Tree layers (I need to validate whether this assumption is true)
+        * Using a learned model referred from PGM-index
+            * It's a linear model based on convex hulls, where the disk page
+              sizes are model parameters (such that the models are generated
+              in a disk-friendly manner)
+            * Given a linear model, COLE can predict the location of the
+              compound key's position in a file
+            * The state's compound key and position are treated as the
+              location on a 2-D plane
+            * The model updates the convex hulls on the 2-D plane in a
+              streaming-based manner; the learned model builds minimal
+              parallelogram based on the convex hull for prediction
+            * For each layer (memory and disk), an index file based on learned
+              index are created
+    * Merkle file construction
+        * The Merkle file only includes the value files, but not the index
+          files 
+        * The Merkle files are generated in parallel for all layers and stored
+         in multiple Merkle files to increase the write throughput
     * A discussion
         * COLE does not support blockchain forking and designed to work with
           non-forking blockchains
@@ -85,10 +101,23 @@ saving while having a better throughput.
     * To address the write stall problem for write operation (due to the
       recursive merge operation in Algorithm 1), it proposes an async merge
       algorithm
-        * Details: TBD
-        * Question: any consistency issue?
-* Read flow (TBD)
+        * Reason: some straggler nodes can be out-of-sync
+        * High level idea: two stages of checkpoints, (1) start; (2) commit
+        * Ensure that (1) is sync across nodes
+* Read flow
+    * Optimization technique: apply bloom filter to both MBTree (memory) and
+      Learned indexes (disk) search the keys
+    * Get query: very similar to LSM-tree get (in memory with MBTree -> on
+      disk with learned index)
+    * Provenance Query: Similar to MPT, but without the learned index (as they
+      are not constructed with index files)
+
+* Evaluation
+    * Single machine; SmallBank for account transfers; YCSB for KVStore
+      get/put operations
 
 ## Strength
+
+* A natural combination of Learned index + LSM-Tree + Blockchain states
 
 ## Weakness
