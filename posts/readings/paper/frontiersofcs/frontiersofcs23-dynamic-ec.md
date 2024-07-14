@@ -1,4 +1,4 @@
-# Reading Notes: paper
+# Reading Notes: Frontiers of CS'23 Dynamic-EC
 
 Title: Dynamic-EC: an efficient dynamic erasure coding method for permissioned blockchain systems
 
