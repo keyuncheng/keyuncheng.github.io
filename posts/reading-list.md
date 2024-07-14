@@ -220,7 +220,7 @@ HPCA'24 | Rapper: A Parameter-Aware Repair-in-Memory Accelerator for Blockchain 
 ACM Computing Survey'24 | Scaling Blockchains with Error Correction Codes: A Survey on Coded Blockchains | [Link](https://dl.acm.org/doi/10.1145/3637224) | Blockchain, coding
 TC'24 | BFT-DSN: A Byzantine Fault-Tolerant Decentralized Storage Network | [Link](https://ieeexplore.ieee.org/document/10436433) | BFT, EC
 IOTJ'24 | TORR: A Lightweight Blockchain for Decentralized Federated Learning | [Link](https://ieeexplore.ieee.org/document/10189448/) | Blockchain, EC, AI
-TKDE'23 | PartitionChain: A Scalable and Reliable Data Storage Strategy for Permissioned Blockchain | [Link](https://ieeexplore.ieee.org/document/9656652) | PartitionChain
+TKDE'23 | PartitionChain: A Scalable and Reliable Data Storage Strategy for Permissioned Blockchain | [Summary](/posts/readings/paper/tkde/tkde23-permissionchain) | PartitionChain
 TC'23 | Efficient Integrity Auditing Mechanism With Secure Deduplication for Blockchain Storage | [Link](https://ieeexplore.ieee.org/document/10050830) | Blockchain, security, deduplication
 ICPADS'23 | DW-LRC: A Dynamic Wide-stripe LRC Codes for Blockchain Data Under Malicious Node Scenarios | [Link](https://ieeexplore.ieee.org/document/10476025) | Blockchain, EC, LRC
 IOTJ'23 | On Min–Max Storage for Resource-Restricted Clients in Coded Blockchain Systems | [Link](https://ieeexplore.ieee.org/document/10130762) | Blockchain, coding
@@ -237,7 +237,7 @@ TON'21 | Coding for Scalable Blockchains via Dynamic Distributed Storage | [Link
 TKDE'21 | Distributed Error Correction Coding Scheme for Low Storage Blockchain Systems | [Link](https://ieeexplore.ieee.org/document/9042862) | Erasure coding, blockchain
 ISIT'21 | Low Latency Cross-Shard Transactions in Coded Blockchain | [Link](https://ieeexplore.ieee.org/iel7/9517708/9517709/09518047.pdf) | Blockchain, coding, sharding
 ITW'21 | Communication-Efficient LDPC Code Design for Data Availability Oracle in Side Blockchains | [Link](https://dl.acm.org/doi/abs/10.1109/ITW48936.2021.9611473) | Blockchain, coding
-ICDE'20 | BFT-Store: Storage Partition for Permissioned Blockchain via Erasure Coding | [Link](https://ieeexplore.ieee.org/document/9101675) | BFT-Store
+ICDE'20 | BFT-Store: Storage Partition for Permissioned Blockchain via Erasure Coding | [Summary](/posts/readings/paper/icde/icde20-bftstore) | BFT-Store
 SIGMOD'20 Demo | A Byzantine Fault Tolerant Storage for Permissioned Blockchain | [Link](https://dl.acm.org/doi/10.1145/3448016.3452744) | Erasure coding, permissioned blockchain
 JPDC'20 | Blockchain-based verification framework for data integrity in edge-cloud storage | [Link](https://www.sciencedirect.com/science/article/pii/S0743731520303142) | Blockchain, verification, coding
 ICDCS'20 | Towards Privacy-assured and Lightweight On-chain Auditing of Decentralized Storage | [Link](https://ieeexplore.ieee.org/document/9355771) | Blockchain, verification, auditing
