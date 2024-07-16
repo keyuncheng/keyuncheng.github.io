@@ -1,0 +1,345 @@
+%-------------------------
+% Resume in Latex
+% Author : Keyun Cheng
+% Based on: https://github.com/jakegut/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+
+\newcommand{\publication}[4]{#1 \\ {\bf #2} \\ #3 #4 \vspace{-4pt}}
+
+\newcommand{\resumeAward}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\huge \scshape Keyun Cheng} \\ \vspace{5pt}
+    Department of Computer Science and Engineering \\
+    The Chinese University of Hong Kong, Hong Kong \\
+    Email: \href{mailto:kycheng@cse.cuhk.edu.hk}{\underline{kycheng@cse.cuhk.edu.hk}} \\
+    Tel: (86)13378697626 (852)59336461 \\
+    Website: \href{https://keyuncheng.github.io}{\underline{https://keyuncheng.github.io}}
+    % \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
+    % \href{https://github.com/...}{\underline{github.com/jake}}
+\end{center}
+
+%-----------Education-----------
+\section{About}
+Keyun Cheng is a Ph.D. candidate at the Department of Computer Science and
+Engineering, The Chinese University of Hong Kong. He is a member of the
+Applied Distributed System Lab (ADSLab), supervised by Prof. Patrick P. C.
+Lee. He received the B.Eng. degree in Software Engineering from Sun Yat-Sen
+University in 2018, the M.Sc. degree in Computer Science from The Chinese
+University of Hong Kong in 2019. His research interests include distributed
+storage and erasure coding.
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {The Chinese University of Hong Kong, Hong Kong}{Dept. of Computer Science and Engineering}
+      {Ph.D. in Computer Science and Engineering}{Aug. 2020 - present} \\
+      \resumeItemListStart
+        \resumeItem{GPA: N/A; Ranking: N/A}
+      \resumeItemListEnd
+    \resumeSubheading
+      {The Chinese University of Hong Kong, Hong Kong}{Dept. of Computer Science and Engineering}
+      {M.Sc. in Computer Science}{Aug. 2018 - Nov. 2019}
+      \resumeItemListStart
+        \resumeItem{GPA: 3.80/4.00; Ranking: Top 3}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Sun Yat-Sen University, Guangzhou, China}{School of Data and Computer Science}
+      {B.Eng. in Software Engineering}{Aug. 2014 - June. 2018}
+      \resumeItemListStart
+        \resumeItem{GPA: 3.8/4.0; Ranking: 31/122}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------Publications-----------
+\section{Publications}
+% \paragraph{\large Conferences}
+\begin{enumerate}
+  \item \publication{{\bf Keyun Cheng}, Huancheng Puyang, Xiaolu Li, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu.}{Toward Load-Balanced Redundancy Transitioning for Erasure-Coded Storage.}{In submission to Transactions on Parallel and Distributed Systems (TPDS).}{}
+  \item \publication{Zhirong Shen, Yuhui Cai, {\bf Keyun Cheng}, Patrick P. C. Lee, Xiaolu Li, Yuchong Hu, and Jiwu Shu.}{A Survey of the Past, Present, and Future of Erasure Coding for Storage Systems.}{In submission to Transactions on Storage (TOS).}{}
+  \item \publication{{\bf Keyun Cheng}, Si Wu, Xiaolu Li, and Patrick P. C. Lee.}{Harmonizing Repair and Maintenance in LRC-Coded Storage.}{Proceedings of the 43rd International Symposium on Reliable Distributed Systems (SRDS 2024), Charlotte, NC, USA, September 2024.}{}
+  \item \publication{Xiaolu Li, {\bf Keyun Cheng}, Kaicheng Tang, Patrick P. C. Lee, Yuchong Hu, Dan Feng, Jie Li, and Ting-Yi Wu.}{ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage.}{Proceedings of the 21st USENIX Conference on File and Storage Technologies (FAST 2023), Santa Clara, CA, US, February 2023.}{}
+  \item \publication{Kaicheng Tang, {\bf Keyun Cheng}, Helen H. W. Chan, Xiaolu Li, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu.}{Balancing Repair Bandwidth and Sub-packetization in Erasure-Coded Storage via Elastic Transformation.}{Proceedings of IEEE International Conference on Computer Communications (INFOCOM 2023), New York, US, May 2023.}{}
+  \item \publication{Xiaolu Li, {\bf Keyun Cheng}, Zhirong Shen, and Patrick P. C. Lee}{Fast Predictive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation.}{IEEE Transactions on Parallel and Distributed Systems (TPDS), 33(12), pp. 3400-3414, December 2022.
+  (An earlier version appeared in DSN 2019)}{}
+  \item \publication{Yueming Jin, {\bf Keyun Cheng}, Qi Dou, Pheng Ann
+Heng.}{Incorporating Temporal Prior from Motion Flow for Instrument
+Segmentation in Minimally Invasive Surgery Video.}{Medical Image Computing and
+Computer Assisted Intervention (MICCAI), 2019}{\bf (Oral)}
+\end{enumerate}
+
+% \paragraph{\large Journals}
+% \begin{enumerate}
+% \end{enumerate}
+
+%-----------Academic Activities-----------
+\section{Academic Activities}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Reviewer}{}
+    {IEEE International Symposium on Information Theory (ISIT)}{2024}
+
+  \resumeSubheading
+    {Teaching Assistant}{}
+    {The Chinese University of Hong Kong}{September 2020 - January 2023}
+    \resumeItemListStart
+\resumeItem{CSCI5550 Advanced File and Storage Systems (Instructor: Patrick P.
+C. Lee): Fall 2023}
+\resumeItem{CSCI1120B Introduction to Computing Using C++ (Instructor: Yat
+Chiu Law and King Tim Lam): Fall 2022}
+\resumeItem{AIST3020 Introduction to Computer Systems (Instructor: Patrick P.
+C. Lee): Spring 2023, Spring 2022}
+\resumeItem{CSCI4180 Introduction to Cloud Computing and Storage (Instructor:
+Patrick P. C. Lee): Fall 2021}
+    \resumeItemListEnd
+
+  \resumeSubSubheading
+    {Sun Yat-Sen University}{September 2017 - June 2018}
+    \resumeItemListStart
+\resumeItem{Probablity Theory and Statistics (Instructor: Weiqi Luo): Fall 2017}
+\resumeItem{Complexity Analysis for Engineering (Instructor: Weiqi Luo): Spring 2018}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%-----------Academic Projects-----------
+\section{Academic Projects}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Erasure Coding for Dependable Distributed Storage at Scale}{June 2019 -  present}
+    {Group member}{CUHK (Supervisor: Patrick P. C. Lee)}
+    \resumeItemListStart
+\resumeItem{Our research applies erasure coding as a low-cost redundancy mechanism to support large-scale dependable storage in distributed environments, with emphasis on balancing the design trade-offs between storage savings and performance efficiency in practical deployment, backed by theoretical and empirical analysis.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Instrument Segmentation for Robotic Surgical Video}{September 2018 - April 2019}
+    {Group member}{CUHK (Supervisor: Pheng Ann Heng)}
+    \resumeItemListStart
+\resumeItem{Our research considers incorporating instrument motion information
+in deep learning models for accurate instrument segmentation in robotic
+surgical video. We design an attention module that infers temporal priors by
+propagating the prediction results of previous frames to the current frames
+via optical flow. We adopt an encoder-decoder pyramid segmentation framework
+based on UNet.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%-----------Work and Internship Experience-----------
+\section{Work and Internship Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Research and Development Engineer}{August 2019 - July 2020}
+    {CU Coding Ltd.}{Shatin, N. T., Hong Kong}
+    \resumeItemListStart
+\resumeItem{Focus on research and development on storage technologies,
+especially on nCloud (a multi-cloud storage system) and iNAS (a document
+management system).}
+\resumeItem{Assist system maintenance and software bug fixes.}
+\resumeItem{Assist project management and provide customer support.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+  {Research and Development Intern}{December 2017 – April 2018}
+  {Guangzhou Intelligence Communications Technology Co. Ltd.}{Guangzhou, China}
+    \resumeItemListStart
+\resumeItem{Focus on research and development on automated image annotation
+tools based on deep learning.}
+\resumeItem{Design an automated image annotation tool based on labelImg (an
+open-source image annotation project) and Mask-RCNN (a novel deep segmentation
+model). The image annotation tool performs object segmentation and further
+generates contours and labels for individual objects. The label metadata are
+stored locally and can be transferred through zeroc-ice (a framework for
+building networked applications).}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Research and Development Intern}{April 2017 – June 2017}
+    {Bigo Technology Pte. Ltd.}{Guangzhou, China}
+    \resumeItemListStart
+\resumeItem{Focus on research and development on crash log collection and
+analysis for Android applications.}
+\resumeItem{Design a crash log upload module in BigoLive (a video streaming
+app) Android client based on Google Breakpad (a crash-reporting system).}
+\resumeItem{Design a crash analysis system to collect and analyze crash logs
+generated by BigoLive Android client.}
+\resumeItem{Detect and analyze network abnormality from crash logs generated by BigoLive Android client.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------Honors and Awards-----------
+\section{Honors and Awards}
+\resumeSubHeadingListStart
+\resumeAward{Postgraduate Studentship, CUHK}{2020 - 2024}
+\resumeAward{Dean’s List Scholarship, M.Sc. in CS, CUHK}{2019}
+\resumeAward{First Prize Winner (top 3) of Distinguished Academic
+Performance Scholarship, M.Sc. in CS, CUHK}{2019}
+\resumeAward{Second Class Scholarship, SYSU}{2017}
+\resumeAward{Meritorious Winner of Mathematical Contest in Modeling (MCM)}{2017}
+\resumeAward{First Class Scholarship, SYSU}{2016}
+\resumeAward{Third Prize of China Undergraduate Mathematical Contest in
+Modeling (CUMCM)}{2016}
+\resumeAward{Honorable Mention of Mathematical Contest in Modeling (MCM)}{2016}
+\resumeAward{Third Class Scholarship, SYSU}{2015}
+\resumeAward{Third Prize of ACM programming competition in SYSU}{2015}
+\resumeSubHeadingListEnd
+
+%-----------Misc-----------
+\section{Misc}
+\resumeSubHeadingListStart
+  \resumeSubItem{\textbf{Programming Languages}{: C, C++, Python, Java}}
+  \resumeSubItem{\textbf{Github}{:
+  \href{https://github.com/keyuncheng}{\underline{https://github.com/keyuncheng}}}}
+\resumeSubItem{\textbf{English Proficiency}{: CET-4: 577, CET-6: 532, IELTS:
+7.0 (L: 8.5 R: 7.0 W: 6.0 S: 5.5)}}
+  \resumeSubItem{\textbf{Hobbies}{: long-distance running, basketball, guitar}
+  }
+\resumeSubHeadingListEnd
+
+
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     {\item{
+%     \textbf{Programming Languages}{: C C++ Python Java} \\
+%     \textbf{Github}{: \href{https://github.com/keyuncheng}{\underline{https://github.com/keyuncheng}}} \\
+%     }}
+%  \end{itemize}
+
+
+% %-----------PROJECTS-----------
+% \section{Projects}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading
+%           {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+%           \resumeItemListStart
+%             \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
+%             \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
+%             \resumeItem{Visualized GitHub data to show collaboration}
+%             \resumeItem{Used Celery and Redis for asynchronous tasks}
+%           \resumeItemListEnd
+%       \resumeProjectHeading
+%           {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+%           \resumeItemListStart
+%             \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
+%             \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
+%             \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+%             \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+%           \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
