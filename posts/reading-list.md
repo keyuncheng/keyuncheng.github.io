@@ -252,6 +252,13 @@ PODC'07 | Verifying Distributed Erasure-Coded Data | [Link](https://dl.acm.org/d
 DSN'04 | Efficient Byzantine-tolerant erasure-coded storage | [Link](https://ieeexplore.ieee.org/document/1311884) | BFT, erasure coding
 
 
+### Database
+
+#### Indexing
+
+Venue | Title | Link / Summary | Brief
+:---: | :---: | :---: | :---:
+SIGMOD'18 | The Case for Learned Index Structures | [Link](https://arxiv.org/abs/1712.01208) | Learned Index
 
 
 ### Security
