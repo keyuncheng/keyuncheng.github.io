@@ -308,6 +308,7 @@ ATC'15 | Toward Reliable, Secure, and Cost-Efficient Cloud Storage via Convergen
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 ATC'14 | In Search of an Understandable Consensus Algorithm | [Summary](/posts/2019/07/paper-reading-raft-atc14/) | Raft
+OSDI'1999 | Practical Byzantine Fault Tolerance | [Summary](/posts/readings/paper/osdi/osdi1999-pbft) | PBFT
 
 
 ### Stream Processing
