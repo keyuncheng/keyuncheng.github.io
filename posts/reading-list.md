@@ -258,6 +258,7 @@ DSN'04 | Efficient Byzantine-tolerant erasure-coded storage | [Link](https://iee
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
+OSDI'21 | FoundationDB | [Summary](/posts/readings/paper/osdi/osdi21-foundationdb) | FoundationDB, Apple
 SIGMOD'18 | The Case for Learned Index Structures | [Link](https://arxiv.org/abs/1712.01208) | Learned Index
 
 
