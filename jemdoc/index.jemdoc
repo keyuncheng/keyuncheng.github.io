@@ -43,21 +43,24 @@ His research interests include distributed storage systems and erasure coding.
 # ------------------
 . *Keyun Cheng*, Si Wu, Xiaolu Li, and Patrick P. C. Lee. \n
 *"Harmonizing Repair and Maintenance in LRC-Coded Storage."* \n
-Proceedings of the 43rd International Symposium on Reliable Distributed Systems (SRDS 2024), Charlotte, NC, USA, September 2024. \n
+Proceedings of the 43rd International Symposium on Reliable Distributed
+Systems (SRDS 2024), Charlotte, NC, USA, September 2024. (CCF-B) \n
 (AR: 27/87 = 31.0%) \n
 [files/publications/srds24lrc.pdf \[pdf\]]
 [https://github.com/adslabcuhk/openec-lrctradeoff/ \[code\]]
 # ------------------
 . Xiaolu Li, *Keyun Cheng*, Kaicheng Tang, Patrick P. C. Lee, Yuchong Hu, Dan Feng, Jie Li, and Ting-Yi Wu. \n
 *"ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage."* \n
-Proceedings of the 21st USENIX Conference on File and Storage Technologies (FAST 2023), Santa Clara, CA, US, February 2023. \n
+Proceedings of the 21st USENIX Conference on File and Storage Technologies
+(FAST 2023), Santa Clara, CA, US, February 2023. (CCF-A) \n
 (AR: 28/122 = 23.0%) \n
 [files/publications/fast23pararc.pdf \[pdf\]]
 [http://adslab.cse.cuhk.edu.hk/software/pararc/ \[code\]]
 # ------------------
 . Kaicheng Tang, *Keyun Cheng*, Helen H. W. Chan, Xiaolu Li, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. \n
 *"Balancing Repair Bandwidth and Sub-packetization in Erasure-Coded Storage via Elastic Transformation."* \n
-Proceedings of IEEE International Conference on Computer Communications (INFOCOM 2023), New York, US, May 2023. \n
+Proceedings of IEEE International Conference on Computer Communications
+(INFOCOM 2023), New York, US, May 2023. (CCF-A) \n
 (AR: 252/1312 = 19.2%) \n
 [files/publications/infocom23et.pdf \[pdf\]]
 [http://adslab.cse.cuhk.edu.hk/software/openec-et/ \[code\]]
@@ -65,16 +68,22 @@ Proceedings of IEEE International Conference on Computer Communications (INFOCOM
 . Yueming Jin, *Keyun Cheng*, Qi Dou, Pheng Ann Heng. \n
 *"Incorporating Temporal Prior from Motion Flow for Instrument Segmentation in Minimally Invasive Surgery Video."* \n
 Proceedings of the 22nd International Conference on Medical Image Computing
-and Computer Assisted Intervention (MICCAI 2019), Shenzhen, China, Oct 2019. (*Oral*) \n
+and Computer Assisted Intervention (MICCAI 2019), Shenzhen, China, Oct 2019.
+(CCF-B) (*Oral*) \n
 [files/publications/miccai19mftapnet.pdf \[pdf\]]
 [https://github.com/keyuncheng/MF-TAPNet \[code\]]
 
 === Journals
 
 # ------------------
+. Zhirong Shen, Yuhui Cai, *Keyun Cheng*, Patrick P. C. Lee, Xiaolu Li, Yuchong Hu, and Jiwu Shu. \n
+*"A Survey of the Past, Present, and Future of Erasure Coding for Storage Systems."* \n
+Accepted for publication in ACM Transactions on Storage (TOS). (CCF-A) \n
+# ------------------
 . Xiaolu Li, *Keyun Cheng*, Zhirong Shen, and Patrick P. C. Lee. \n
 *"Fast Proactive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation."* \n
-IEEE Transactions on Parallel and Distributed Systems (TPDS), 33(12), pp. 3400-3414, December 2022. \n
+IEEE Transactions on Parallel and Distributed Systems (TPDS), 33(12), pp.
+3400-3414, December 2022. (CCF-A) \n
 (An earlier version appeared in DSN 2019) \n
 [files/publications/tpds22fastpr.pdf \[main pdf\]]
 [files/publications/tpds22fastpr_supp.pdf \[supp pdf\]]
@@ -117,6 +126,6 @@ Reviewer
 
 == Awards
 
-- CUHK Postgraduate Studentship (2020 - 2023)
+- CUHK Postgraduate Studentship (2020 - 2024)
 - Dean's List Scholarship, M.Sc. in CS, CUHK, 2019.
 - First Prize Winner (top 3) of Distinguished Academic Performance Scholarship, M.Sc. in CS, CUHK, 2019.
