@@ -47,6 +47,7 @@ Proceedings of the 43rd International Symposium on Reliable Distributed
 Systems (SRDS 2024), Charlotte, NC, USA, September 2024. (CCF-B) \n
 (AR: 27/87 = 31.0%) \n
 [files/publications/srds24lrc.pdf \[pdf\]]
+[files/publications/srds24lrc.pptx \[pptx\]]
 [https://github.com/adslabcuhk/openec-lrctradeoff/ \[code\]]
 # ------------------
 . Xiaolu Li, *Keyun Cheng*, Kaicheng Tang, Patrick P. C. Lee, Yuchong Hu, Dan Feng, Jie Li, and Ting-Yi Wu. \n
@@ -55,6 +56,8 @@ Proceedings of the 21st USENIX Conference on File and Storage Technologies
 (FAST 2023), Santa Clara, CA, US, February 2023. (CCF-A) \n
 (AR: 28/122 = 23.0%) \n
 [files/publications/fast23pararc.pdf \[pdf\]]
+[files/publications/fast23pararc.pptx \[pptx\]]
+[files/publications/fast23pararc_poster.pptx \[poster\]]
 [http://adslab.cse.cuhk.edu.hk/software/pararc/ \[code\]]
 # ------------------
 . Kaicheng Tang, *Keyun Cheng*, Helen H. W. Chan, Xiaolu Li, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. \n
@@ -63,6 +66,7 @@ Proceedings of IEEE International Conference on Computer Communications
 (INFOCOM 2023), New York, US, May 2023. (CCF-A) \n
 (AR: 252/1312 = 19.2%) \n
 [files/publications/infocom23et.pdf \[pdf\]]
+[files/publications/infocom23et.pptx \[pptx\]]
 [http://adslab.cse.cuhk.edu.hk/software/openec-et/ \[code\]]
 # ------------------
 . Yueming Jin, *Keyun Cheng*, Qi Dou, Pheng Ann Heng. \n
