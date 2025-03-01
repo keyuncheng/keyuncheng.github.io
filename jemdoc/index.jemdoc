@@ -80,6 +80,13 @@ and Computer Assisted Intervention (MICCAI 2019), Shenzhen, China, Oct 2019.
 === Journals
 
 # ------------------
+. *Keyun Cheng*, Huancheng Puyang, Xiaolu Li, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. \n
+*"Toward Load-Balanced Redundancy Transitioning for Erasure-Coded Storage."* \n
+(Accepted) IEEE Transactions on Parallel and Distributed Systems. (TPDS)
+(CCF-A). \n
+[https://keyuncheng.github.io/ \[pdf\]]
+[https://github.com/keyuncheng/BART \[code\]]
+# ------------------
 . Zhirong Shen, Yuhui Cai, *Keyun Cheng*, Patrick P. C. Lee, Xiaolu Li, Yuchong Hu, and Jiwu Shu. \n
 *"A Survey of the Past, Present, and Future of Erasure Coding for Storage Systems."* \n
 ACM Transactions on Storage (TOS), 21(1), pp. 4:1-4:39, January 2025. (CCF-A) \n
