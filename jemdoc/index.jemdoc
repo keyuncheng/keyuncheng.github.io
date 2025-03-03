@@ -82,9 +82,9 @@ and Computer Assisted Intervention (MICCAI 2019), Shenzhen, China, Oct 2019.
 # ------------------
 . *Keyun Cheng*, Huancheng Puyang, Xiaolu Li, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. \n
 *"Toward Load-Balanced Redundancy Transitioning for Erasure-Coded Storage."* \n
-(Accepted) IEEE Transactions on Parallel and Distributed Systems. (TPDS)
-(CCF-A). \n
-[https://keyuncheng.github.io/ \[pdf\]]
+(Accepted) IEEE Transactions on Parallel and Distributed Systems (TPDS).
+(CCF-A) \n
+[files/publications/tpds25bart.pdf \[pdf\]]
 [https://github.com/keyuncheng/BART \[code\]]
 # ------------------
 . Zhirong Shen, Yuhui Cai, *Keyun Cheng*, Patrick P. C. Lee, Xiaolu Li, Yuchong Hu, and Jiwu Shu. \n
