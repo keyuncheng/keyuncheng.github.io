@@ -13,7 +13,7 @@ research purposes. Items are characterized by their topics/keywords.
 
 ## Recent
 
-[Blockchain](#blockchain)
+[LLM Serving](#llm-serving)
 
 ## Categories
 
@@ -250,6 +250,16 @@ TrustCom'18 | A Blockchain-based Decentralized Data Storage and Access Framework
 ICPADS'18 | Blockchain Based Data Integrity Verification in P2P Cloud Storage | [Link](https://ieeexplore.ieee.org/document/8644863/) | Blockchain, verification, coding
 PODC'07 | Verifying Distributed Erasure-Coded Data | [Link](https://dl.acm.org/doi/10.1145/1281100.1281122) | EC, verification
 DSN'04 | Efficient Byzantine-tolerant erasure-coded storage | [Link](https://ieeexplore.ieee.org/document/1311884) | BFT, erasure coding
+
+
+### Large Language Models
+
+#### LLM Serving
+
+Venue | Title | Link / Summary | Brief
+:---: | :---: | :---: | :---:
+OSDI'24 | ServerlessLLM: Low-Latency Serverless Inference for Large Language Models | [Link](https://www.usenix.org/conference/osdi24/presentation/fu) | LLM, serverless
+OSDI'24 | Fairness in Serving Large Language Models | [Link](https://www.usenix.org/system/files/osdi24-sheng.pdf) | LLM, Fairness
 
 
 ### Database
