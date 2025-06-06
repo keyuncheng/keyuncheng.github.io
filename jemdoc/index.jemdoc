@@ -45,6 +45,15 @@ distributed storage systems and erasure coding. He maintains a
 
 === Conferences
 # ------------------
+. *Keyun Cheng\**, Guodong Li\*, Xiaolu Li, Sihuang Hu, and Patrick P. C. Lee.
+\n
+(\*: co-first author) \n
+*"LESS is More for I\/O-Efficient Repairs in Erasure-Coded Storage."* \n
+Proceedings of the 24th USENIX Conference on File and Storage Technologies
+(FAST 2026), Santa Clara, CA, US, February 2026. (CCF-A) \n
+(AR: 13/76 = 17.1%) \n
+[https://keyuncheng.github.io \[pdf\]]
+# ------------------
 . *Keyun Cheng*, Si Wu, Xiaolu Li, and Patrick P. C. Lee. \n
 *"Harmonizing Repair and Maintenance in LRC-Coded Storage."* \n
 Proceedings of the 43rd International Symposium on Reliable Distributed
