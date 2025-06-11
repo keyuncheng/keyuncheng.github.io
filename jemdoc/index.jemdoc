@@ -45,46 +45,45 @@ distributed storage systems and erasure coding. He maintains a
 
 === Conferences
 # ------------------
-. *Keyun Cheng\**, Guodong Li\*, Xiaolu Li, Sihuang Hu, and Patrick P. C. Lee.
- (\*: co-first author) \n
-*"LESS is More for I\/O-Efficient Repairs in Erasure-Coded Storage."* \n
+. *\[USENIX FAST 2026\]* "LESS is More for I\/O-Efficient Repairs in Erasure-Coded Storage." \n
+*Keyun Cheng\**, Guodong Li\*, Xiaolu Li, Sihuang Hu, and Patrick P. C. Lee. (\*: co-first author) \n
 Proceedings of the 24th USENIX Conference on File and Storage Technologies
 (FAST 2026), Santa Clara, CA, US, February 2026. (CCF-A) \n
 (AR: 13/76 = 17.1%) \n
+
 # ------------------
-. *Keyun Cheng*, Si Wu, Xiaolu Li, and Patrick P. C. Lee. \n
-*"Harmonizing Repair and Maintenance in LRC-Coded Storage."* \n
+. *\[SRDS 2024\]* "Harmonizing Repair and Maintenance in LRC-Coded Storage." \n
+*Keyun Cheng*, Si Wu, Xiaolu Li, and Patrick P. C. Lee. \n
 Proceedings of the 43rd International Symposium on Reliable Distributed
 Systems (SRDS 2024), Charlotte, NC, USA, September 2024. (CCF-B) \n
 (AR: 27/87 = 31.0%) \n
 [files/publications/srds24lrc.pdf \[pdf\]]
 [files/publications/srds24lrc.pptx \[pptx\]]
 [https://github.com/adslabcuhk/openec-lrctradeoff/ \[code\]]
+
 # ------------------
-. Xiaolu Li, *Keyun Cheng*, Kaicheng Tang, Patrick P. C. Lee, Yuchong Hu, Dan Feng, Jie Li, and Ting-Yi Wu. \n
-*"ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage."* \n
-Proceedings of the 21st USENIX Conference on File and Storage Technologies
-(FAST 2023), Santa Clara, CA, US, February 2023. (CCF-A) \n
+. *\[USENIX FAST 2023\]* "ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage." \n
+Xiaolu Li, *Keyun Cheng*, Kaicheng Tang, Patrick P. C. Lee, Yuchong Hu, Dan Feng, Jie Li, and Ting-Yi Wu. \n
+Proceedings of the 21st USENIX Conference on File and Storage Technologies (FAST 2023), Santa Clara, CA, US, February 2023 (CCF-A).
+\n
 (AR: 28/122 = 23.0%) \n
 [files/publications/fast23pararc.pdf \[pdf\]]
 [files/publications/fast23pararc.pptx \[pptx\]]
 [files/publications/fast23pararc_poster.pptx \[poster\]]
 [http://adslab.cse.cuhk.edu.hk/software/pararc/ \[code\]]
+
 # ------------------
-. Kaicheng Tang, *Keyun Cheng*, Helen H. W. Chan, Xiaolu Li, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. \n
-*"Balancing Repair Bandwidth and Sub-packetization in Erasure-Coded Storage via Elastic Transformation."* \n
-Proceedings of IEEE International Conference on Computer Communications
-(INFOCOM 2023), New York, US, May 2023. (CCF-A) \n
-(AR: 252/1312 = 19.2%) \n
+. *\[IEEE INFOCOM 2023\]* "Balancing Repair Bandwidth and Sub-packetization in Erasure-Coded Storage via Elastic Transformation." \n
+Kaicheng Tang, *Keyun Cheng*, Helen H. W. Chan, Xiaolu Li, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. \n
+Proceedings of IEEE International Conference on Computer Communications (INFOCOM 2023), New York, US, May 2023. (CCF-A) \n (AR: 252/1312 = 19.2%) \n
 [files/publications/infocom23et.pdf \[pdf\]]
 [files/publications/infocom23et.pptx \[pptx\]]
 [http://adslab.cse.cuhk.edu.hk/software/openec-et/ \[code\]]
+
 # ------------------
-. Yueming Jin, *Keyun Cheng*, Qi Dou, and Pheng Ann Heng. \n
-*"Incorporating Temporal Prior from Motion Flow for Instrument Segmentation in Minimally Invasive Surgery Video."* \n
-Proceedings of the 22nd International Conference on Medical Image Computing
-and Computer Assisted Intervention (MICCAI 2019), Shenzhen, China, Oct 2019.
-(CCF-B) (*Oral*) \n
+. *\[MICCAI 2019 (Oral)\]* "Incorporating Temporal Prior from Motion Flow for Instrument Segmentation in Minimally Invasive Surgery Video." \n
+Yueming Jin, *Keyun Cheng*, Qi Dou, and Pheng Ann Heng. \n
+Proceedings of the 22nd International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2019), Shenzhen, China, Oct 2019. (CCF-B) \n
 (AR: 538/2625 = 29.7%) \n
 [files/publications/miccai19mftapnet.pdf \[pdf\]]
 [https://github.com/keyuncheng/MF-TAPNet \[code\]]
@@ -92,25 +91,23 @@ and Computer Assisted Intervention (MICCAI 2019), Shenzhen, China, Oct 2019.
 === Journals
 
 # ------------------
-. *Keyun Cheng*, Huancheng Puyang, Xiaolu Li, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. \n
-*"Toward Load-Balanced Redundancy Transitioning for Erasure-Coded Storage."* \n
-IEEE Transactions on Parallel and Distributed Systems (TPDS), 36(5), pp.
-889-902, May 2025.
-(CCF-A) \n
+. *\[IEEE TPDS 2025\]* "Toward Load-Balanced Redundancy Transitioning for Erasure-Coded Storage." \n
+*Keyun Cheng*, Huancheng Puyang, Xiaolu Li, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. \n
+IEEE Transactions on Parallel and Distributed Systems (TPDS), 36(5), pp. 889-902, May 2025. (CCF-A) \n
 [files/publications/tpds25bart.pdf \[pdf\]]
 [https://github.com/keyuncheng/BART \[code\]]
 [files/publications/tpds25bart_corrections.pdf \[corrections\]]
 
 # ------------------
-. Zhirong Shen, Yuhui Cai, *Keyun Cheng*, Patrick P. C. Lee, Xiaolu Li, Yuchong Hu, and Jiwu Shu. \n
-*"A Survey of the Past, Present, and Future of Erasure Coding for Storage Systems."* \n
+. *\[ACM TOS 2025\]* "A Survey of the Past, Present, and Future of Erasure Coding for Storage Systems." \n
+Zhirong Shen, Yuhui Cai, *Keyun Cheng*, Patrick P. C. Lee, Xiaolu Li, Yuchong Hu, and Jiwu Shu. \n
 ACM Transactions on Storage (TOS), 21(1), pp. 4:1-4:39, January 2025. (CCF-A) \n
 [files/publications/tos24ecsurvey.pdf \[pdf\]]
+
 # ------------------
-. Xiaolu Li, *Keyun Cheng*, Zhirong Shen, and Patrick P. C. Lee. \n
-*"Fast Proactive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation."* \n
-IEEE Transactions on Parallel and Distributed Systems (TPDS), 33(12), pp.
-3400-3414, December 2022. (CCF-A) \n
+. *\[IEEE TPDS 2022\]* "Fast Proactive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation." \n
+Xiaolu Li, *Keyun Cheng*, Zhirong Shen, and Patrick P. C. Lee. \n
+IEEE Transactions on Parallel and Distributed Systems (TPDS), 33(12), pp. 3400-3414, December 2022. (CCF-A) \n
 (An earlier version appeared in DSN 2019) \n
 [files/publications/tpds22fastpr.pdf \[main pdf\]]
 [files/publications/tpds22fastpr_supp.pdf \[supp pdf\]]
