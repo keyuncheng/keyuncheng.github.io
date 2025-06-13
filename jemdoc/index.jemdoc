@@ -25,7 +25,7 @@ Keyun Cheng is a Ph.D. candidate at [https://www.cse.cuhk.edu.hk/ Department
 of Computer Science and Engineering], [https://www.cuhk.edu.hk/ The Chinese
 University of Hong Kong]. He is a member of [http://adslab.cse.cuhk.edu.hk/
 Applied Distributed System Lab] (ADSLab), supervised by Prof.
-[https://www.cse.cuhk.edu.hk/~pclee Patrick P. C. Lee]. He received the B.Eng
+[https://www.cse.cuhk.edu.hk/~pclee Patrick P. C. Lee]. He received the B.Eng.
 degree in [https://cse.sysu.edu.cn/ Software Engineering] from
 [http://www.sysu.edu.cn/ Sun Yat-Sen University] in 2018, the M.Sc. degree in
 [http://msc.cse.cuhk.edu.hk Computer Science] from [https://www.cuhk.edu.hk/
@@ -38,7 +38,7 @@ distributed storage systems and erasure coding. He maintains a
 
 - 2020.08 - Present: Ph.D. in Computer Science and Engineering, The Chinese University of Hong Kong
 - 2018.08 - 2019.07: M.Sc. in Computer Science, The Chinese University of Hong Kong
-- 2014.08 - 2018.07: B.Eng in Software Engineering, Sun Yat-Sen University
+- 2014.08 - 2018.07: B.Eng. in Software Engineering, Sun Yat-Sen University
 
 
 == Publications
@@ -48,9 +48,8 @@ distributed storage systems and erasure coding. He maintains a
 . *\[USENIX FAST 2026\]* "LESS is More for I\/O-Efficient Repairs in Erasure-Coded Storage." \n
 *Keyun Cheng\**, Guodong Li\*, Xiaolu Li, Sihuang Hu, and Patrick P. C. Lee. (\*: co-first author) \n
 Proceedings of the 24th USENIX Conference on File and Storage Technologies
-(FAST 2026), Santa Clara, CA, US, February 2026. (CCF-A) \n
+(FAST 2026), Santa Clara, CA, USA, February 2026. (CCF-A) \n
 (AR: 13/76 = 17.1%) \n
-
 # ------------------
 . *\[SRDS 2024\]* "Harmonizing Repair and Maintenance in LRC-Coded Storage." \n
 *Keyun Cheng*, Si Wu, Xiaolu Li, and Patrick P. C. Lee. \n
@@ -60,26 +59,23 @@ Systems (SRDS 2024), Charlotte, NC, USA, September 2024. (CCF-B) \n
 [files/publications/srds24lrc.pdf \[pdf\]]
 [files/publications/srds24lrc.pptx \[pptx\]]
 [https://github.com/adslabcuhk/openec-lrctradeoff/ \[code\]]
-
 # ------------------
 . *\[USENIX FAST 2023\]* "ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage." \n
 Xiaolu Li, *Keyun Cheng*, Kaicheng Tang, Patrick P. C. Lee, Yuchong Hu, Dan Feng, Jie Li, and Ting-Yi Wu. \n
-Proceedings of the 21st USENIX Conference on File and Storage Technologies (FAST 2023), Santa Clara, CA, US, February 2023 (CCF-A).
+Proceedings of the 21st USENIX Conference on File and Storage Technologies (FAST 2023), Santa Clara, CA, USA, February 2023 (CCF-A).
 \n
 (AR: 28/122 = 23.0%) \n
 [files/publications/fast23pararc.pdf \[pdf\]]
 [files/publications/fast23pararc.pptx \[pptx\]]
 [files/publications/fast23pararc_poster.pptx \[poster\]]
 [http://adslab.cse.cuhk.edu.hk/software/pararc/ \[code\]]
-
 # ------------------
 . *\[IEEE INFOCOM 2023\]* "Balancing Repair Bandwidth and Sub-packetization in Erasure-Coded Storage via Elastic Transformation." \n
 Kaicheng Tang, *Keyun Cheng*, Helen H. W. Chan, Xiaolu Li, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. \n
-Proceedings of IEEE International Conference on Computer Communications (INFOCOM 2023), New York, US, May 2023. (CCF-A) \n (AR: 252/1312 = 19.2%) \n
+Proceedings of IEEE International Conference on Computer Communications (INFOCOM 2023), New York, USA, May 2023. (CCF-A) \n (AR: 252/1312 = 19.2%) \n
 [files/publications/infocom23et.pdf \[pdf\]]
 [files/publications/infocom23et.pptx \[pptx\]]
 [http://adslab.cse.cuhk.edu.hk/software/openec-et/ \[code\]]
-
 # ------------------
 . *\[MICCAI 2019 (Oral)\]* "Incorporating Temporal Prior from Motion Flow for Instrument Segmentation in Minimally Invasive Surgery Video." \n
 Yueming Jin, *Keyun Cheng*, Qi Dou, and Pheng Ann Heng. \n
@@ -88,8 +84,8 @@ Proceedings of the 22nd International Conference on Medical Image Computing and 
 [files/publications/miccai19mftapnet.pdf \[pdf\]]
 [https://github.com/keyuncheng/MF-TAPNet \[code\]]
 
-=== Journals
 
+=== Journals
 # ------------------
 . *\[IEEE TPDS 2025\]* "Toward Load-Balanced Redundancy Transitioning for Erasure-Coded Storage." \n
 *Keyun Cheng*, Huancheng Puyang, Xiaolu Li, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. \n
@@ -97,13 +93,11 @@ IEEE Transactions on Parallel and Distributed Systems (TPDS), 36(5), pp. 889-902
 [files/publications/tpds25bart.pdf \[pdf\]]
 [https://github.com/keyuncheng/BART \[code\]]
 [files/publications/tpds25bart_corrections.pdf \[corrections\]]
-
 # ------------------
 . *\[ACM TOS 2025\]* "A Survey of the Past, Present, and Future of Erasure Coding for Storage Systems." \n
 Zhirong Shen, Yuhui Cai, *Keyun Cheng*, Patrick P. C. Lee, Xiaolu Li, Yuchong Hu, and Jiwu Shu. \n
 ACM Transactions on Storage (TOS), 21(1), pp. 4:1-4:39, January 2025. (CCF-A) \n
 [files/publications/tos24ecsurvey.pdf \[pdf\]]
-
 # ------------------
 . *\[IEEE TPDS 2022\]* "Fast Proactive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation." \n
 Xiaolu Li, *Keyun Cheng*, Zhirong Shen, and Patrick P. C. Lee. \n
