@@ -49,6 +49,8 @@ maintains a [https://keyuncheng.github.io/readings reading list].
 Proceedings of the 24th USENIX Conference on File and Storage Technologies
 (FAST 2026), Santa Clara, CA, USA, February 2026. (CCF-A) \n
 (AR: 13/76 = 17.1%) \n
+[files/publications/fast26less.pdf \[pdf\]]
+[https://github.com/adslabcuhk/less/ \[code\]]
 # ------------------
 . *\[SRDS 2024\]* "Harmonizing Repair and Maintenance in LRC-Coded Storage." \n
 *Keyun Cheng*, Si Wu, Xiaolu Li, and Patrick P. C. Lee. \n
