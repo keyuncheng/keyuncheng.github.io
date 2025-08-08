@@ -1,2 +1,2 @@
 all:
-	pdflatex resume
+	pdflatex cv_keyun_cheng
