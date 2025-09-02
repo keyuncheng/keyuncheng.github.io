@@ -3,14 +3,14 @@
 
 ~~~
 {}{img_left}{files/images/id.jpg}{Keyun Cheng}{171px}{198px}{}
-Ph.D.
+Research and Development Engineer\n
+Huawei 2012 ACS Lab\n
 
-[https://www.cse.cuhk.edu.hk/ Department of Computer Science and Engineering] \n
+Ph.D. in [https://www.cse.cuhk.edu.hk/ Computer Science and Engineering] \n
 [https://www.cuhk.edu.hk/ The Chinese University of Hong Kong] \n
-Sha Tin, New Territories \n
-Hong Kong, China \n
 
-Office: Room 118, Ho Sin-Hang Engineering Building \n
+
+
 Email: kycheng \[at\] cse.cuhk.edu.hk \n
 [https://scholar.google.com/citations?user=gZf6RfcAAAAJ&hl=en \[Google Scholar\]]
 [https://github.com/keyuncheng/ \[Github\]]
@@ -21,15 +21,17 @@ Email: kycheng \[at\] cse.cuhk.edu.hk \n
 
 == About
 
-Keyun Cheng received the B.Eng. degree in Software Engineering from
-[http://www.sysu.edu.cn/ Sun Yat-Sen University] in 2018, the M.Sc. degree in
-Computer Science from [https://www.cuhk.edu.hk/ The Chinese University of Hong
-Kong] in 2019, and the Ph.D. degree in Computer Science and Engineering from
-[https://www.cuhk.edu.hk/ The Chinese University of Hong Kong] in 2025.  He
-was a member of [http://adslab.cse.cuhk.edu.hk/ Applied Distributed System
-Lab] (ADSLab) in The Chinese University of Hong Kong, supervised by
-[https://www.cse.cuhk.edu.hk/~pclee Prof. Patrick P. C. Lee].  His research
-interests include distributed storage systems and erasure coding.
+Keyun Cheng is currently a Research and Development Engineer in Huawei 2012
+Advanced Computing and Storage Lab (ACSLab).  He received the B.Eng. degree in
+Software Engineering from [http://www.sysu.edu.cn/ Sun Yat-Sen University] in
+2018, the M.Sc. degree in Computer Science from [https://www.cuhk.edu.hk/ The
+Chinese University of Hong Kong] in 2019, and the Ph.D. degree in Computer
+Science and Engineering from [https://www.cuhk.edu.hk/ The Chinese University
+of Hong Kong] in 2025.  He was a member of [http://adslab.cse.cuhk.edu.hk/
+Applied Distributed System Lab] (ADSLab) in The Chinese University of Hong
+Kong, supervised by [https://www.cse.cuhk.edu.hk/~pclee Prof. Patrick P. C.
+Lee]. His research interests include distributed storage systems and erasure
+coding.
 
 
 == Education
@@ -49,7 +51,8 @@ Proceedings of the 24th USENIX Conference on File and Storage Technologies
 (FAST 2026), Santa Clara, CA, USA, February 2026. (CCF-A) \n
 (AR: 13/76 = 17.1%) \n
 [files/publications/fast26less.pdf \[pdf\]]
-[https://github.com/adslabcuhk/less/ \[code\]]
+[https://github.com/adslabcuhk/less/ \[code\]] (*USENIX artifact badge:
+Result Reproduced*)
 # ------------------
 . *\[SRDS 2024\]* "Harmonizing Repair and Maintenance in LRC-Coded Storage." \n
 *Keyun Cheng*, Si Wu, Xiaolu Li, and Patrick P. C. Lee. \n
