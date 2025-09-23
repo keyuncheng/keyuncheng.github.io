@@ -17,6 +17,12 @@ research purposes. Items are characterized by their topics/keywords.
 
 ## Categories
 
+### SSD
+
+Venue | Title | Link / Summary | Brief
+:---: | :---: | :---: | :---:
+~ | Concepts that must know | [Link](https://arthurchiao.art/blog/how-ssd-works-zh/) | Introduction to SSD
+
 
 ### Erasure Coding
 
@@ -132,6 +138,7 @@ SNAPI'07| Outshining Mirrors: MTTDL of Fixed-Order SSPiRAL Layouts | [Link](http
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
+OSDI'25 | Stripeless Data Placement for Erasure-Coded In-Memory Storage | [Summary](/posts/readings/paper/osdi/osdi25-stripeless) | Stripeless EC, data placement
 ATC'23 | Explore Data Placement Algorithm for Balanced Recovery Load Distribution | [Summary](/posts/readings/paper/atc/atc23-repair-placement) | Recovery, data placement
 IPDPS'23 | Boosting Multi-Block Repair in Cloud Storage Systems with Wide-Stripe Erasure Coding | [Summary](/posts/readings/paper/ipdps/ipdps23-multiple-repair) | Multiple repair, wide stripe
 ICPP'23 | Toward Optimal Repair and Load Balance in Locally Repairable Codes | [Summary](/posts/readings/paper/icpp/icpp23-optimal-lrc) | LRC, repair, load balancing
