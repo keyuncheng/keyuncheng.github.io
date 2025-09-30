@@ -11,10 +11,6 @@ research purposes. Items are characterized by their topics/keywords.
 [TOC]
 
 
-## Recent
-
-[LLM Serving](#llm-serving)
-
 ## Categories
 
 ### SSD
@@ -22,6 +18,7 @@ research purposes. Items are characterized by their topics/keywords.
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 ~ | Concepts that must know | [Link](https://arthurchiao.art/blog/how-ssd-works-zh/) | Introduction to SSD
+ATC'21 | ZNS: Avoiding the Block Interface Tax for Flash-based SSDs | [Summary](/posts/readings/paper/atc/atc21-zns) | Zoned Storage, ZNS
 
 
 ### Erasure Coding
