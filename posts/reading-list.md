@@ -18,8 +18,10 @@ research purposes. Items are characterized by their topics/keywords.
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 ~ | Concepts that must know | [Link](https://arthurchiao.art/blog/how-ssd-works-zh/) | Introduction to SSD
-ATC'21 | ZNS: Avoiding the Block Interface Tax for Flash-based SSDs | [Summary](/posts/readings/paper/atc/atc21-zns) | Zoned Storage, ZNS
 TOS'25 | HyTorC: Hybrid Address Translation for SSDs supporting Compression | [Summary](/posts/readings/paper/tos/tos25-ftl) | FTL, compression
+ATC'21 | ZNS: Avoiding the Block Interface Tax for Flash-based SSDs | [Summary](/posts/readings/paper/atc/atc21-zns) | Zoned Storage, ZNS
+EuroSys'17 | The Unwritten Contract of Solid State Drives | [Summary](/posts/readings/paper/eurosys/eurosys17-ssd) | SSD
+
 
 
 ### Erasure Coding
