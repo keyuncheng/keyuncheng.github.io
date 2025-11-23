@@ -19,8 +19,12 @@ Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 ~ | Concepts that must know | [Link](https://arthurchiao.art/blog/how-ssd-works-zh/) | Introduction to SSD
 TOS'25 | HyTorC: Hybrid Address Translation for SSDs supporting Compression | [Summary](/posts/readings/paper/tos/tos25-ftl) | FTL, compression
+HPCA'24 | LearnedFTL: LearnedFTL: A Learning-based Page-level FTL for Reducing Double Reads in Flash-based SSDs | [Link](https://ranger.uta.edu/~jiang/publication/Conferences/2024/HPCA24(LearnedFTL).pdf) | FTL, Learned index
+ASPLOS'21 | LeaFTL: A Learning-Based Flash Translation Layer for Solid-State Drives | [Link](https://arxiv.org/abs/2301.00072) | FTL, Learned index
 ATC'21 | ZNS: Avoiding the Block Interface Tax for Flash-based SSDs | [Summary](/posts/readings/paper/atc/atc21-zns) | Zoned Storage, ZNS
 EuroSys'17 | The Unwritten Contract of Solid State Drives | [Summary](/posts/readings/paper/eurosys/eurosys17-ssd) | SSD
+MSST'11 | S-FTL: An efficient address translation for flash memory by exploiting spatial locality | [Link](https://ieeexplore.ieee.org/document/5937215) | FTL, Caching
+ASPLOS'09 | DFTL: a flash translation layer employing demand-based selective caching of page-level address mappings | [Link](https://dl.acm.org/doi/10.1145/1508244.1508271) | FTL, Caching
 
 
 
