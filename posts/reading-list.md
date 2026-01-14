@@ -13,18 +13,38 @@ research purposes. Items are characterized by their topics/keywords.
 
 ## Categories
 
-### SSD
+### Flash and SSD
+
+#### FTL
 
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 ~ | Concepts that must know | [Link](https://arthurchiao.art/blog/how-ssd-works-zh/) | Introduction to SSD
 TOS'25 | HyTorC: Hybrid Address Translation for SSDs supporting Compression | [Summary](/posts/readings/paper/tos/tos25-ftl) | FTL, compression
+EuroSys'25 | Solid State Drive Targeted Memory-Efficient Indexing for Universal I/O Patterns and Fragmentation Degrees | [Link](https://dl.acm.org/doi/10.1145/3689031.3717478) | APPL, FTL, learned-index, log-structured
+DAC'25 | Expanding Logical Space Freely: A Memory-efficient Mapping Table Design for Compressional SSDs | [Link](https://ieeexplore.ieee.org/document/11132583/) | FTL, compression
+FAST'25 | HiDPU: A DPU-Oriented Hybrid Indexing Scheme for Disaggregated Storage Systems | [Link](https://www.usenix.org/conference/fast25/presentation/zhu) | HiDPU
+SYSTOR'24 | Space-efficient FTL for Mobile Storage via Tiny Neural Nets | [Link](https://dl.acm.org/doi/10.1145/3688351.3689157) | FTL, NNx
 HPCA'24 | LearnedFTL: LearnedFTL: A Learning-based Page-level FTL for Reducing Double Reads in Flash-based SSDs | [Link](https://ranger.uta.edu/~jiang/publication/Conferences/2024/HPCA24(LearnedFTL).pdf) | FTL, Learned index
+EuroSys'24 | CSAL: the Next-Gen Local Disks for the Cloud | [Link](https://dl.acm.org/doi/10.1145/3627703.3629566) | FTL, Hybrid storage
+ISCA'23 | Decoupled SSD: Rethinking SSD Architecture through Network-based Flash Controllers | [Link](https://dl.acm.org/doi/abs/10.1145/3579371.3589096) | in-network FTL
+TC'23 | FLIXR: Embedding Index Into Flash Translation Layer in SSDs | [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9721679) | FTL, learned index
+TCADCES'22 | HCFTL: A Locality-Aware Flash Translation Layer for Efficient Address Translation | [Link](https://dl.acm.org/doi/abs/10.1109/TCAD.2021.3112142) | HCFTL
 ASPLOS'21 | LeaFTL: A Learning-Based Flash Translation Layer for Solid-State Drives | [Link](https://arxiv.org/abs/2301.00072) | FTL, Learned index
 ATC'21 | ZNS: Avoiding the Block Interface Tax for Flash-based SSDs | [Summary](/posts/readings/paper/atc/atc21-zns) | Zoned Storage, ZNS
+TPDS'19 | A Correlation-Aware Page-Level FTL to Exploit Semantic Links in Workloads | [Link](https://ieeexplore.ieee.org/document/8470972/) | CPFTL, correlation-aware FTL
+FAST'17 | SHRD: Improving Spatial Locality in Flash Storage Accesses by Sequentializing in Host and Randomizing in Device | [Link](https://www.usenix.org/conference/fast17/technical-sessions/presentation/kim) | SHRD, FTL, Samsung
 EuroSys'17 | The Unwritten Contract of Solid State Drives | [Summary](/posts/readings/paper/eurosys/eurosys17-ssd) | SSD
+SIGMOD'16 | GeckoFTL: Scalable Flash Translation Techniques For Very Large Flash Devices | [Link](https://dl.acm.org/doi/10.1145/2882903.2915219) | GeckoFTL
+EuroSys'15 | An efficient page-level FTL to optimize address translation in flash memory | [Link](https://dl.acm.org/doi/abs/10.1145/2741948.2741949) | FTL, FTL cache management
+ACM Computing Survey'14 | A survey of address translation technologies for flash memories | [Link](https://dl.acm.org/doi/10.1145/2512961) | FTL survey
+FAST'12 | De-indirection for Flash-based SSDs with Nameless Writes | [Link](https://www.usenix.org/conference/fast12/de-indirection-flash-based-ssds-nameless-writes) | Nameless writes
+SIGMOD'11 | LazyFTL: a page-level flash translation layer optimized for NAND flash memory | [Link](https://dl.acm.org/doi/10.1145/1989323.1989325) | LazyFTL, lazy updates
+RTAS'11 | A Two-Level Caching Mechanism for Demand-Based Page-Level Address Mapping in NAND Flash Memory Storage Systems | [Link](https://dl.acm.org/doi/10.1109/RTAS.2011.23) | CDFTL, two level FTL cache
 MSST'11 | S-FTL: An efficient address translation for flash memory by exploiting spatial locality | [Link](https://ieeexplore.ieee.org/document/5937215) | FTL, Caching
 ASPLOS'09 | DFTL: a flash translation layer employing demand-based selective caching of page-level address mappings | [Link](https://dl.acm.org/doi/10.1145/1508244.1508271) | FTL, Caching
+TECS'08 | A reconfigurable FTL (flash translation layer) architecture for NAND flash-based applications | [Link](https://dl.acm.org/doi/10.1145/1376804.1376806) | NKFTL
+EUC'06 | System Software for Flash Memory: A Survey | [Link](https://link.springer.com/chapter/10.1007/11802167_41) | BAST, earliest FTL survey
 
 
 
@@ -281,6 +301,14 @@ Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 OSDI'21 | FoundationDB | [Summary](/posts/readings/paper/osdi/osdi21-foundationdb) | FoundationDB, Apple
 SIGMOD'18 | The Case for Learned Index Structures | [Link](https://arxiv.org/abs/1712.01208) | Learned Index
+
+
+#### Learned-index
+
+Venue | Title | Link / Summary | Brief
+:---: | :---: | :---: | :---:
+SIGMOD'18 | The Case for Learned Index Structures | [Link](https://arxiv.org/abs/1712.01208) | Learned Index
+VLDB'23 | Learned Index: A Comprehensive Experimental Evaluation | [Link](https://www.vldb.org/pvldb/vol16/p1992-li.pdf) | Learned Index survey
 
 
 ### Security
