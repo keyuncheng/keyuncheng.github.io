@@ -20,7 +20,9 @@ research purposes. Items are characterized by their topics/keywords.
 Venue | Title | Link / Summary | Brief
 :---: | :---: | :---: | :---:
 ~ | Concepts that must know | [Link](https://arthurchiao.art/blog/how-ssd-works-zh/) | Introduction to SSD
+TOS'25 | Prefetching Mapping Table Entries to Speed up Address Translation in DRAM-less SSDs | [Link](https://dl.acm.org/doi/10.1145/3789202) | PrefetchFTL
 TOS'25 | HyTorC: Hybrid Address Translation for SSDs supporting Compression | [Summary](/posts/readings/paper/tos/tos25-ftl) | FTL, compression
+DATE'25 | A Practical Learning-Based FTL for Memory Constrained Mobile Flash Storage | [Link](https://ieeexplore.ieee.org/document/10992824) | learned-index, FTL, mobile storage
 EuroSys'25 | Solid State Drive Targeted Memory-Efficient Indexing for Universal I/O Patterns and Fragmentation Degrees | [Link](https://dl.acm.org/doi/10.1145/3689031.3717478) | APPL, FTL, learned-index, log-structured
 DAC'25 | Expanding Logical Space Freely: A Memory-efficient Mapping Table Design for Compressional SSDs | [Link](https://ieeexplore.ieee.org/document/11132583/) | FTL, compression
 FAST'25 | HiDPU: A DPU-Oriented Hybrid Indexing Scheme for Disaggregated Storage Systems | [Link](https://www.usenix.org/conference/fast25/presentation/zhu) | HiDPU
@@ -29,10 +31,14 @@ HPCA'24 | LearnedFTL: LearnedFTL: A Learning-based Page-level FTL for Reducing D
 EuroSys'24 | CSAL: the Next-Gen Local Disks for the Cloud | [Link](https://dl.acm.org/doi/10.1145/3627703.3629566) | FTL, Hybrid storage
 ISCA'23 | Decoupled SSD: Rethinking SSD Architecture through Network-based Flash Controllers | [Link](https://dl.acm.org/doi/abs/10.1145/3579371.3589096) | in-network FTL
 TC'23 | FLIXR: Embedding Index Into Flash Translation Layer in SSDs | [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9721679) | FTL, learned index
-TCADCES'22 | HCFTL: A Locality-Aware Flash Translation Layer for Efficient Address Translation | [Link](https://dl.acm.org/doi/abs/10.1109/TCAD.2021.3112142) | HCFTL
+TCAD'22 | HCFTL: A Locality-Aware Flash Translation Layer for Efficient Address Translation | [Link](https://dl.acm.org/doi/abs/10.1109/TCAD.2021.3112142) | HCFTL
 ASPLOS'21 | LeaFTL: A Learning-Based Flash Translation Layer for Solid-State Drives | [Link](https://arxiv.org/abs/2301.00072) | FTL, Learned index
 ATC'21 | ZNS: Avoiding the Block Interface Tax for Flash-based SSDs | [Summary](/posts/readings/paper/atc/atc21-zns) | Zoned Storage, ZNS
+CRL'20 | Probability-Based Address Translation for Flash SSDs | [Link](https://ieeexplore.ieee.org/abstract/document/9132638/) | Probability-based FTL
 TPDS'19 | A Correlation-Aware Page-Level FTL to Exploit Semantic Links in Workloads | [Link](https://ieeexplore.ieee.org/document/8470972/) | CPFTL, correlation-aware FTL
+NAS'17 | HashFTL | [Link](https://ieeexplore.ieee.org/document/8026838/) | Hashing, FTL
+DATE'17 | A Log-aware Synergized Scheme for Page-level
+FTL Design | [Link](https://past.date-conference.com/proceedings-archive/2017/pdf/0152.pdf) | log-structured, FTL
 FAST'17 | SHRD: Improving Spatial Locality in Flash Storage Accesses by Sequentializing in Host and Randomizing in Device | [Link](https://www.usenix.org/conference/fast17/technical-sessions/presentation/kim) | SHRD, FTL, Samsung
 EuroSys'17 | The Unwritten Contract of Solid State Drives | [Summary](/posts/readings/paper/eurosys/eurosys17-ssd) | SSD
 SIGMOD'16 | GeckoFTL: Scalable Flash Translation Techniques For Very Large Flash Devices | [Link](https://dl.acm.org/doi/10.1145/2882903.2915219) | GeckoFTL
